@@ -1,0 +1,480 @@
+{
+ "rows": 400,
+ "expected": 400,
+ "questions": 20,
+ "models": [
+  "gemma4:31b",
+  "gpt-5-2025-08-07",
+  "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M",
+  "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+  "qwen3:32b"
+ ],
+ "per_profile": {
+  "gemma4:31b": {
+   "full_credit": 56,
+   "wrong": 16,
+   "partial": 8,
+   "format_failure": 0,
+   "syntax_invalid": 0,
+   "empty": 0,
+   "n": 80
+  },
+  "gpt-5-2025-08-07": {
+   "full_credit": 61,
+   "wrong": 11,
+   "partial": 8,
+   "format_failure": 0,
+   "syntax_invalid": 0,
+   "empty": 0,
+   "n": 80
+  },
+  "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M": {
+   "full_credit": 49,
+   "wrong": 23,
+   "partial": 7,
+   "format_failure": 0,
+   "syntax_invalid": 1,
+   "empty": 0,
+   "n": 80
+  },
+  "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M": {
+   "full_credit": 45,
+   "wrong": 9,
+   "partial": 5,
+   "format_failure": 15,
+   "syntax_invalid": 6,
+   "empty": 0,
+   "n": 80
+  },
+  "qwen3:32b": {
+   "full_credit": 49,
+   "wrong": 19,
+   "partial": 8,
+   "format_failure": 0,
+   "syntax_invalid": 4,
+   "empty": 0,
+   "n": 80
+  }
+ },
+ "methods": {
+  "string": {
+   "covered": 338,
+   "decisive": 338,
+   "stack_grants_comparator_denies": 139,
+   "questions_a": 14,
+   "comparator_accepts_stack_denies": 0,
+   "questions_b": 0
+  },
+  "sympy": {
+   "covered": 326,
+   "decisive": 338,
+   "stack_grants_comparator_denies": 22,
+   "questions_a": 3,
+   "comparator_accepts_stack_denies": 9,
+   "questions_b": 3
+  },
+  "math_verify": {
+   "covered": 326,
+   "decisive": 338,
+   "stack_grants_comparator_denies": 16,
+   "questions_a": 1,
+   "comparator_accepts_stack_denies": 9,
+   "questions_b": 3
+  }
+ },
+ "by_family": {
+  "form": {
+   "string": {
+    "covered": 153,
+    "decisive": 153,
+    "stack_grants_comparator_denies": 61,
+    "questions_a": 4,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 153,
+    "decisive": 153,
+    "stack_grants_comparator_denies": 16,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 9,
+    "questions_b": 3
+   },
+   "math_verify": {
+    "covered": 153,
+    "decisive": 153,
+    "stack_grants_comparator_denies": 16,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 9,
+    "questions_b": 3
+   }
+  },
+  "int": {
+   "string": {
+    "covered": 56,
+    "decisive": 56,
+    "stack_grants_comparator_denies": 4,
+    "questions_a": 4,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 53,
+    "decisive": 56,
+    "stack_grants_comparator_denies": 1,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 53,
+    "decisive": 56,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "numerical": {
+   "string": {
+    "covered": 70,
+    "decisive": 70,
+    "stack_grants_comparator_denies": 19,
+    "questions_a": 3,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 61,
+    "decisive": 70,
+    "stack_grants_comparator_denies": 5,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 61,
+    "decisive": 70,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "subst": {
+   "string": {
+    "covered": 59,
+    "decisive": 59,
+    "stack_grants_comparator_denies": 55,
+    "questions_a": 3,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 59,
+    "decisive": 59,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 59,
+    "decisive": 59,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  }
+ },
+ "by_tests": {
+  "AlgEquiv|EqualComAss": {
+   "string": {
+    "covered": 77,
+    "decisive": 77,
+    "stack_grants_comparator_denies": 12,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 77,
+    "decisive": 77,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 9,
+    "questions_b": 3
+   },
+   "math_verify": {
+    "covered": 77,
+    "decisive": 77,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 9,
+    "questions_b": 3
+   }
+  },
+  "AlgEquiv|Int": {
+   "string": {
+    "covered": 40,
+    "decisive": 40,
+    "stack_grants_comparator_denies": 3,
+    "questions_a": 3,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 38,
+    "decisive": 40,
+    "stack_grants_comparator_denies": 1,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 38,
+    "decisive": 40,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "AlgEquiv|NumAbsolute": {
+   "string": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 5,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "AlgEquiv|NumRelative": {
+   "string": {
+    "covered": 14,
+    "decisive": 14,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 14,
+    "decisive": 14,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 14,
+    "decisive": 14,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "AlgEquiv|SingleFrac": {
+   "string": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 10,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "EqualComAss": {
+   "string": {
+    "covered": 36,
+    "decisive": 36,
+    "stack_grants_comparator_denies": 19,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 36,
+    "decisive": 36,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 36,
+    "decisive": 36,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "FacForm": {
+   "string": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 20,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 16,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 16,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "Int": {
+   "string": {
+    "covered": 16,
+    "decisive": 16,
+    "stack_grants_comparator_denies": 1,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 15,
+    "decisive": 16,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 15,
+    "decisive": 16,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "NumAbsolute": {
+   "string": {
+    "covered": 16,
+    "decisive": 16,
+    "stack_grants_comparator_denies": 11,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 10,
+    "decisive": 16,
+    "stack_grants_comparator_denies": 5,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 10,
+    "decisive": 16,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "NumRelative": {
+   "string": {
+    "covered": 20,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 3,
+    "questions_a": 1,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 17,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 17,
+    "decisive": 20,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  },
+  "SubstEquiv": {
+   "string": {
+    "covered": 59,
+    "decisive": 59,
+    "stack_grants_comparator_denies": 55,
+    "questions_a": 3,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "sympy": {
+    "covered": 59,
+    "decisive": 59,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   },
+   "math_verify": {
+    "covered": 59,
+    "decisive": 59,
+    "stack_grants_comparator_denies": 0,
+    "questions_a": 0,
+    "comparator_accepts_stack_denies": 0,
+    "questions_b": 0
+   }
+  }
+ },
+ "partial_scores_strictly_between_0_and_1": 36
+}

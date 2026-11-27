@@ -1,0 +1,45 @@
+id,category,verdict,assume,lhs,rhs,sympy_default,sympy_engineered,maxima_chain,stack_at,math_verify,stack_at_raw,sympy_default_correct,sympy_engineered_correct,maxima_chain_correct,stack_at_correct,math_verify_correct
+asymob_trig,asymob_hard,equiv,positive,(tan(x)+tan(2*x))/((1-tan(x)*tan(2*x))*tan(3*x)),1,no,EQUIV,trigrat,EQUIV,no,"[true,true,"""",""""] (%i9)",0,1,1,1,0
+asymob_hyperbolic,asymob_hard,equiv,positive,sinh(log(3*x+sqrt(9*x^2+1)))/(3*x),1,no,EQUIV,"trigrat,exp+rect",EQUIV,no,"[true,true,"""",""""] (%i9)",0,1,1,1,0
+asymob_log,asymob_hard,equiv,positive,(log(x/%e)/log(3)+log(%e)/log(3))/(log(x)/log(3)),1,EQUIV,EQUIV,radcan,EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+asymob_series,asymob_hard,equiv,positive,"3*sum(6*x/(%pi^2*N^2*3),N,1,inf)/x",1,EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+asymob_complex_exp,asymob_hard,equiv,positive,-2*%i*(exp(4*%i*3*x)+1)*tan(3*x)/((1-exp(4*%i*3*x))*(1-tan(3*x)^2)),1,no,EQUIV,trigrat,EQUIV,no,"[true,true,"""",""""] (%i9)",0,1,1,1,0
+surd_sqrt8,surd,equiv,none,sqrt(8),2*sqrt(2),EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+surd_rationalize,surd,equiv,none,1/(sqrt(2)-1),sqrt(2)+1,EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+trig_pythagoras,trig,equiv,none,sin(x)^2+cos(x)^2,1,EQUIV,EQUIV,trigrat,EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+trig_double_angle,trig,equiv,none,sin(2*x),2*sin(x)*cos(x),EQUIV,EQUIV,trigrat,EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+trig_tan_def,trig,equiv,none,tan(x),sin(x)/cos(x),EQUIV,EQUIV,"trigrat,exp+rect",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+hyp_identity,trig,equiv,none,cosh(x)^2-sinh(x)^2,1,EQUIV,EQUIV,"trigrat,exp+rect",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+exp_log_inverse,explog,equiv,positive,exp(log(x)),x,EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+log_power,explog,equiv,positive,log(x^2),2*log(x),EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+abs_sqrt_square,domain,equiv,real,sqrt(x^2),abs(x),EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+rational_cancel,rational,equiv,none,(x^2-1)/(x-1),x+1,EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+poly_expand,poly,equiv,none,(x+1)^2,x^2+2*x+1,EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+euler_identity,complex,equiv,none,exp(%i*%pi),-1,EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+neg_trig,negative,not_equiv,none,sin(x),cos(x),no,no,none,no,no,"[true,false,"""",""""] (%i9)",1,1,1,1,1
+neg_shift,negative,not_equiv,none,x^2,x^2+1,no,no,none,no,no,"[true,false,"""",""""] (%i9)",1,1,1,1,1
+neg_sqrt_trap,negative,not_equiv,real,sqrt(x^2),x,no,no,none,no,no,"[true,false,"""",""""] (%i9)",1,1,1,1,1
+neg_expand,negative,not_equiv,none,(x+1)^2,x^2+1,no,no,none,no,no,"[true,false,"""",""""] (%i9)",1,1,1,1,1
+neg_double_angle,negative,not_equiv,none,2*sin(x)*cos(x),sin(x),no,no,none,no,no,"[true,false,"""",""""] (%i9)",1,1,1,1,1
+int_const_plain,integral,exploratory,none,x^2/2+1,x^2/2,no,no,none,no,no,"[true,false,""ATInt_const_int. "",""stack_trans('ATInt_const_int'); !NEWLINE!""] (%i9)",,,,,
+int_const_with_c,integral,exploratory,none,x^2/2+1,x^2/2+c,no,no,none,no,no,"[true,false,""ATInt_const_int. "",""stack_trans('ATInt_const_int'); !NEWLINE!""] (%i9)",,,,,
+int_trig_forms,integral,exploratory,none,-cos(x)^2/2,sin(x)^2/2,no,no,none,no,no,"[true,false,""ATInt_const_int. "",""stack_trans('ATInt_const_int'); !NEWLINE!""] (%i9)",,,,,
+m_identity_product,matrix,equiv,none,"matrix([1,2],[3,4]) . ident(2)","matrix([1,2],[3,4])",EQUIV,ERROR,none,EQUIV,EQUIV,"[true,true,"" "",""""] (%i9)",1,0,0,1,1
+m_transpose_involution,matrix,equiv,none,"transpose(transpose(matrix([a,b],[c,d])))","matrix([a,b],[c,d])",EQUIV,ERROR,none,EQUIV,EQUIV,"[true,true,"" "",""""] (%i9)",1,0,0,1,1
+m_inverse_2x2,matrix,equiv,none,"invert(matrix([2,1],[1,1]))","matrix([1,-1],[-1,2])",EQUIV,ERROR,none,EQUIV,EQUIV,"[true,true,"" "",""""] (%i9)",1,0,0,1,1
+m_rotation_orthogonal,matrix,equiv,none,"matrix([cos(t),-sin(t)],[sin(t),cos(t)]) . matrix([cos(t),sin(t)],[-sin(t),cos(t)])",ident(2),EQUIV,ERROR,none,EQUIV,EQUIV,"[true,true,"" "",""""] (%i9)",1,0,0,1,1
+m_det_multiplicative,matrix,equiv,none,"determinant(matrix([a,b],[c,d]) . matrix([e,f],[g,h]))","determinant(matrix([a,b],[c,d]))*determinant(matrix([e,f],[g,h]))",EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+m_transpose_not_symmetric,matrix,not_equiv,none,"transpose(matrix([1,2],[3,4]))","matrix([1,2],[3,4])",no,ERROR,none,no,no,"[true,false,""ATMatrix_wrongentries. "",""stack_trans('ATMatrix_wrongentries' , !quot!\\[ \\left[\\begin{array}{cc} 1 & {\\color{red}{\\underline{3}}} \\\\ {\\color{red}{\\underline{2}}} & 4 \\end{array}",1,1,1,1,1
+m_inverse_sign_error,matrix,not_equiv,none,"invert(matrix([2,1],[1,1]))","matrix([1,1],[-1,2])",no,ERROR,none,no,no,"[true,false,""ATMatrix_wrongentries. "",""stack_trans('ATMatrix_wrongentries' , !quot!\\[ \\left[\\begin{array}{cc} 1 & {\\color{red}{\\underline{-1}}} \\\\ -1 & 2 \\end{array}\\right]\\]!quot! ); !NEWLI",1,1,1,1,1
+m_1x1_vs_scalar,matrix,exploratory,none,matrix([1]),1,ERROR,ERROR,none,INVALID,no,"[false,false,""ATAlgEquiv_SA_not_expression. "",""stack_trans('ATAlgEquiv_SA_not_expression'); !NEWLINE!""] (%i9)",,,,,
+u_mm_to_m,units,equiv,none,"stackunits(1000,mm)","stackunits(1,m)",n/a,n/a,n/a,EQUIV,n/a,"[true,true,""ATNumSigFigs_WithinRange. ATUnits_compatible_units m. "",""""] (%i10)",n/a,n/a,n/a,1,n/a
+u_kj_to_j,units,equiv,none,"stackunits(1.50,kJ)","stackunits(1500,J)",n/a,n/a,n/a,EQUIV,n/a,"[true,true,""ATUnits_compatible_units (kg*m^2)/s^2. "",""""] (%i10)",n/a,n/a,n/a,1,n/a
+u_m_vs_10cm,units,not_equiv,none,"stackunits(1,m)","stackunits(10,cm)",n/a,n/a,n/a,no,n/a,"[true,false,""ATNumSigFigs_WrongDigits. ATNumSigFigs_VeryInaccurate. ATUnits_compatible_units m. "",""stack_trans('ATNumSigFigs_WrongDigits'); !NEWLINE!""] (%i10)",n/a,n/a,n/a,1,n/a
+u_incompatible_dim,units,not_equiv,none,"stackunits(1,m)","stackunits(1,s)",n/a,n/a,n/a,no,n/a,"[true,false,""ATNumSigFigs_WrongDigits. ATUnits_incompatible_units. "",""stack_trans('ATNumSigFigs_WrongDigits'); !NEWLINE!stack_trans('ATUnits_incompatible_units'); !NEWLINE!""] (%i10)",n/a,n/a,n/a,1,n/a
+u_newton_composite,units,exploratory,none,"stackunits(1,N)","stackunits(1,kg*m/s^2)",n/a,n/a,n/a,no,n/a,"[true,false,""ATNumSigFigs_WrongDigits. ATUnits_compatible_units (kg*m)/s^2. "",""stack_trans('ATNumSigFigs_WrongDigits'); !NEWLINE!""] (%i10)",n/a,n/a,n/a,,n/a
+pw_abs_sqrt,piecewise,equiv,real,abs(x),sqrt(x^2),EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+pw_abs_square,piecewise,equiv,real,abs(x)^2,x^2,EQUIV,EQUIV,"ratsimp,trigrat,radcan,exp+rect,simpsum",EQUIV,EQUIV,"[true,true,"""",""""] (%i9)",1,1,1,1,1
+pw_max_half_form,piecewise,equiv,real,"max(x,0)",(x+abs(x))/2,no,no,none,no,no,"[true,false,"""",""""] (%i9)",0,0,0,0,0
+pw_minmax_sum,piecewise,equiv,real,"max(x,y)+min(x,y)",x+y,no,no,none,no,no,"[true,false,"""",""""] (%i9)",0,0,0,0,0
+pw_abs_signum,piecewise,equiv,real,abs(x),x*signum(x),EQUIV,EQUIV,none,no,no,"[true,false,"""",""""] (%i9)",1,1,0,0,0
+pw_abs_not_x,piecewise,not_equiv,real,abs(x),x,no,no,none,no,no,"[true,false,"""",""""] (%i9)",1,1,1,1,1

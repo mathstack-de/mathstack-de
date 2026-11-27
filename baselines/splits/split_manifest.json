@@ -1,0 +1,41 @@
+{
+ "created_by": "baselines/build_data.py",
+ "random_seed": 20260723,
+ "counts": {
+  "train": 1802,
+  "dev": 318,
+  "test_probability": 140,
+  "test_diagnostic": 60,
+  "excluded_near_duplicate": 83
+ },
+ "n_families": 2057,
+ "excluded_near_duplicate_n": 199,
+ "excluded_family_rows": 83,
+ "near_dup_merges": 36,
+ "train_support_buckets": {
+  "20+": 105,
+  "5-19": 86,
+  "1-4": 57,
+  "0": 23
+ },
+ "inputs_sha256": {
+  "input_table": "8fff3ac203e7401249d0c2cf38e0728a18b4049c734ac01008725d290775e6b0",
+  "model-generated": "1f43e2d32f5b14c6c90252b049bba13698ff9f5c1bb6adb12818960d3837607e",
+  "expert": "34e89c775ef807299d405396ebb25a9032580a0202ed03a9be1bf8c7daca3370",
+  "vocab": "c0eb398647799b730d635a4b71affe55e91a98e1c2a5c1d22e6ecc60b40c61d7",
+  "quarantine": "698a1d1922b57fe0a620c8b6bc3ba3573d1e971b04fe44164a24469ebed545ce"
+ },
+ "outputs_sha256": {
+  "table": "bbb471a257e0cf72b7628826bb5a5d1edd77b1a9c7d8a472b3c27a711ba057f3",
+  "train_ids": "440743b05f8dfc0f2b55325d5ed2dac3cecb48166417789540b77ff6cf2db150",
+  "dev_ids": "d8b20ad7313105559e53961c75986b82eda5153d7fcb7dab5de99845bf70b86b",
+  "test_probability_ids": "92e5cd3a4a4319914b0074fe6c20248105997dd9dd0ee2f486d020c6760d7dcb",
+  "test_diagnostic_ids": "e857b17aae89d7a1fc852b63854d181c6f1b27f61c7f8756d2037a7cf4498a15",
+  "forbidden_near_duplicate_group_ids": "76ab7c0c3cedabc5db3d102856fda4da9970b94c341579483c71300ff7c4219c"
+ },
+ "leakage_checks": [
+  "row_overlap=0",
+  "family_overlap=0",
+  "near_dup_jaccard>=0.9_train_dev_vs_test=0"
+ ]
+}

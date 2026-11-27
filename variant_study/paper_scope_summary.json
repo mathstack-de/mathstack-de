@@ -1,0 +1,258 @@
+{
+  "archived_source_seed_comparison": {
+    "models": 5,
+    "prespecified_analysis_preserved_at": "variant_study/analysis.json",
+    "question_ids": [
+      "rc-0427976d-d2ea-4892-b5ca-bc8d8a59ec99",
+      "rc-088fa9ff-90aa-49ce-a2bf-296b2dd826f7",
+      "rc-0ef292d3-3513-46df-9295-178113c9c979",
+      "rc-20aa76b5-c5e5-4903-85f0-540804215e26",
+      "rc-25f7726b-95bd-48f1-ae6e-006f8824ff11",
+      "rc-2645165b-1724-44b3-b0e9-0bc1d72601a5",
+      "rc-2935c966-c927-4ce8-9d7a-8066ec846e10",
+      "rc-2ac07df5-d836-4233-8798-a9be78e275f5",
+      "rc-41007a87-c125-415a-a8a8-004c859fc310",
+      "rc-440bef36-d0bd-480b-a778-9a3f6e429416",
+      "rc-472a0621-ab2a-4a6a-ad1a-75db744dba4d",
+      "rc-47fa282c-c697-4ed0-b17e-3aaf0961e6ea",
+      "rc-4b152fcb-d36a-42bc-af21-140e1cd049fa",
+      "rc-5464c368-dd4d-4de0-b656-e6759e0be957",
+      "rc-64fcbbc7-36e5-4662-8a73-befa7fd35f15",
+      "rc-7503d419-96f8-4218-a262-bb4e7ec85af4",
+      "rc-7919a23f-2539-42fb-8212-4aa7feabf78f",
+      "rc-79630d3b-0508-4497-9d9f-d79be2cbead0",
+      "rc-7ca28116-f9e2-4f30-8a40-58b044b8f302",
+      "rc-89a3979f-6fa3-4049-a0de-4705d3eb54d1",
+      "rc-9302aa49-9cbb-4901-ac2d-23417e328c7e",
+      "rc-95a7be70-3c08-473c-875b-896c8bb446c9",
+      "rc-a2fc5fa9-3d4a-4a53-99bb-7c93ce5462b7",
+      "rc-a5e5b912-3c13-4d8a-8dce-4b3c3b21d470",
+      "rc-a65c21e1-d584-4845-b1c8-2bb794bd6099",
+      "rc-b85345e8-dfe9-42a0-9fba-102ecdbc6847",
+      "rc-ba7151aa-9677-46cb-8e58-d44422722d8c",
+      "rc-bd646a30-a4cb-498a-b34f-b0e8bdd9984e",
+      "rc-c2f73561-5d83-4ef8-acfa-f58706170d0a",
+      "rc-c4a00e59-1207-426c-a81a-a66825f1d584",
+      "rc-d8edf679-0e4e-4754-b348-930821926d0b",
+      "rc-dd93b19b-d4db-458e-8e9c-b327f359d401",
+      "rc-ee8be901-01c0-4dad-9c89-e8883e01bcd7",
+      "rc-fa242fa6-a2d4-4433-a1d3-d88ec49555ee"
+    ],
+    "questions": 34,
+    "response_key_sha256": "48bbe0469fe9ba05ed8b37598fa2d2795118e38609f43e59a4f0e0184c2238e9",
+    "responses": 170
+  },
+  "frozen_grid": {
+    "models": 5,
+    "response_key_sha256": "0be324fb43b14013c28d8864a0171dd0af87c20d3ce54a1c71f04b0b0ac98e34",
+    "response_roles": {
+      "anchor": 170,
+      "fresh": 1200,
+      "replicate": 240
+    },
+    "responses": 1610
+  },
+  "inputs": {
+    "variant_study/analysis.json": "ad5346d890d5091092ec3e0b4bdbe180a3ad582da856d7e7a5b85f4058016e85",
+    "variant_study/grade_manifest.json": "c94b5f7ad50b049efd341b958cd4541fc074ea9b64bca5d6b6c8292b8a11c0ce",
+    "variant_study/results.csv": "814c0018fe74868291c68ddfccaf0efd23973f458414c105e0e930b0556d55ab"
+  },
+  "paper_scope": {
+    "brace_sensitivity": {
+      "changed_responses_all_roles": 9,
+      "changed_responses_archived_role": 0,
+      "changed_responses_paper_scope": 9
+    },
+    "checker_diagnostics": {
+      "decisive_stack_outcomes": 1366,
+      "methods": {
+        "math_verify_eq": {
+          "agreement_n": 821,
+          "by_contract": {
+            "direct_equivalence_only": {
+              "agreement_n": 442,
+              "conditional_agreement_percent": 100.0,
+              "coverage_n": 442,
+              "coverage_percent": 60.1,
+              "decisive_n": 735,
+              "disagreement_n": 0,
+              "disagreement_question_n": 0
+            },
+            "richer_prt_logic": {
+              "agreement_n": 379,
+              "conditional_agreement_percent": 94.0,
+              "coverage_n": 403,
+              "coverage_percent": 63.9,
+              "decisive_n": 631,
+              "disagreement_n": 24,
+              "disagreement_question_n": 3
+            }
+          },
+          "conditional_agreement_percent": 97.2,
+          "coverage_n": 845,
+          "coverage_percent": 61.9,
+          "disagreement_question_n": 3,
+          "false_accept_n": 0,
+          "false_reject_n": 24,
+          "no_verdict_n": 521
+        },
+        "string_eq": {
+          "agreement_n": 786,
+          "by_contract": {
+            "direct_equivalence_only": {
+              "agreement_n": 473,
+              "conditional_agreement_percent": 64.4,
+              "coverage_n": 735,
+              "coverage_percent": 100.0,
+              "decisive_n": 735,
+              "disagreement_n": 262,
+              "disagreement_question_n": 22
+            },
+            "richer_prt_logic": {
+              "agreement_n": 313,
+              "conditional_agreement_percent": 49.6,
+              "coverage_n": 631,
+              "coverage_percent": 100.0,
+              "decisive_n": 631,
+              "disagreement_n": 318,
+              "disagreement_question_n": 20
+            }
+          },
+          "conditional_agreement_percent": 57.5,
+          "coverage_n": 1366,
+          "coverage_percent": 100.0,
+          "disagreement_question_n": 42,
+          "false_accept_n": 0,
+          "false_reject_n": 580,
+          "no_verdict_n": 0
+        },
+        "sympy_eq": {
+          "agreement_n": 820,
+          "by_contract": {
+            "direct_equivalence_only": {
+              "agreement_n": 441,
+              "conditional_agreement_percent": 99.8,
+              "coverage_n": 442,
+              "coverage_percent": 60.1,
+              "decisive_n": 735,
+              "disagreement_n": 1,
+              "disagreement_question_n": 1
+            },
+            "richer_prt_logic": {
+              "agreement_n": 379,
+              "conditional_agreement_percent": 94.0,
+              "coverage_n": 403,
+              "coverage_percent": 63.9,
+              "decisive_n": 631,
+              "disagreement_n": 24,
+              "disagreement_question_n": 3
+            }
+          },
+          "conditional_agreement_percent": 97.0,
+          "coverage_n": 845,
+          "coverage_percent": 61.9,
+          "disagreement_question_n": 4,
+          "false_accept_n": 0,
+          "false_reject_n": 25,
+          "no_verdict_n": 521
+        }
+      }
+    },
+    "models": 5,
+    "models_detail": {
+      "gemma4:31b": {
+        "format_failures": 0,
+        "primary_full_credit_n": 213,
+        "primary_full_credit_percent": 88.8,
+        "primary_instance_responses": 240,
+        "responses": 288,
+        "same_prompt_additional_responses": 48,
+        "status_counts": {
+          "correct": 255,
+          "syntax_invalid": 2,
+          "wrong": 31
+        }
+      },
+      "gpt-5-2025-08-07": {
+        "format_failures": 0,
+        "primary_full_credit_n": 228,
+        "primary_full_credit_percent": 95.0,
+        "primary_instance_responses": 240,
+        "responses": 288,
+        "same_prompt_additional_responses": 48,
+        "status_counts": {
+          "correct": 276,
+          "syntax_invalid": 7,
+          "wrong": 5
+        }
+      },
+      "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M": {
+        "format_failures": 1,
+        "primary_full_credit_n": 186,
+        "primary_full_credit_percent": 77.5,
+        "primary_instance_responses": 240,
+        "responses": 288,
+        "same_prompt_additional_responses": 48,
+        "status_counts": {
+          "correct": 225,
+          "format_failure": 1,
+          "syntax_invalid": 19,
+          "wrong": 43
+        }
+      },
+      "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M": {
+        "format_failures": 31,
+        "primary_full_credit_n": 189,
+        "primary_full_credit_percent": 78.8,
+        "primary_instance_responses": 240,
+        "responses": 288,
+        "same_prompt_additional_responses": 48,
+        "status_counts": {
+          "correct": 228,
+          "format_failure": 31,
+          "syntax_invalid": 10,
+          "wrong": 19
+        }
+      },
+      "qwen3:32b": {
+        "format_failures": 1,
+        "primary_full_credit_n": 224,
+        "primary_full_credit_percent": 93.3,
+        "primary_instance_responses": 240,
+        "responses": 288,
+        "same_prompt_additional_responses": 48,
+        "status_counts": {
+          "correct": 270,
+          "format_failure": 1,
+          "syntax_invalid": 3,
+          "wrong": 14
+        }
+      }
+    },
+    "primary_instance_responses_per_model": 240,
+    "questions": 60,
+    "response_key_sha256": "12c1b79cbc39f1986e935b46a15e92a1ff029f693ec91b777e4befa7635942e6",
+    "responses": 1440,
+    "responses_per_model": 288,
+    "same_prompt_additional_responses_per_model": 48,
+    "status_counts": {
+      "correct": 1254,
+      "format_failure": 33,
+      "syntax_invalid": 41,
+      "wrong": 112
+    }
+  },
+  "schema": "manuscript_response_scope_v1",
+  "scope_decision": {
+    "archived_response_roles": [
+      "anchor"
+    ],
+    "frozen_source_rows_modified": 0,
+    "model_calls_added_or_removed": 0,
+    "paper_response_roles": [
+      "fresh",
+      "replicate"
+    ],
+    "rationale": "The manuscript evaluates independently generated instances and the prespecified same-prompt replicate comparison. Responses at seeds retained in source-course exports remain in the frozen artifact but are excluded from manuscript aggregates because the source-course seed-selection process is undocumented."
+  }
+}

@@ -1,0 +1,99 @@
+{
+ "source": "STACK /validate on the pinned engine, 2026-09-17",
+ "cases": [
+  {
+   "question": "INT: Skript Trapezregel",
+   "rc_id": "rc-0fc31e95-d1d5-45c3-a5ba-aefb729357da",
+   "seed": 9202,
+   "model": "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M",
+   "answer": "float((0.002/2)*(exp(-(-1)^2/2) + exp(-(1)^2/2)) + 0.002*sum(exp(-(-1 + 2*k*0.001)^2/2), k, 1, 999))",
+   "stack_message": "This answer is invalid. CAS failed to return any data due to timeout."
+  },
+  {
+   "question": "INT: Skript Trapezregel",
+   "rc_id": "rc-0fc31e95-d1d5-45c3-a5ba-aefb729357da",
+   "seed": 9201,
+   "model": "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+   "answer": "float((3.0/2000)*(exp(-0.5)+exp(-2))+3.0/1000*sum(exp(-((-1+3.0/1000*k)^2)/2),k,1,999))",
+   "stack_message": "This answer is invalid. CAS failed to return any data due to timeout."
+  },
+  {
+   "question": "INT: Skript Trapezregel",
+   "rc_id": "rc-0fc31e95-d1d5-45c3-a5ba-aefb729357da",
+   "seed": 9204,
+   "model": "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+   "answer": "round((7/2000)*exp(-9/4) + (7/1000)*sum(exp(-( (-3 + 7*k/1000 )^2 )/4 ), k, 1, 999) + (7/2000)*exp(-4),6)",
+   "stack_message": "This answer is invalid. round: expected exactly 1 arguments but got 2: errexp1"
+  },
+  {
+   "question": "INT_PI: algebr. Gleichung, a*exp(b*x)*sin(c*x)",
+   "rc_id": "rc-a82dc6d0-7cf2-4e18-897f-6a0d8420438f",
+   "seed": 9204,
+   "model": "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+   "answer": "exp(3x)*(sin(3x)+cos(3x))/2",
+   "stack_message": "This answer is invalid. You seem to be missing * characters. Perhaps you meant to type exp(3*x)*(sin(3*x)+cos(3*x))/2."
+  },
+  {
+   "question": "FTN_QUAD: Funktionswert",
+   "rc_id": "rc-eddb297f-08a2-45ea-b383-ebabe55fed2e",
+   "seed": 9201,
+   "model": "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+   "answer": "3*(-4)^2 + 8*(-4) + 7",
+   "stack_message": "This answer is invalid. Forbidden operator: *."
+  },
+  {
+   "question": "FTN_QUAD: Funktionswert",
+   "rc_id": "rc-eddb297f-08a2-45ea-b383-ebabe55fed2e",
+   "seed": 9202,
+   "model": "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+   "answer": "4*6^2-4*6-1",
+   "stack_message": "This answer is invalid. Forbidden operator: *."
+  },
+  {
+   "question": "FTN_QUAD: Funktionswert",
+   "rc_id": "rc-eddb297f-08a2-45ea-b383-ebabe55fed2e",
+   "seed": 9204,
+   "model": "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+   "answer": "-3*9^2+8*9+7",
+   "stack_message": "This answer is invalid. Forbidden operator: *."
+  },
+  {
+   "question": "INT: Skript Trapezregel",
+   "rc_id": "rc-0fc31e95-d1d5-45c3-a5ba-aefb729357da",
+   "seed": 9204,
+   "model": "qwen3:32b",
+   "answer": "round((7/1000/2)*(exp(-(-3)^2/4) + exp(-4^2/4)) + 7/1000*sum(exp(-(-3 + k*7/1000)^2/4), k, 1, 999), 6)",
+   "stack_message": "This answer is invalid. round: expected exactly 1 arguments but got 2: errexp1"
+  },
+  {
+   "question": "FTN_QUAD: Funktionswert",
+   "rc_id": "rc-eddb297f-08a2-45ea-b383-ebabe55fed2e",
+   "seed": 9201,
+   "model": "qwen3:32b",
+   "answer": "3*(-4)^2 + 8*(-4) + 7",
+   "stack_message": "This answer is invalid. Forbidden operator: *."
+  },
+  {
+   "question": "FTN_QUAD: Funktionswert",
+   "rc_id": "rc-eddb297f-08a2-45ea-b383-ebabe55fed2e",
+   "seed": 9203,
+   "model": "qwen3:32b",
+   "answer": "-6*(-2)^2 - 3*(-2) + 8",
+   "stack_message": "This answer is invalid. Forbidden operator: *."
+  },
+  {
+   "question": "FTN_QUAD: Funktionswert",
+   "rc_id": "rc-eddb297f-08a2-45ea-b383-ebabe55fed2e",
+   "seed": 9204,
+   "model": "qwen3:32b",
+   "answer": "-3*9^2+8*9+7",
+   "stack_message": "This answer is invalid. Forbidden operator: *."
+  }
+ ],
+ "message_counts": {
+  "This answer is invalid. CAS failed to return any data due to timeout.": 2,
+  "This answer is invalid. round": 2,
+  "This answer is invalid. You seem to be missing * characters. Perhaps you meant to type exp(3*x)*(sin(3*x)+cos(3*x))/2.": 1,
+  "This answer is invalid. Forbidden operator": 6
+ }
+}

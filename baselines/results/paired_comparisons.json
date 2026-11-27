@@ -1,0 +1,13 @@
+{
+ "contrast": "gbert_minus_tfidf",
+ "estimand": "design_weighted_micro_f1_difference",
+ "split": "test_probability",
+ "point_difference": 0.0256,
+ "ci95": [
+  0.0005,
+  0.0512
+ ],
+ "bootstrap_replicates": 10000,
+ "seed": 20260717,
+ "scheme": "paired source_bank_category-stratified near-duplicate-group percentile bootstrap; singleton source_bank_category strata fixed"
+}

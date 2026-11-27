@@ -1,0 +1,112 @@
+rc_id,name,topic,input,tests,family
+rc-a16d4ae1-108b-4a99-8216-3fb4c9f013c9,"FTN_LOG_Logarithmengesetze: f(p,q)=?",SCHOOL,ans1,AlgEquiv|EqualComAss,form
+rc-7b2cfd2f-75fe-4376-b76c-0cc4adfc44b6,FTN_POL_Binomischer_Lehrsatz 1,SCHOOL,ans1,EqualComAss,form
+rc-1d6f5a40-d4b5-4e5a-8b29-78324b656e90,FTN_POL_Binomischer_Lehrsatz 2,SCHOOL,ans1,EqualComAss,form
+rc-7e2d7914-728c-4b2e-981c-1ecd7e9c07da,GL_LIN_Bruch,SCHOOL,ans1,EqualComAss,form
+rc-87ff102b-75b1-4b6e-a1db-38bdc78c0c95,GRDL_Binomi: a^2-b^2=?,SCHOOL,ans,EqualComAss,form
+rc-b931ff9c-998a-47fb-a1ea-d9bb0630fd63,GRDL_Binomi: (ma+nb)^2-(ma-nb)^2=?,SCHOOL,ans1,AlgEquiv|EqualComAss,form
+rc-051a839b-15f3-46a1-8e80-8e2df9ee172f,GRDL_BR_2: (a/b+c/d)/(e/f+g/h)=?,SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-c1c22e99-b316-40fc-9a18-2ad4a74e5082,GRDL_BR_3: (a z+b)/c + (d z+e)/f + (g z+h)/i = ?,SCHOOL,ans,AlgEquiv|SingleFrac,form
+rc-0f19a872-77ae-466e-b33c-8d32bfbc166e,GRDL_BR_4: x/a+a/x = ?,SCHOOL,ans1,SingleFrac,form
+rc-496b29f8-16ff-4625-a293-f99d854fd23e,GRDL_BR_5: 1/b+1/b^2+1/b^3=?,SCHOOL,ans1,SingleFrac,form
+rc-a639df78-fc33-4115-be82-450197fc943f,GRDL_BR_PR: Doppelbruch mit Anweisung Exponent positiv,SCHOOL,ans1,AlgEquiv|EqualComAss,form
+rc-8c45abf0-00f1-4b99-af09-7999b692ad69,GRDL_Bruchrechnen_Widerstand 1,SCHOOL,ans1,SingleFrac,form
+rc-76fa80ed-d9f5-4de6-9bee-d23eeb115c87,GRDL_Bruchrechnen_Widerstand 2,SCHOOL,ans1,SingleFrac,form
+rc-edd6d3f9-9cc3-4ce6-97ea-a5a16d690c5d,GRDL_LR_1: (ln(a^2)-2*ln(a))/(-2) = ?,SCHOOL,ans1,AlgEquiv|EqualComAss,form
+rc-3a4785fb-e9bd-4c04-91b9-617fcb319e78,GRDL_LR_2: ln(sqrt(a^k))-ln(sqrt(a))+ln(l*b)=?,SCHOOL,ans1,AlgEquiv|EqualComAss,form
+rc-effde891-ddda-4e15-b087-097808f3a4cd,GRDL_LR_3: 1/k ln( a^km)-(m+n)ln(a)=?,SCHOOL,ans1,AlgEquiv|EqualComAss,form
+rc-c7d8b78e-cb95-442d-9064-293c7f243ca5,GRDL_Produktzeichen,SCHOOL,ans1,EqualComAss,form
+rc-0b3b1c10-8a22-4c41-a8f3-77da31326bbc,UNGL: a+bx>=c x>?,SCHOOL,ans1,AlgEquiv|GT,other
+rc-7fb40fc0-a7f3-474e-b7cc-1dd861aea75d,UNGL_VZ_Potenzen,SCHOOL,ans1,AlgEquiv|EqualComAss,form
+rc-8e0f43a5-e336-4689-8162-cdc3f7f3e400,Zahlen: Addition von Brüchen,SCHOOL,ans,AlgEquiv|SingleFrac,form
+rc-d621e47a-488f-47c2-a650-68e5e524b8e9,Zahlen: Potenzen (2),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-43cb9d42-00d9-4c16-acb2-21baabfe2da9,Zahlen: Potenzen (4),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-3ec2e739-a94f-4ebb-9fa2-3a6f9d56895c,Zahlen: Potenzen - Faktorisieren,SCHOOL,ans,AlgEquiv|FacForm,form
+rc-9246077b-2210-4153-8dd5-a25ab3aeb719,Zahlen: Produkte (2),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-b8cac212-3bb5-499e-b105-8f2e76ef4abd,Zahlen: Rationale Zahlen - Addition (1),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-625ac01d-6b3f-40a5-9c17-141cf2aef5bf,Zahlen: Rationale Zahlen - Addition und Division,SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-23d7a975-f992-4cc8-b440-70ac39913649,Zahlen: Rationale Zahlen - Division (1),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-ed40fc91-5947-4adb-93c3-0a2852d27c0b,Zahlen: Rationale Zahlen - Division (2),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-cbc398b4-4bcf-4bd7-8c3c-5b25f0a17871,Zahlen: rationale Zahlen - Kürzen (1),SCHOOL,ans,AlgEquiv|SingleFrac,form
+rc-0bb20cfa-ba41-4697-bf3e-5907b2c84b7d,Zahlen: rationale Zahlen - Kürzen (2),SCHOOL,ans,AlgEquiv|SingleFrac,form
+rc-4469540f-0073-4a04-9577-d036e35207b2,Zahlen: Rationale Zahlen - Multiplikation (1),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-0ae397bf-c920-448b-ae86-8611a864264a,Zahlen: Rationale Zahlen - Multiplikation (2),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-5a93f4ae-b198-425b-a43d-5e11fd3c452d,Zahlen: Rationale Zahlen - Multiplikation (3),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-83e20163-9fb8-4396-a786-7527b61ca6ef,Zahlen: Rationale Zahlen - Subtraktion (2),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-0aa624fa-4986-4444-a714-e95fc5993297,Zahlen: Rationale Zahlen - Summen und Produkte,SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-5f18f2f7-f24f-455f-ad83-e9ca0cc5e52b,Zahlen: Rationale Zahlen - Zusammenfassen,SCHOOL,ans,AlgEquiv|SingleFrac,form
+rc-0387b81e-7b15-45db-95af-327fc7e5fe9e,Zahlen: rationale Zahlen zusammenfassen (1),SCHOOL,ans,AlgEquiv|SingleFrac,form
+rc-673835f8-7f15-4ce9-a19d-04abaffa2d56,Zahlen: Summen (2),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-3c3af1df-c4e0-4dc2-bd35-0a94c906d9fd,Zahlen: Summen (3),SCHOOL,ans,AlgEquiv|EqualComAss,form
+rc-622de888-8af2-42bf-90d2-5dda507038bc,C_LFZ_Nullstelle_z^3,COMPLEX NUMBERS,ans1,AlgEquiv|EqualComAss,form
+rc-d0a0b642-8be4-480a-916a-758a8455c6ed,C_LFZ_z^4 I,COMPLEX NUMBERS,ans1,FacForm,form
+rc-c7b12e7e-2fa1-497f-bafc-f1039be10c57,C_LFZ_z^4 II,COMPLEX NUMBERS,ans1,AlgEquiv|EqualComAss,form
+rc-63ec2d26-aef6-45bc-a722-78166d4e3d3b,C_Potenz_z^n I,COMPLEX NUMBERS,ans1,AlgEquiv|EqualComAss,form
+rc-b4b93132-8e71-46f5-9ede-7c8790384e9b,C_Rechenregeln_Bruch 1,COMPLEX NUMBERS,ans1,AlgEquiv|EqualComAss,form
+rc-5e317d16-2f2b-4add-885e-c2c5c9062be6,C_Rechenregeln_Bruch 2,COMPLEX NUMBERS,ans1,AlgEquiv|EqualComAss,form
+rc-001c10f6-6e75-41b3-8b6e-b8c44788edfa,C_z?_mit_|z|=a,COMPLEX NUMBERS,ans1,CasEqual,form
+rc-e16ed4d7-0511-43dd-a34f-5989d699bee5,FTN_POL_Linearfaktorzerlegung_Grad_4_C,COMPLEX NUMBERS,ans1,AlgEquiv|EqualComAss,form
+rc-6c297426-5c2a-47c1-baf5-6ef793b41805,VEC_GEO_Kollinearität_R2,VECTORS,ans1,EqualComAss,form
+rc-e5dc1abc-8050-4dcb-8322-9105d24a52c1,FTN-1_diskret,FUNCTIONS,ans1,EqualComAss,form
+rc-a74a756c-6557-4421-8bfc-492df8314c96,FTN-1: p/q,FUNCTIONS,ans1,AlgEquiv|EqualComAss,form
+rc-1ab1f744-9d92-4976-b7ac-42610e147c59,FTN-1_Umkehrbarkeit?_vier_Beispiele,FUNCTIONS,ans1,SubstEquiv,subst
+rc-1e21a0df-6eb6-44fb-9791-93dd4edb60ff,FTN_LIN_Interpolation,FUNCTIONS,ans1,EqualComAss,form
+rc-430dd110-23a5-4776-a526-4803acb2c8c9,FTN_LIN_Interpolation_Parameter,FUNCTIONS,ans1,EqualComAss,form
+rc-c23c5769-396b-480d-9342-a60f4fe7165d,FTN_POL_Linearfaktorzerlegung_Grad_2,FUNCTIONS,ans1,FacForm,form
+rc-15907d7b-9e61-49b4-b568-f2ba04b486ab,FTN_POL_Linearfaktorzerlegung_Grad_2_R,FUNCTIONS,ans1,EqualComAss,form
+rc-2befa074-49a2-4491-b64f-a4c0fdc6b055,FTN_POL_Linearfaktorzerlegung_Grad_3_R,FUNCTIONS,ans1,AlgEquiv|EqualComAss,form
+rc-f268354c-9834-493c-8f1e-e0aa090d4270,FTN_QUAD_Bildbereich,FUNCTIONS,ans1,AlgEquiv|EqualComAss,form
+rc-eddb297f-08a2-45ea-b383-ebabe55fed2e,FTN_QUAD: Funktionswert,FUNCTIONS,ans1,AlgEquiv|NumRelative,numerical
+rc-114bacd5-da01-472d-a354-d46e3d4a35ba,FTN_QUAD_Konstruktion_Graph,FUNCTIONS,ans1,AlgEquiv|EqualComAss,form
+rc-5981cd46-1af4-4cf2-bbec-8f1ab726133f,FTN_RAT_Polynomdivision: LFZ=?,FUNCTIONS,ans1,AlgEquiv|FacForm,form
+rc-b365e146-ba9d-4ef7-a11c-441a7d878b7d,GL_TRIG: tan(x) =c*cos(x),FUNCTIONS,ans1,EqualComAss,form
+rc-cc08c4b1-d1f8-4a61-9a75-9a444679723b,GL_TRIG_Winkel=?,FUNCTIONS,ans1,AlgEquiv|NumRelative,numerical
+rc-d0a84cd9-e60e-4427-9da5-286e10d6607a,GRDL_Binomi: (ab)^2-2ab+1,FUNCTIONS,ans,AlgEquiv|EqualComAss,form
+rc-59a4f11a-691a-4750-9b00-559472aa3775,"GRDL_Logarithmus c = 9^x, x=?",FUNCTIONS,ans1,EqualComAss,form
+rc-45661197-0eb6-4229-82b5-cf731670228d,UNGL_SQRT,FUNCTIONS,ans1,AlgEquiv|EqualComAss,form
+rc-9d5d2882-8927-40b4-88ef-8b626fc975ee,Funktion beschreiben - quadratisch,FUNCTIONS,ans1,AlgEquiv|EqualComAss,form
+rc-c125b99c-b72a-4521-94b0-eef1770e899a,Abstand Punkt-Gerade I,GEOMETRY,ans1,NumRelative,numerical
+rc-61434ebe-5906-4450-90f8-0f3eab5479f4,LA_DET_3x3,LINEAR ALGEBRA,ans1,EqualComAss,form
+rc-de510d3e-e570-4a3e-b183-523719e41c6a,LA_DET_3x3: A*B,LINEAR ALGEBRA,ans1,EqualComAss,form
+rc-a5e55ed6-cbe4-4a8b-a471-0464ed9cfcb0,LA_DET_4x4,LINEAR ALGEBRA,ans1,EqualComAss,form
+rc-a673b9cc-fef5-44a0-84d9-6da28b7259f6,LA_MAT_2x2_Orthogonale_Matrix,LINEAR ALGEBRA,ans1,EqualComAss,form
+rc-a980d4e3-435d-4e10-b1aa-84976036efa4,LGS_4x4_Gleichungsform: rk(A)=4,LINEAR ALGEBRA,ans1,EqualComAss,form
+rc-4ba78582-649b-4bcf-b785-e414081e823a,LGS_C_2x2_Gleichungsform: rk(A)=2,LINEAR ALGEBRA,ans1,EqualComAss,form
+rc-1d1fd1f9-56d3-4713-9bf1-00f5c56652d4,VR_Rang_3x3_Vektoren_keine_Basis,LINEAR ALGEBRA,ans1,EqualComAss,form
+rc-beb53301-3bdc-4bb0-ba28-c2091ba530d7,DR_Anw: Minimum Polynom Grad 2,DIFFERENTIAL CALCULUS 1D,ans1,AlgEquiv|NumRelative,numerical
+rc-d1494c52-9383-4681-8741-c9bdd9364631,ZR: geom. Reihe a_n =?,NUMBER SERIES,ans1,AlgEquiv|NumAbsolute,numerical
+rc-913fe35a-19e9-49f5-8c06-04384bbcb6b9,"ZR: geom. Reihe, a_n=?, S_n=?",NUMBER SERIES,ans1,AlgEquiv|NumAbsolute,numerical
+rc-f4cde515-101d-444a-af4b-47334bd54cec,INT_EXP: e^(a-b*x),INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-30926669-a5ae-407b-a9fd-384e907e70d4,INT_EXP: e^(bx) ( e^(bx) + e^(-bx) ),INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-243dd8bd-7954-4134-a2aa-c34284344083,INT_PBZ: Grad 2 / Grad 1,INTEGRATION 1D,ans1,EqualComAss|Int,form
+rc-dc186dbc-17ec-49ec-b542-8c0f03fc8407,INT_PBZ Grad 3/Grad 2,INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-a82dc6d0-7cf2-4e18-897f-6a0d8420438f,"INT_PI: algebr. Gleichung, a*exp(b*x)*sin(c*x)",INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-3161a06a-9d5f-427b-8b61-d2d9936c67e7,INT_PI: a x e^bx,INTEGRATION 1D,ans1,Int,int
+rc-33546aee-8c3e-43d9-964a-92192e31a638,INT_PI: x^2 sin(x),INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-38a9355e-83dd-48fb-9855-1d14a0c8f85c,INT_PI: x cos(bx),INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-e7164a2c-3d7f-4dd6-9e9c-1a3aad65a4be,INT_POL: a x^n+b x^m,INTEGRATION 1D,ans1,AlgEquiv|NumAbsolute,numerical
+rc-688ab4ff-caf0-4230-bd4d-3e4f88a98927,INT_POL: Grad 3,INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-c4bf6ce0-11ac-4849-a66b-7626f90df024,INT_SUB: 1/sqrt(a^2 - b^2 x^2),INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-5a4d06bc-2777-4eff-b647-b0ae146e0c50,INT_SUB: a e^(bx) / (e^(bx) + 1),INTEGRATION 1D,ans1,Int,int
+rc-91643436-bb8f-4c56-b8b0-6cd02332225e,INT_SUB: f'(x)/f(x),INTEGRATION 1D,ans1,Int,int
+rc-1542b3a2-e5eb-4569-8cb5-b6005a97adcc,INT_SUB: Hyperbelfunktion,INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-63eec0ce-eee9-4a8c-8fed-749812a8bdde,INT_SUB: sin(ax)/(cos(ax)+b),INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-0432a2ca-7a57-45c1-a08c-9e1e86e3dd7b,INT_SUB: x^n (x^(n+1)-b)^k,INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-545e4a04-7b7b-4903-8791-48128e2cbe2c,INT: Tabelle,INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-6e2346e8-05d0-43b5-ac26-7540b396e1dc,INT_TRIG sin(ax),INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-562942e6-0fb7-40f7-ab64-1fcd27fcadce,PBZ: Grad 3 / Grad 3,INTEGRATION 1D,ap,AlgEquiv|PartFrac,form
+rc-e5d139d9-8577-4345-b950-d02ece71845b,Flächenberechnung: Fläche zwischen Graph und x-Achse II,INTEGRATION 1D,ans1,NumRelative,numerical
+rc-c070d83a-e21c-4671-9cdf-db5dcc96b1a1,Grenze eines Integrals bestimmen,INTEGRATION 1D,ans1,NumRelative,numerical
+rc-f23dd6aa-5fbe-4032-b359-3e94d7b0657f,Integration: unbestimmtes Integral,INTEGRATION 1D,ans1,AlgEquiv|Int,int
+rc-640fa528-55c1-4289-8fbb-d00ea0b93332,Obere Grenze mit gegebener Fläche bestimmen,INTEGRATION 1D,ans1,NumRelative,numerical
+rc-66190152-a87b-4916-9985-68290d26265e,"AWP_2_Lin_Inhom: reelle NSt, RS x^2",ORDINARY DIFFERENTIAL EQUATIONS,ans1,SubstEquiv,subst
+rc-46625fe9-583c-4ded-82f8-8e3c0e850bf5,DGL_1_Lin_Inhom: y'+y=asin(e^x)+bcos(e^x),ORDINARY DIFFERENTIAL EQUATIONS,ans1,SubstEquiv,subst
+rc-ab4fd9e6-61fa-4d8f-9f03-0f3889603a88,DGL_1_Lin_KK_Inhom: a*y'+b*y=t+c+d*sin(k*x),ORDINARY DIFFERENTIAL EQUATIONS,ans1,SubstEquiv,subst
+rc-19f9f074-2821-4cd7-9fb4-65c5edfdceec,DGL_1_Lin_KK_Inhom: a*y'+b*y=x+exp(c*x),ORDINARY DIFFERENTIAL EQUATIONS,ans1,SubstEquiv,subst
+rc-31b5e138-320f-489a-85a3-4e7dc927bc21,"DGL_2_Lin_Inhom: reelle NSt, RS sin(kx)",ORDINARY DIFFERENTIAL EQUATIONS,ans1,SubstEquiv,subst
+rc-1f48a711-fb04-4f8f-85da-41c044fc7641,INT_C: Fourierkoeffizient,FOURIER SERIES,ans1,AlgEquiv|EqualComAss,form
+rc-62ccf541-60cc-4367-bf59-e5b3b3af8eba,partielle Steigung in Punkt,MULTIVARIATE ANALYSIS,ans1,NumRelative,numerical
+rc-87d42a8a-ca4f-4a8a-8985-f0ebc60791e6,Korrelationskoeffizient,STATISTIC,ans1,NumAbsolute,numerical
+rc-0fc31e95-d1d5-45c3-a5ba-aefb729357da,INT: Skript Trapezregel,NUMERIC,ans1,NumAbsolute,numerical
+rc-97570157-8697-4957-9d26-c0e9efcddff3,POLYFIT: 2-Punkte-Formel,NUMERIC,ans1,EqualComAss,form
+rc-e01efd6a-9aba-4468-96c0-c94bfc81d659,SPLINE: Spline auswerten,NUMERIC,ans1,EqualComAss,form

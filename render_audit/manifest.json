@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "timestamp_utc": "20260728T111049Z",
+  "scope": "Parse, instantiate and render validation at five fixed seeds",
+  "api_base": "http://127.0.0.1:3080",
+  "seeds": [
+    1,
+    2,
+    3,
+    42,
+    1000
+  ],
+  "results": {
+    "stack_questions": 1604,
+    "render_calls": 8020,
+    "calls_ok": 8020,
+    "calls_failed": 0,
+    "questions_passing_all_seeds": 1604,
+    "questions_failing_any_seed": 0
+  },
+  "sha256": {
+    "quiz-Math1-Math2.xml": "75d6a17339977260813fd8cbe887c3071e4ac5de736f416a695a2fafa262f966",
+    "quiz-Numeric.xml": "f8d1639bda45a038ea9f29a795adb28a64bcd72606a4d973af135f075f85199a",
+    "render_results_20260728T111049Z.csv": "ec65b55db164afde3d8fc557873ed297fbf003c98b775f078240eaa65a67a863",
+    "summary_20260728T111049Z.json": "fec9f8640d76627b28543176dd71a641099b22471a579c2441d3795b5040be44"
+  },
+  "containers": {
+    "stack": {
+      "tag": "stackmaths/stackapi:2026042200-latest",
+      "image_id": "sha256:d2ea6572d7ac61013c26297a67940e6b74285139c22f42b4baf36d1d23e446f1",
+      "repo_digest": "stackmaths/stackapi@sha256:03bdfad7c20301b8aa417409c47244c8995df1cb2a907a51cc1a59ce3ac81fba"
+    },
+    "goemaxima": {
+      "tag": "mathinstitut/goemaxima:2026042200-latest",
+      "image_id": "sha256:880ce11303726f3b94939cc41baae82ea8ce23a3b308fa3a31d6e4f5d31e8690",
+      "repo_digest": "mathinstitut/goemaxima@sha256:70e3c8389bb8f14d7cb6eb2ae36f3cc989d96a85a09c80411e4943ce51f657e6"
+    }
+  },
+  "limitations": [
+    "Five seeds do not exhaust the variant space.",
+    "HTTP 200 validates executability, not mathematical correctness.",
+    "This run did not execute the optional question-test endpoint."
+  ]
+}

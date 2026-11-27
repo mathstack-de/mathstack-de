@@ -1,0 +1,209 @@
+{
+ "frequency": {
+  "system": "frequency",
+  "threshold": 0.05,
+  "dev_micro_f1": 0.1135,
+  "test_probability_dw": {
+   "precision": 0.0542,
+   "recall": 0.2319,
+   "micro_f1": 0.0879,
+   "jaccard": 0.0467,
+   "example_f1": 0.0848,
+   "exact": 0.0
+  },
+  "test_probability_uw": {
+   "precision": 0.0531,
+   "recall": 0.2301,
+   "micro_f1": 0.0862,
+   "jaccard": 0.0457,
+   "example_f1": 0.0831,
+   "exact": 0.0
+  },
+  "test_probability_f1_ci95": [
+   0.0758,
+   0.1003
+  ],
+  "test_probability_f1_at_0.5": 0.0,
+  "test_diagnostic_uw": {
+   "precision": 0.044,
+   "recall": 0.1674,
+   "micro_f1": 0.0697,
+   "jaccard": 0.0365,
+   "example_f1": 0.0676,
+   "exact": 0.0
+  },
+  "test_diagnostic_f1_ci95": [
+   0.0569,
+   0.0833
+  ],
+  "test_diagnostic_f1_at_0.5": 0.0,
+  "support_breakdown": [
+   {
+    "bucket": "0",
+    "n_concepts": 23,
+    "precision": 0.0,
+    "recall": 0.0,
+    "micro_f1": 0.0
+   },
+   {
+    "bucket": "1-4",
+    "n_concepts": 57,
+    "precision": 0.0,
+    "recall": 0.0,
+    "micro_f1": 0.0
+   },
+   {
+    "bucket": "5-19",
+    "n_concepts": 86,
+    "precision": 0.0,
+    "recall": 0.0,
+    "micro_f1": 0.0
+   },
+   {
+    "bucket": "20+",
+    "n_concepts": 105,
+    "precision": 0.0531,
+    "recall": 0.2818,
+    "micro_f1": 0.0893
+   }
+  ]
+ },
+ "gbert": {
+  "system": "gbert",
+  "threshold": 0.67,
+  "dev_micro_f1": 0.5976,
+  "test_probability_dw": {
+   "precision": 0.4782,
+   "recall": 0.524,
+   "micro_f1": 0.5,
+   "jaccard": 0.379,
+   "example_f1": 0.496,
+   "exact": 0.0884
+  },
+  "test_probability_uw": {
+   "precision": 0.4729,
+   "recall": 0.5221,
+   "micro_f1": 0.4963,
+   "jaccard": 0.3746,
+   "example_f1": 0.4909,
+   "exact": 0.0857
+  },
+  "test_probability_f1_ci95": [
+   0.4659,
+   0.5345
+  ],
+  "test_probability_f1_at_0.5": 0.4948,
+  "test_diagnostic_uw": {
+   "precision": 0.3734,
+   "recall": 0.4072,
+   "micro_f1": 0.3896,
+   "jaccard": 0.25,
+   "example_f1": 0.3613,
+   "exact": 0.0
+  },
+  "test_diagnostic_f1_ci95": [
+   0.337,
+   0.4397
+  ],
+  "test_diagnostic_f1_at_0.5": 0.3867,
+  "support_breakdown": [
+   {
+    "bucket": "0",
+    "n_concepts": 23,
+    "precision": 0.0,
+    "recall": 0.0,
+    "micro_f1": 0.0
+   },
+   {
+    "bucket": "1-4",
+    "n_concepts": 57,
+    "precision": 0.6667,
+    "recall": 0.1739,
+    "micro_f1": 0.2759
+   },
+   {
+    "bucket": "5-19",
+    "n_concepts": 86,
+    "precision": 0.4386,
+    "recall": 0.4386,
+    "micro_f1": 0.4386
+   },
+   {
+    "bucket": "20+",
+    "n_concepts": 105,
+    "precision": 0.4748,
+    "recall": 0.561,
+    "micro_f1": 0.5143
+   }
+  ]
+ },
+ "tfidf": {
+  "system": "tfidf",
+  "threshold": 0.54,
+  "dev_micro_f1": 0.5749,
+  "test_probability_dw": {
+   "precision": 0.4216,
+   "recall": 0.5424,
+   "micro_f1": 0.4744,
+   "jaccard": 0.349,
+   "example_f1": 0.468,
+   "exact": 0.0612
+  },
+  "test_probability_uw": {
+   "precision": 0.4217,
+   "recall": 0.542,
+   "micro_f1": 0.4743,
+   "jaccard": 0.3493,
+   "example_f1": 0.4666,
+   "exact": 0.0643
+  },
+  "test_probability_f1_ci95": [
+   0.4414,
+   0.5071
+  ],
+  "test_probability_f1_at_0.5": 0.4701,
+  "test_diagnostic_uw": {
+   "precision": 0.4279,
+   "recall": 0.3891,
+   "micro_f1": 0.4076,
+   "jaccard": 0.25,
+   "example_f1": 0.3525,
+   "exact": 0.0
+  },
+  "test_diagnostic_f1_ci95": [
+   0.3502,
+   0.4631
+  ],
+  "test_diagnostic_f1_at_0.5": 0.4018,
+  "support_breakdown": [
+   {
+    "bucket": "0",
+    "n_concepts": 23,
+    "precision": 0.0,
+    "recall": 0.0,
+    "micro_f1": 0.0
+   },
+   {
+    "bucket": "1-4",
+    "n_concepts": 57,
+    "precision": 0.6,
+    "recall": 0.2609,
+    "micro_f1": 0.3636
+   },
+   {
+    "bucket": "5-19",
+    "n_concepts": 86,
+    "precision": 0.3788,
+    "recall": 0.4386,
+    "micro_f1": 0.4065
+   },
+   {
+    "bucket": "20+",
+    "n_concepts": 105,
+    "precision": 0.4238,
+    "recall": 0.5799,
+    "micro_f1": 0.4897
+   }
+  ]
+ }
+}

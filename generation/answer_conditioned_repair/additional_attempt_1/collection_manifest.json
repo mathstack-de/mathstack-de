@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "planned_questions": 4,
+  "completed_questions": 4,
+  "status_counts": {
+    "generated": 4
+  },
+  "complete": true,
+  "canonical_artifact_sha256": {
+    "run_metadata": "25e795817437429b3ee834f551b15ec91eb3b0c3b1e98a78cc4cd8afc0fb9885",
+    "prompt_plan": "d2a45d73b830d9bcd148737c957295b88358346bd3b7fae34e929177f5273fba",
+    "model_outputs": "6c385aaa911db17c679fc95692c2f91398159c96a45d461033617de0bd8644f2"
+  },
+  "packaged_artifact_sha256": {
+    "run_meta.json": "502509189f1fcfe92d33c7510ba474d9308ae61ce38c2eccb9ac290cbc418733",
+    "prompt_plan.jsonl": "9acc538cbfb99fd862508f09f59905cb6020fce7f461ee5b7fb42d04968a995f",
+    "generations.jsonl": "ac2328ff3cf290d7cca726ea4a08f9898a29ef215eb28dcebe1dd248d7466884"
+  }
+}

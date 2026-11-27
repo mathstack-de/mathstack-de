@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "purpose": "Sensitivity checks for the released label scopes and expert-reference version.",
+  "definition_scope_rerun": {
+    "changed_concept_ids": [
+      "LA.11",
+      "LA.20"
+    ],
+    "definitions_in_archived_prompt": 19,
+    "definitions_in_released_vocabulary": 20,
+    "probability_sample_questions": 140,
+    "design_weighted_micro_f1": 0.6641227374573173,
+    "difference_from_release_baseline": 0.006338351543347498,
+    "difference_ci95": {
+      "low": -0.010961558188493564,
+      "high": 0.022777358200428997
+    },
+    "bootstrap_replicates": 10000,
+    "bootstrap_seed": 20260726
+  },
+  "expert_reference_version_sensitivity": {
+    "excluded_probability_sample_questions": 4,
+    "remaining_questions": 136,
+    "design_weighted_micro_f1": 0.6568406841558257
+  },
+  "source_artifact_sha256": {
+    "expert_reference": "34e89c775ef807299d405396ebb25a9032580a0202ed03a9be1bf8c7daca3370",
+    "model_generated_labels": "1f43e2d32f5b14c6c90252b049bba13698ff9f5c1bb6adb12818960d3837607e",
+    "model_generated_labels_manifest": "3fd44eee50e7fec64599eee7340f80d795105637fadedd0c8b7fd159a33d917b",
+    "vocabulary": "c0eb398647799b730d635a4b71affe55e91a98e1c2a5c1d22e6ecc60b40c61d7",
+    "annotation_policy": "9eb1bf2e8e1ef58905b91e5a6411aeae6c9d4f0878ddacb8352c247445a54033",
+    "model_input_manifest": "d295676927561b8604f44c48eb561ba2f00f1118db2b6a2e51b6605a61d60f7e",
+    "eligible_question_set": "d2a702e8fc82a72fdbd72ee1f9d600f4965237905503485903c1824ec61e4de5",
+    "baseline_analysis": "31de707e65edf82e76e2fc82047a2460994b642179771066f21565bb9efd9289",
+    "compatibility_rerun_input_manifest": "65077349242cd5157dd4bcc41d21cf222d234d391f0199b5029bf3b1f2386248",
+    "compatibility_rerun_evaluation_manifest": "d34ef8b0feb08e972aab16cb9544cda9e0d806e7416af5c3255ba95fee435dcf",
+    "compatibility_rerun_analysis": "c089b21f2165a3cf399231f5cadd3d56e7fdbb53384c167b81037051f3788ae5"
+  }
+}

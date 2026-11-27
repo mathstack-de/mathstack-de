@@ -1,0 +1,21 @@
+rc_id,name,topic,family,tests,input_name,fresh_seeds
+rc-ab4fd9e6-61fa-4d8f-9f03-0f3889603a88,DGL_1_Lin_KK_Inhom: a*y'+b*y=t+c+d*sin(k*x),ORDINARY DIFFERENTIAL EQUATIONS,subst,SubstEquiv,ans1,9201 9202 9203 9204
+rc-31b5e138-320f-489a-85a3-4e7dc927bc21,"DGL_2_Lin_Inhom: reelle NSt, RS sin(kx)",ORDINARY DIFFERENTIAL EQUATIONS,subst,SubstEquiv,ans1,9201 9202 9203 9204
+rc-66190152-a87b-4916-9985-68290d26265e,"AWP_2_Lin_Inhom: reelle NSt, RS x^2",ORDINARY DIFFERENTIAL EQUATIONS,subst,SubstEquiv,ans1,9201 9202 9203 9204
+rc-d1494c52-9383-4681-8741-c9bdd9364631,ZR: geom. Reihe a_n =?,NUMBER SERIES,numerical,AlgEquiv|NumAbsolute,ans1,9201 9202 9203 9204
+rc-eddb297f-08a2-45ea-b383-ebabe55fed2e,FTN_QUAD: Funktionswert,FUNCTIONS,numerical,AlgEquiv|NumRelative,ans1,9201 9202 9203 9204
+rc-0fc31e95-d1d5-45c3-a5ba-aefb729357da,INT: Skript Trapezregel,NUMERIC,numerical,NumAbsolute,ans1,9201 9202 9203 9204
+rc-e5d139d9-8577-4345-b950-d02ece71845b,Flächenberechnung: Fläche zwischen Graph und x-Achse II,INTEGRATION 1D,numerical,NumRelative,ans1,9201 9202 9203 9204
+rc-30926669-a5ae-407b-a9fd-384e907e70d4,INT_EXP: e^(bx) ( e^(bx) + e^(-bx) ),INTEGRATION 1D,int,AlgEquiv|Int,ans1,9201 9202 9203 9204
+rc-a82dc6d0-7cf2-4e18-897f-6a0d8420438f,"INT_PI: algebr. Gleichung, a*exp(b*x)*sin(c*x)",INTEGRATION 1D,int,AlgEquiv|Int,ans1,9201 9202 9203 9204
+rc-dc186dbc-17ec-49ec-b542-8c0f03fc8407,INT_PBZ Grad 3/Grad 2,INTEGRATION 1D,int,AlgEquiv|Int,ans1,9201 9202 9203 9204
+rc-0432a2ca-7a57-45c1-a08c-9e1e86e3dd7b,INT_SUB: x^n (x^(n+1)-b)^k,INTEGRATION 1D,int,AlgEquiv|Int,ans1,9201 9202 9203 9204
+rc-3161a06a-9d5f-427b-8b61-d2d9936c67e7,INT_PI: a x e^bx,INTEGRATION 1D,int,Int,ans1,9201 9202 9203 9204
+rc-a5e55ed6-cbe4-4a8b-a471-0464ed9cfcb0,LA_DET_4x4,LINEAR ALGEBRA,form,EqualComAss,ans1,9201 9202 9203 9204
+rc-43cb9d42-00d9-4c16-acb2-21baabfe2da9,Zahlen: Potenzen (4),SCHOOL,form,AlgEquiv|EqualComAss,ans,9201 9202 9203 9204
+rc-c1c22e99-b316-40fc-9a18-2ad4a74e5082,GRDL_BR_3: (a z+b)/c + (d z+e)/f + (g z+h)/i = ?,SCHOOL,form,AlgEquiv|SingleFrac,ans,9201 9202 9203 9204
+rc-d0a0b642-8be4-480a-916a-758a8455c6ed,C_LFZ_z^4 I,COMPLEX NUMBERS,form,FacForm,ans1,9201 9202 9203 9204
+rc-1e21a0df-6eb6-44fb-9791-93dd4edb60ff,FTN_LIN_Interpolation,FUNCTIONS,form,EqualComAss,ans1,9201 9202 9203 9204
+rc-b931ff9c-998a-47fb-a1ea-d9bb0630fd63,GRDL_Binomi: (ma+nb)^2-(ma-nb)^2=?,SCHOOL,form,AlgEquiv|EqualComAss,ans1,9201 9202 9203 9204
+rc-b8cac212-3bb5-499e-b105-8f2e76ef4abd,Zahlen: Rationale Zahlen - Addition (1),SCHOOL,form,AlgEquiv|EqualComAss,ans,9201 9202 9203 9204
+rc-622de888-8af2-42bf-90d2-5dda507038bc,C_LFZ_Nullstelle_z^3,COMPLEX NUMBERS,form,AlgEquiv|EqualComAss,ans1,9201 9202 9203 9204

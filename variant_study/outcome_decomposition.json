@@ -1,0 +1,162 @@
+{
+  "analysis_role": "post_hoc_descriptive_sensitivity",
+  "definitions": {
+    "mixed_gradable": "at least one full-credit and one non-full-credit STACK-gradable response",
+    "mixed_invalid_only": "at least one full-credit response; every non-full-credit outcome is invalid rather than STACK-gradable"
+  },
+  "inputs": {
+    "variant_study/results.csv": "814c0018fe74868291c68ddfccaf0efd23973f458414c105e0e930b0556d55ab"
+  },
+  "models": {
+    "gemma4:31b": {
+      "categories": {
+        "all_four_full_credit": 50,
+        "mixed_gradable": 4,
+        "mixed_invalid_only": 2,
+        "no_full_credit": 4
+      },
+      "fresh_responses": 240,
+      "full_credit_given_gradable": 0.894958,
+      "gradable_responses": 238,
+      "label": "Gemma 4-31B",
+      "mixed_contains_format_failure": 0,
+      "mixed_format_failure_only": 0,
+      "mixed_syntax_invalid_only": 2,
+      "questions": 60,
+      "status_counts": {
+        "correct": 213,
+        "syntax_invalid": 2,
+        "wrong": 25
+      },
+      "strict_correct_count_distribution_0_to_4": [
+        4,
+        1,
+        3,
+        2,
+        50
+      ],
+      "strict_pairwise_outcome_agreement": 0.941667
+    },
+    "gpt-5-2025-08-07": {
+      "categories": {
+        "all_four_full_credit": 54,
+        "mixed_gradable": 1,
+        "mixed_invalid_only": 4,
+        "no_full_credit": 1
+      },
+      "fresh_responses": 240,
+      "full_credit_given_gradable": 0.978541,
+      "gradable_responses": 233,
+      "label": "GPT-5",
+      "mixed_contains_format_failure": 0,
+      "mixed_format_failure_only": 0,
+      "mixed_syntax_invalid_only": 4,
+      "questions": 60,
+      "status_counts": {
+        "correct": 228,
+        "syntax_invalid": 7,
+        "wrong": 5
+      },
+      "strict_correct_count_distribution_0_to_4": [
+        1,
+        1,
+        1,
+        3,
+        54
+      ],
+      "strict_pairwise_outcome_agreement": 0.955556
+    },
+    "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M": {
+      "categories": {
+        "all_four_full_credit": 35,
+        "mixed_gradable": 14,
+        "mixed_invalid_only": 7,
+        "no_full_credit": 4
+      },
+      "fresh_responses": 240,
+      "full_credit_given_gradable": 0.841629,
+      "gradable_responses": 221,
+      "label": "GLM-4-32B",
+      "mixed_contains_format_failure": 1,
+      "mixed_format_failure_only": 1,
+      "mixed_syntax_invalid_only": 6,
+      "questions": 60,
+      "status_counts": {
+        "correct": 186,
+        "format_failure": 1,
+        "syntax_invalid": 18,
+        "wrong": 35
+      },
+      "strict_correct_count_distribution_0_to_4": [
+        4,
+        6,
+        5,
+        10,
+        35
+      ],
+      "strict_pairwise_outcome_agreement": 0.811111
+    },
+    "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M": {
+      "categories": {
+        "all_four_full_credit": 30,
+        "mixed_gradable": 5,
+        "mixed_invalid_only": 22,
+        "no_full_credit": 3
+      },
+      "fresh_responses": 240,
+      "full_credit_given_gradable": 0.931034,
+      "gradable_responses": 203,
+      "label": "GLM-Z1-32B",
+      "mixed_contains_format_failure": 21,
+      "mixed_format_failure_only": 19,
+      "mixed_syntax_invalid_only": 2,
+      "questions": 60,
+      "status_counts": {
+        "correct": 189,
+        "format_failure": 28,
+        "syntax_invalid": 9,
+        "wrong": 14
+      },
+      "strict_correct_count_distribution_0_to_4": [
+        3,
+        0,
+        12,
+        15,
+        30
+      ],
+      "strict_pairwise_outcome_agreement": 0.741667
+    },
+    "qwen3:32b": {
+      "categories": {
+        "all_four_full_credit": 54,
+        "mixed_gradable": 2,
+        "mixed_invalid_only": 2,
+        "no_full_credit": 2
+      },
+      "fresh_responses": 240,
+      "full_credit_given_gradable": 0.949153,
+      "gradable_responses": 236,
+      "label": "Qwen3-32B",
+      "mixed_contains_format_failure": 1,
+      "mixed_format_failure_only": 1,
+      "mixed_syntax_invalid_only": 1,
+      "questions": 60,
+      "status_counts": {
+        "correct": 224,
+        "format_failure": 1,
+        "syntax_invalid": 3,
+        "wrong": 12
+      },
+      "strict_correct_count_distribution_0_to_4": [
+        2,
+        2,
+        0,
+        2,
+        54
+      ],
+      "strict_pairwise_outcome_agreement": 0.966667
+    }
+  },
+  "primary_rule": "invalid outputs count as incorrect",
+  "schema": "outcome_decomposition_v1"
+}

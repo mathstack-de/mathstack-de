@@ -1,0 +1,4 @@
+# The records in this repository are listed with their SHA-256 in
+# SHA256SUMS.json, and several result files have Windows line endings as they
+# were written. No file is converted on checkout or commit.
+* -text

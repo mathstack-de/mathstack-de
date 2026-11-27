@@ -1,0 +1,18 @@
+{
+  "draw_seed": 20260718,
+  "pool": 270,
+  "replaced": [
+    {
+      "rc_id": "rc-ff5d2beb-0fb3-4e6d-8d84-35f15503247d",
+      "why": "only 3 unique instances in 12 tries (last: None)"
+    },
+    {
+      "rc_id": "rc-70926e31-e51e-4f6d-a760-f99f0ade62ca",
+      "why": "only 3 unique instances in 12 tries (last: None)"
+    }
+  ],
+  "started": "2026-07-17T00:36:05+00:00",
+  "templates": 60,
+  "k_anchor": 34,
+  "rows_per_model": 322
+}

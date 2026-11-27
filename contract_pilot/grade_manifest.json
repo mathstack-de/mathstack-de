@@ -1,0 +1,21 @@
+{
+ "grading_policy": "raw-v1+brace-off",
+ "rows": 400,
+ "answers": 400,
+ "grader_commit": "ec206783effc147b8f6b7958aae99a29d83f8d79",
+ "grader_code_sha256": "d4499461124e2e3b98c33f8994dde44aa008450de8d3a533be1cd71060e2ed93",
+ "stack_client_sha256": "baee30fa38b2cbb630aeea4a4ad52c6f133f831524149b807f39a61f5356f80f",
+ "corpus_sha256": {
+  "corpus/quiz-Math1-Math2.xml": "619b0cfb432850db50a7385c67f20c951d6a052bd153739c08c0a96ac919d1ea",
+  "corpus/quiz-Numeric.xml": "f8d1639bda45a038ea9f29a795adb28a64bcd72606a4d973af135f075f85199a"
+ },
+ "engine_image_ids": {
+  "stack-api-stack-1": "sha256:d2ea6572d7ac61013c26297a67940e6b74285139c22f42b4baf36d1d23e446f1",
+  "stack-api-maxima-1": "sha256:880ce11303726f3b94939cc41baae82ea8ce23a3b308fa3a31d6e4f5d31e8690"
+ },
+ "sha256": {
+  "answers.jsonl": "87fcf2ffaca5bb312ee0456fcb978a072ecca40f8d79bf1cfa44cb690f240517",
+  "instances.jsonl": "4a0f6ce5c2d9707fefc3fc585f8d3c9ff9933a5e4e71bdb0c4558231bbdaec3f",
+  "results.csv": "cacb470084fa19c40a6058ccbcb6808c4607c1731657073eb0440c034dc6e1b3"
+ }
+}

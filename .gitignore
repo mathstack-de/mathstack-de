@@ -1,0 +1,6 @@
+# Files that the commands in README.md leave behind.
+__pycache__/
+*.pyc
+.pytest_cache/
+known_verdict/results_rescored_summary.json
+known_verdict/reproduced_results/

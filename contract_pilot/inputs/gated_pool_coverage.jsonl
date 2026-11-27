@@ -1,0 +1,111 @@
+{"rc_id": "rc-a16d4ae1-108b-4a99-8216-3fb4c9f013c9", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-7b2cfd2f-75fe-4376-b76c-0cc4adfc44b6", "family": "form", "tests": "EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-1d6f5a40-d4b5-4e5a-8b29-78324b656e90", "family": "form", "tests": "EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-7e2d7914-728c-4b2e-981c-1ecd7e9c07da", "family": "form", "tests": "EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-87ff102b-75b1-4b6e-a1db-38bdc78c0c95", "family": "form", "tests": "EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-b931ff9c-998a-47fb-a1ea-d9bb0630fd63", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-051a839b-15f3-46a1-8e80-8e2df9ee172f", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-c1c22e99-b316-40fc-9a18-2ad4a74e5082", "family": "form", "tests": "AlgEquiv|SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0f19a872-77ae-466e-b33c-8d32bfbc166e", "family": "form", "tests": "SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-496b29f8-16ff-4625-a293-f99d854fd23e", "family": "form", "tests": "SingleFrac", "topic": "SCHOOL", "pass": false, "bridge_covered": null}
+{"rc_id": "rc-a639df78-fc33-4115-be82-450197fc943f", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-8c45abf0-00f1-4b99-af09-7999b692ad69", "family": "form", "tests": "SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-76fa80ed-d9f5-4de6-9bee-d23eeb115c87", "family": "form", "tests": "SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-edd6d3f9-9cc3-4ce6-97ea-a5a16d690c5d", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-3a4785fb-e9bd-4c04-91b9-617fcb319e78", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-effde891-ddda-4e15-b087-097808f3a4cd", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-c7d8b78e-cb95-442d-9064-293c7f243ca5", "family": "form", "tests": "EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0b3b1c10-8a22-4c41-a8f3-77da31326bbc", "family": "other", "tests": "AlgEquiv|GT", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-7fb40fc0-a7f3-474e-b7cc-1dd861aea75d", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-8e0f43a5-e336-4689-8162-cdc3f7f3e400", "family": "form", "tests": "AlgEquiv|SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-d621e47a-488f-47c2-a650-68e5e524b8e9", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-43cb9d42-00d9-4c16-acb2-21baabfe2da9", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-3ec2e739-a94f-4ebb-9fa2-3a6f9d56895c", "family": "form", "tests": "AlgEquiv|FacForm", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-9246077b-2210-4153-8dd5-a25ab3aeb719", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-b8cac212-3bb5-499e-b105-8f2e76ef4abd", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-625ac01d-6b3f-40a5-9c17-141cf2aef5bf", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-23d7a975-f992-4cc8-b440-70ac39913649", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-ed40fc91-5947-4adb-93c3-0a2852d27c0b", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-cbc398b4-4bcf-4bd7-8c3c-5b25f0a17871", "family": "form", "tests": "AlgEquiv|SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0bb20cfa-ba41-4697-bf3e-5907b2c84b7d", "family": "form", "tests": "AlgEquiv|SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-4469540f-0073-4a04-9577-d036e35207b2", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0ae397bf-c920-448b-ae86-8611a864264a", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-5a93f4ae-b198-425b-a43d-5e11fd3c452d", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-83e20163-9fb8-4396-a786-7527b61ca6ef", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0aa624fa-4986-4444-a714-e95fc5993297", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-5f18f2f7-f24f-455f-ad83-e9ca0cc5e52b", "family": "form", "tests": "AlgEquiv|SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0387b81e-7b15-45db-95af-327fc7e5fe9e", "family": "form", "tests": "AlgEquiv|SingleFrac", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-673835f8-7f15-4ce9-a19d-04abaffa2d56", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-3c3af1df-c4e0-4dc2-bd35-0a94c906d9fd", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "SCHOOL", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-622de888-8af2-42bf-90d2-5dda507038bc", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-d0a0b642-8be4-480a-916a-758a8455c6ed", "family": "form", "tests": "FacForm", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-c7b12e7e-2fa1-497f-bafc-f1039be10c57", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-63ec2d26-aef6-45bc-a722-78166d4e3d3b", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-b4b93132-8e71-46f5-9ede-7c8790384e9b", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-5e317d16-2f2b-4add-885e-c2c5c9062be6", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-001c10f6-6e75-41b3-8b6e-b8c44788edfa", "family": "form", "tests": "CasEqual", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-e16ed4d7-0511-43dd-a34f-5989d699bee5", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "COMPLEX NUMBERS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-6c297426-5c2a-47c1-baf5-6ef793b41805", "family": "form", "tests": "EqualComAss", "topic": "VECTORS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-e5dc1abc-8050-4dcb-8322-9105d24a52c1", "family": "form", "tests": "EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-a74a756c-6557-4421-8bfc-492df8314c96", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-1ab1f744-9d92-4976-b7ac-42610e147c59", "family": "subst", "tests": "SubstEquiv", "topic": "FUNCTIONS", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-1e21a0df-6eb6-44fb-9791-93dd4edb60ff", "family": "form", "tests": "EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-430dd110-23a5-4776-a526-4803acb2c8c9", "family": "form", "tests": "EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-c23c5769-396b-480d-9342-a60f4fe7165d", "family": "form", "tests": "FacForm", "topic": "FUNCTIONS", "pass": false, "bridge_covered": null}
+{"rc_id": "rc-15907d7b-9e61-49b4-b568-f2ba04b486ab", "family": "form", "tests": "EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-2befa074-49a2-4491-b64f-a4c0fdc6b055", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-f268354c-9834-493c-8f1e-e0aa090d4270", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-eddb297f-08a2-45ea-b383-ebabe55fed2e", "family": "numerical", "tests": "AlgEquiv|NumRelative", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-114bacd5-da01-472d-a354-d46e3d4a35ba", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FUNCTIONS", "pass": false, "bridge_covered": null}
+{"rc_id": "rc-5981cd46-1af4-4cf2-bbec-8f1ab726133f", "family": "form", "tests": "AlgEquiv|FacForm", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-b365e146-ba9d-4ef7-a11c-441a7d878b7d", "family": "form", "tests": "EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-cc08c4b1-d1f8-4a61-9a75-9a444679723b", "family": "numerical", "tests": "AlgEquiv|NumRelative", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-d0a84cd9-e60e-4427-9da5-286e10d6607a", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-59a4f11a-691a-4750-9b00-559472aa3775", "family": "form", "tests": "EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-45661197-0eb6-4229-82b5-cf731670228d", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FUNCTIONS", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-9d5d2882-8927-40b4-88ef-8b626fc975ee", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FUNCTIONS", "pass": false, "bridge_covered": null}
+{"rc_id": "rc-c125b99c-b72a-4521-94b0-eef1770e899a", "family": "numerical", "tests": "NumRelative", "topic": "GEOMETRY", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-61434ebe-5906-4450-90f8-0f3eab5479f4", "family": "form", "tests": "EqualComAss", "topic": "LINEAR ALGEBRA", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-de510d3e-e570-4a3e-b183-523719e41c6a", "family": "form", "tests": "EqualComAss", "topic": "LINEAR ALGEBRA", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-a5e55ed6-cbe4-4a8b-a471-0464ed9cfcb0", "family": "form", "tests": "EqualComAss", "topic": "LINEAR ALGEBRA", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-a673b9cc-fef5-44a0-84d9-6da28b7259f6", "family": "form", "tests": "EqualComAss", "topic": "LINEAR ALGEBRA", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-a980d4e3-435d-4e10-b1aa-84976036efa4", "family": "form", "tests": "EqualComAss", "topic": "LINEAR ALGEBRA", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-4ba78582-649b-4bcf-b785-e414081e823a", "family": "form", "tests": "EqualComAss", "topic": "LINEAR ALGEBRA", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-1d1fd1f9-56d3-4713-9bf1-00f5c56652d4", "family": "form", "tests": "EqualComAss", "topic": "LINEAR ALGEBRA", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-beb53301-3bdc-4bb0-ba28-c2091ba530d7", "family": "numerical", "tests": "AlgEquiv|NumRelative", "topic": "DIFFERENTIAL CALCULUS 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-d1494c52-9383-4681-8741-c9bdd9364631", "family": "numerical", "tests": "AlgEquiv|NumAbsolute", "topic": "NUMBER SERIES", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-913fe35a-19e9-49f5-8c06-04384bbcb6b9", "family": "numerical", "tests": "AlgEquiv|NumAbsolute", "topic": "NUMBER SERIES", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-f4cde515-101d-444a-af4b-47334bd54cec", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-30926669-a5ae-407b-a9fd-384e907e70d4", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-243dd8bd-7954-4134-a2aa-c34284344083", "family": "form", "tests": "EqualComAss|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-dc186dbc-17ec-49ec-b542-8c0f03fc8407", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-a82dc6d0-7cf2-4e18-897f-6a0d8420438f", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-3161a06a-9d5f-427b-8b61-d2d9936c67e7", "family": "int", "tests": "Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-33546aee-8c3e-43d9-964a-92192e31a638", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-38a9355e-83dd-48fb-9855-1d14a0c8f85c", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": false, "bridge_covered": null}
+{"rc_id": "rc-e7164a2c-3d7f-4dd6-9e9c-1a3aad65a4be", "family": "numerical", "tests": "AlgEquiv|NumAbsolute", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-688ab4ff-caf0-4230-bd4d-3e4f88a98927", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-c4bf6ce0-11ac-4849-a66b-7626f90df024", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-5a4d06bc-2777-4eff-b647-b0ae146e0c50", "family": "int", "tests": "Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-91643436-bb8f-4c56-b8b0-6cd02332225e", "family": "int", "tests": "Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-1542b3a2-e5eb-4569-8cb5-b6005a97adcc", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-63eec0ce-eee9-4a8c-8fed-749812a8bdde", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0432a2ca-7a57-45c1-a08c-9e1e86e3dd7b", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-545e4a04-7b7b-4903-8791-48128e2cbe2c", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-6e2346e8-05d0-43b5-ac26-7540b396e1dc", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-562942e6-0fb7-40f7-ab64-1fcd27fcadce", "family": "form", "tests": "AlgEquiv|PartFrac", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-e5d139d9-8577-4345-b950-d02ece71845b", "family": "numerical", "tests": "NumRelative", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-c070d83a-e21c-4671-9cdf-db5dcc96b1a1", "family": "numerical", "tests": "NumRelative", "topic": "INTEGRATION 1D", "pass": false, "bridge_covered": null}
+{"rc_id": "rc-f23dd6aa-5fbe-4032-b359-3e94d7b0657f", "family": "int", "tests": "AlgEquiv|Int", "topic": "INTEGRATION 1D", "pass": false, "bridge_covered": null}
+{"rc_id": "rc-640fa528-55c1-4289-8fbb-d00ea0b93332", "family": "numerical", "tests": "NumRelative", "topic": "INTEGRATION 1D", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-66190152-a87b-4916-9985-68290d26265e", "family": "subst", "tests": "SubstEquiv", "topic": "ORDINARY DIFFERENTIAL EQUATIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-46625fe9-583c-4ded-82f8-8e3c0e850bf5", "family": "subst", "tests": "SubstEquiv", "topic": "ORDINARY DIFFERENTIAL EQUATIONS", "pass": true, "bridge_covered": false}
+{"rc_id": "rc-ab4fd9e6-61fa-4d8f-9f03-0f3889603a88", "family": "subst", "tests": "SubstEquiv", "topic": "ORDINARY DIFFERENTIAL EQUATIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-19f9f074-2821-4cd7-9fb4-65c5edfdceec", "family": "subst", "tests": "SubstEquiv", "topic": "ORDINARY DIFFERENTIAL EQUATIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-31b5e138-320f-489a-85a3-4e7dc927bc21", "family": "subst", "tests": "SubstEquiv", "topic": "ORDINARY DIFFERENTIAL EQUATIONS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-1f48a711-fb04-4f8f-85da-41c044fc7641", "family": "form", "tests": "AlgEquiv|EqualComAss", "topic": "FOURIER SERIES", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-62ccf541-60cc-4367-bf59-e5b3b3af8eba", "family": "numerical", "tests": "NumRelative", "topic": "MULTIVARIATE ANALYSIS", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-87d42a8a-ca4f-4a8a-8985-f0ebc60791e6", "family": "numerical", "tests": "NumAbsolute", "topic": "STATISTIC", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-0fc31e95-d1d5-45c3-a5ba-aefb729357da", "family": "numerical", "tests": "NumAbsolute", "topic": "NUMERIC", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-97570157-8697-4957-9d26-c0e9efcddff3", "family": "form", "tests": "EqualComAss", "topic": "NUMERIC", "pass": true, "bridge_covered": true}
+{"rc_id": "rc-e01efd6a-9aba-4468-96c0-c94bfc81d659", "family": "form", "tests": "EqualComAss", "topic": "NUMERIC", "pass": true, "bridge_covered": true}

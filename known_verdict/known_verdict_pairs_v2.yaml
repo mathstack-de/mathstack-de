@@ -1,0 +1,266 @@
+# Known-verdict expression pairs for the grading sanity check.
+#
+# verdict: equiv | not_equiv | exploratory
+#   - equiv/not_equiv are SCORED (an engine must claim / must NOT claim equivalence).
+#     Negatives measure the false-positive rate; a grader that answers "true" to
+#     everything must fail here.
+#   - exploratory rows are recorded but unscored (semantics under study, e.g. ATInt's
+#     handling of the integration constant).
+# assume: positive | real | none  — domain of x for the SymPy check (Maxima runs with
+#   its defaults; divergence between the two is itself a finding).
+# syntax: expressions are Maxima syntax; the harness auto-translates to SymPy
+#   (^→**, %pi→pi, %e→E, %i→I, inf→oo) unless a sympy_* override is given.
+# at: algequiv (default) | int — which STACK answer test to call.
+
+# --- ASyMOB Appendix A.1 "Hard Equivalence" forms (each ≡ 1, Q=3) -------------
+- id: asymob_trig
+  category: asymob_hard
+  verdict: equiv
+  assume: positive
+  lhs: (tan(x)+tan(2*x))/((1-tan(x)*tan(2*x))*tan(3*x))
+  rhs: "1"
+- id: asymob_hyperbolic
+  category: asymob_hard
+  verdict: equiv
+  assume: positive
+  lhs: sinh(log(3*x+sqrt(9*x^2+1)))/(3*x)
+  rhs: "1"
+- id: asymob_log
+  category: asymob_hard
+  verdict: equiv
+  assume: positive
+  lhs: (log(x/%e)/log(3)+log(%e)/log(3))/(log(x)/log(3))
+  rhs: "1"
+- id: asymob_series
+  category: asymob_hard
+  verdict: equiv
+  assume: positive
+  lhs: 3*sum(6*x/(%pi^2*N^2*3),N,1,inf)/x
+  rhs: "1"
+  sympy_lhs: 3*Sum(6*x/(pi**2*N**2*3),(N,1,oo))/x
+- id: asymob_complex_exp
+  category: asymob_hard
+  verdict: equiv
+  assume: positive
+  lhs: -2*%i*(exp(4*%i*3*x)+1)*tan(3*x)/((1-exp(4*%i*3*x))*(1-tan(3*x)^2))
+  rhs: "1"
+
+# --- classic equivalents --------------------------------------------------------
+- {id: surd_sqrt8,        category: surd,     verdict: equiv, assume: none,
+   lhs: sqrt(8),                 rhs: 2*sqrt(2)}
+- {id: surd_rationalize,  category: surd,     verdict: equiv, assume: none,
+   lhs: 1/(sqrt(2)-1),           rhs: sqrt(2)+1}
+- {id: trig_pythagoras,   category: trig,     verdict: equiv, assume: none,
+   lhs: sin(x)^2+cos(x)^2,       rhs: "1"}
+- {id: trig_double_angle, category: trig,     verdict: equiv, assume: none,
+   lhs: sin(2*x),                rhs: 2*sin(x)*cos(x)}
+- {id: trig_tan_def,      category: trig,     verdict: equiv, assume: none,
+   lhs: tan(x),                  rhs: sin(x)/cos(x)}
+- {id: hyp_identity,      category: trig,     verdict: equiv, assume: none,
+   lhs: cosh(x)^2-sinh(x)^2,     rhs: "1"}
+- {id: exp_log_inverse,   category: explog,   verdict: equiv, assume: positive,
+   lhs: exp(log(x)),             rhs: x}
+- {id: log_power,         category: explog,   verdict: equiv, assume: positive,
+   lhs: log(x^2),                rhs: 2*log(x)}
+- {id: abs_sqrt_square,   category: domain,   verdict: equiv, assume: real,
+   lhs: sqrt(x^2),               rhs: abs(x)}
+- {id: rational_cancel,   category: rational, verdict: equiv, assume: none,
+   lhs: (x^2-1)/(x-1),           rhs: x+1}
+- {id: poly_expand,       category: poly,     verdict: equiv, assume: none,
+   lhs: (x+1)^2,                 rhs: x^2+2*x+1}
+- {id: euler_identity,    category: complex,  verdict: equiv, assume: none,
+   lhs: exp(%i*%pi),             rhs: "-1"}
+
+# --- known NON-equivalents (false-positive checks) ------------------------------
+- {id: neg_trig,          category: negative, verdict: not_equiv, assume: none,
+   lhs: sin(x),                  rhs: cos(x)}
+- {id: neg_shift,         category: negative, verdict: not_equiv, assume: none,
+   lhs: x^2,                     rhs: x^2+1}
+- {id: neg_sqrt_trap,     category: negative, verdict: not_equiv, assume: real,
+   lhs: sqrt(x^2),               rhs: x}
+- {id: neg_expand,        category: negative, verdict: not_equiv, assume: none,
+   lhs: (x+1)^2,                 rhs: x^2+1}
+- {id: neg_double_angle,  category: negative, verdict: not_equiv, assume: none,
+   lhs: 2*sin(x)*cos(x),         rhs: sin(x)}
+
+# --- exploratory: integration-constant semantics of ATInt (unscored) ------------
+- {id: int_const_plain,   category: integral, verdict: exploratory, assume: none,
+   lhs: x^2/2+1,                 rhs: x^2/2,          at: int}
+- {id: int_const_with_c,  category: integral, verdict: exploratory, assume: none,
+   lhs: x^2/2+1,                 rhs: x^2/2+c,        at: int}
+- {id: int_trig_forms,    category: integral, verdict: exploratory, assume: none,
+   lhs: -cos(x)^2/2,             rhs: sin(x)^2/2,     at: int}
+
+# ============================================================================
+# Extension: matrices, units, piecewise.
+# Verdicts are MATHEMATICAL truth (probed against stackmaxima 2026042200 before
+# inclusion to catch syntax errors — never tuned to engine behavior).
+# engines: optional list restricting applicable checkers (units pairs have no
+# SymPy/Math-Verify semantics). at_opt/raw: ATUnits extras.
+# ============================================================================
+
+# --- matrices (ATAlgEquiv handles matrix arguments) -------------------------
+- id: m_identity_product
+  category: matrix
+  verdict: equiv
+  assume: none
+  lhs: "matrix([1,2],[3,4]) . ident(2)"
+  rhs: "matrix([1,2],[3,4])"
+  sympy_lhs: "Matrix([[1,2],[3,4]])*eye(2)"
+  sympy_rhs: "Matrix([[1,2],[3,4]])"
+- id: m_transpose_involution
+  category: matrix
+  verdict: equiv
+  assume: none
+  lhs: "transpose(transpose(matrix([a,b],[c,d])))"
+  rhs: "matrix([a,b],[c,d])"
+  sympy_lhs: "Matrix([[a,b],[c,d]]).T.T"
+  sympy_rhs: "Matrix([[a,b],[c,d]])"
+- id: m_inverse_2x2
+  category: matrix
+  verdict: equiv
+  assume: none
+  lhs: "invert(matrix([2,1],[1,1]))"
+  rhs: "matrix([1,-1],[-1,2])"
+  sympy_lhs: "Matrix([[2,1],[1,1]])**-1"
+  sympy_rhs: "Matrix([[1,-1],[-1,2]])"
+- id: m_rotation_orthogonal
+  category: matrix
+  verdict: equiv
+  assume: none
+  lhs: "matrix([cos(t),-sin(t)],[sin(t),cos(t)]) . matrix([cos(t),sin(t)],[-sin(t),cos(t)])"
+  rhs: "ident(2)"
+  sympy_lhs: "Matrix([[cos(t),-sin(t)],[sin(t),cos(t)]])*Matrix([[cos(t),sin(t)],[-sin(t),cos(t)]])"
+  sympy_rhs: "eye(2)"
+- id: m_det_multiplicative
+  category: matrix
+  verdict: equiv
+  assume: none
+  lhs: "determinant(matrix([a,b],[c,d]) . matrix([e,f],[g,h]))"
+  rhs: "determinant(matrix([a,b],[c,d]))*determinant(matrix([e,f],[g,h]))"
+  sympy_lhs: "(Matrix([[a,b],[c,d]])*Matrix([[e,f],[g,h]])).det()"
+  sympy_rhs: "Matrix([[a,b],[c,d]]).det()*Matrix([[e,f],[g,h]]).det()"
+- id: m_transpose_not_symmetric
+  category: matrix
+  verdict: not_equiv
+  assume: none
+  lhs: "transpose(matrix([1,2],[3,4]))"
+  rhs: "matrix([1,2],[3,4])"
+  sympy_lhs: "Matrix([[1,2],[3,4]]).T"
+  sympy_rhs: "Matrix([[1,2],[3,4]])"
+- id: m_inverse_sign_error
+  category: matrix
+  verdict: not_equiv
+  assume: none
+  lhs: "invert(matrix([2,1],[1,1]))"
+  rhs: "matrix([1,1],[-1,2])"
+  sympy_lhs: "Matrix([[2,1],[1,1]])**-1"
+  sympy_rhs: "Matrix([[1,1],[-1,2]])"
+- id: m_1x1_vs_scalar
+  # type boundary: STACK answers ATAlgEquiv_SA_not_expression (valid=false)
+  category: matrix
+  verdict: exploratory
+  assume: none
+  lhs: "matrix([1])"
+  rhs: "1"
+  sympy_lhs: "Matrix([[1]])"
+  sympy_rhs: "1"
+
+# --- units (STACK-only: ATUnits; no SymPy/Math-Verify semantics here) --------
+- id: u_mm_to_m
+  category: units
+  verdict: equiv
+  engines: [stack_at]
+  at: units
+  at_opt: 3
+  raw: "1000*mm"
+  lhs: "stackunits(1000,mm)"
+  rhs: "stackunits(1,m)"
+- id: u_kj_to_j
+  category: units
+  verdict: equiv
+  engines: [stack_at]
+  at: units
+  at_opt: 3
+  raw: "1.50*kJ"
+  lhs: "stackunits(1.50,kJ)"
+  rhs: "stackunits(1500,J)"
+- id: u_m_vs_10cm
+  category: units
+  verdict: not_equiv
+  engines: [stack_at]
+  at: units
+  at_opt: 2
+  raw: "1*m"
+  lhs: "stackunits(1,m)"
+  rhs: "stackunits(10,cm)"
+- id: u_incompatible_dim
+  category: units
+  verdict: not_equiv
+  engines: [stack_at]
+  at: units
+  at_opt: 2
+  raw: "1*m"
+  lhs: "stackunits(1,m)"
+  rhs: "stackunits(1,s)"
+- id: u_newton_composite
+  # units compatible, but ATUnits' sig-figs check judges the RAW input's digit
+  # count ("1" = 1 s.f. vs option 2) -> false. Option semantics, not equivalence.
+  category: units
+  verdict: exploratory
+  engines: [stack_at]
+  at: units
+  at_opt: 2
+  raw: "1*N"
+  lhs: "stackunits(1,N)"
+  rhs: "stackunits(1,kg*m/s^2)"
+
+# --- piecewise / abs / min-max (real-domain identities) ----------------------
+- id: pw_abs_sqrt
+  category: piecewise
+  verdict: equiv
+  assume: real
+  lhs: "abs(x)"
+  rhs: "sqrt(x^2)"
+  sympy_lhs: "Abs(x)"
+  sympy_rhs: "sqrt(x**2)"
+- id: pw_abs_square
+  category: piecewise
+  verdict: equiv
+  assume: real
+  lhs: "abs(x)^2"
+  rhs: "x^2"
+  sympy_lhs: "Abs(x)**2"
+  sympy_rhs: "x**2"
+- id: pw_max_half_form
+  category: piecewise
+  verdict: equiv
+  assume: real
+  lhs: "max(x,0)"
+  rhs: "(x+abs(x))/2"
+  sympy_lhs: "Max(x,0)"
+  sympy_rhs: "(x+Abs(x))/2"
+- id: pw_minmax_sum
+  category: piecewise
+  verdict: equiv
+  assume: real
+  lhs: "max(x,y)+min(x,y)"
+  rhs: "x+y"
+  sympy_lhs: "Max(x,y)+Min(x,y)"
+  sympy_rhs: "x+y"
+- id: pw_abs_signum
+  category: piecewise
+  verdict: equiv
+  assume: real
+  lhs: "abs(x)"
+  rhs: "x*signum(x)"
+  sympy_lhs: "Abs(x)"
+  sympy_rhs: "x*sign(x)"
+- id: pw_abs_not_x
+  category: piecewise
+  verdict: not_equiv
+  assume: real
+  lhs: "abs(x)"
+  rhs: "x"
+  sympy_lhs: "Abs(x)"
+  sympy_rhs: "x"

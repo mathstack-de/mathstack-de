@@ -1,0 +1,43 @@
+{
+  "rows": 1610,
+  "models": [
+    "gemma4:31b",
+    "qwen3:32b",
+    "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M",
+    "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+    "gpt-5-2025-08-07"
+  ],
+  "rows_per_model": 322,
+  "grader_commit": "7b556ed3c517ed210398ac6a6091339494f6f749",
+  "retained_models": [
+    "gemma4:31b",
+    "qwen3:32b",
+    "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M",
+    "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+    "gpt-5-2025-08-07"
+  ],
+  "dropped_models": [],
+  "math_verify_input": "LaTeX from a non-executing SymPy parse of Maxima-like text",
+  "producer_commits": [
+    "070cc775a4fb6a6c7b62ebf23836dfe33b497560",
+    "4796d0c43398c4359b5e0828d74325b02c03b7bd",
+    "af8859a24c5f1255faef049a398bb2b5f492ffa9"
+  ],
+  "sha256": {
+    "answers": "973558822c517a7f61e83a3a9b8d1bac305b8e2f541d5717d3fbfc324b943241",
+    "instances": "26605c2702ecd2c8e232a4ec96b94b00d64e1efd216799f2aea972668e2a5c23",
+    "draw_log": "a567f83434a668b8d1605383f255de412c1b1ac21250623f2ba3fc34627b0c01",
+    "selection": "de8e827992a123e20ce089dfb6675f5d7465fe4ca3e68a8ec064964d1a716fc5",
+    "model_roster": "0dc2ab3742c1a8de67422cb1a1d770dada318c4c05895c4b0dfb54e0f0def6e2",
+    "profiles": "8081a4c504451f21c48957b980c5bba75f4f871ed08df330bd0a616910caf7a6",
+    "profile_probes": "68a8d1056d54b2cce5e187c68fc407fa3191a25341899cdc80a977fe86e143e9",
+    "preflight_probes": "4de87a53aee4f7a3274ee1739d375134f47c37475cb072b67b5d21214493ff05",
+    "protocol": "472bbf5d6788bb2090f9593f7c712b067f4b008d496aeeee92fabfd686779b15",
+    "grader": "be29bc0de6f67eb931e2931dee125865d4f83ccc39b330d0fb914e26947b2f18",
+    "stack_client": "baee30fa38b2cbb630aeea4a4ad52c6f133f831524149b807f39a61f5356f80f",
+    "corpus/quiz-Math1-Math2.xml": "d92c2cc4f694e11c1d41cf1e623512b7598c4151a795ec3520c48a3eb274f597",
+    "corpus/quiz-Numeric.xml": "cc2c965cfc68b93416598982dc51c1248764cecfe86c4944e568b895f556ada5",
+    "results": "c0d323361dec9cc559b8fdd8ac149eeb7767845e0daf552c395a262cab3bb7ee",
+    "disagreements": "9b0c185bee41729e75c6afe9d8fe505cdabfe4e9e0298becbd466024034421e4"
+  }
+}

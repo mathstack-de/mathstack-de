@@ -1,0 +1,16 @@
+{
+  "schema_version": 1,
+  "generation_mode": "blind",
+  "teacher_answer_exposed": false,
+  "model": "claude-sonnet-4-6",
+  "provider": "anthropic",
+  "generation_profile": {
+    "max_tokens": 32000,
+    "thinking": "adaptive_if_supported",
+    "structured_transport": "tool_auto_when_required"
+  },
+  "structured_output": true,
+  "stackmaxima_version": "2026042200",
+  "system_prompt_sha256": "489546c06dfbf3d5a721d625dd79d5460b1e9b2c941636cfb0735c4fd04da21b",
+  "planned_questions": 262
+}

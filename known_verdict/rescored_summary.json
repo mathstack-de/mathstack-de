@@ -1,0 +1,32 @@
+{
+  "stack_at": {
+    "equiv": "26/29",
+    "not_equiv_decisive": "10/10",
+    "not_equiv_errors": 0,
+    "false_positives": 0
+  },
+  "sympy_default": {
+    "equiv": "22/27",
+    "not_equiv_decisive": "8/8",
+    "not_equiv_errors": 0,
+    "false_positives": 0
+  },
+  "sympy_engineered": {
+    "equiv": "21/27 (4 errors)",
+    "not_equiv_decisive": "6/6",
+    "not_equiv_errors": 2,
+    "false_positives": 0
+  },
+  "maxima_chain": {
+    "equiv": "20/27",
+    "not_equiv_decisive": "8/8",
+    "not_equiv_errors": 0,
+    "false_positives": 0
+  },
+  "math_verify": {
+    "equiv": "21/27",
+    "not_equiv_decisive": "8/8",
+    "not_equiv_errors": 0,
+    "false_positives": 0
+  }
+}

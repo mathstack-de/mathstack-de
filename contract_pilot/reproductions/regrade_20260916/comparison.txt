@@ -1,0 +1,2 @@
+REPRODUCTION 2 (fresh re-grade through STACK + bridges): 400 rows compared | differing cells: {'status': 0, 'score': 0, 'sympy_eq': 0, 'math_verify_eq': 0, 'string_eq': 0} | IDENTICAL
+Method: answers.jsonl, instances.jsonl, selection.csv copied to a scratch directory; pilot_grade.py run there (PILOT_DATA_DIR) against the same pinned engine; results.csv merged with the repository results.csv on (rc_id, seed, rep, model) and compared cell by cell on status, score, sympy_eq, math_verify_eq, string_eq. Recount script: reproductions/recount_20260916.py

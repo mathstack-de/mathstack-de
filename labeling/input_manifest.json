@@ -1,0 +1,126 @@
+{
+  "cloze_control_counts": {
+    "MULTICHOICE": 24,
+    "NUMERICAL": 23
+  },
+  "cloze_questions_sanitized": 9,
+  "cloze_transform": {
+    "MULTICHOICE": "visible options retained; correctness markers removed",
+    "NUMERICAL": "teacher value/tolerance replaced by a numeric-input marker"
+  },
+  "derived_xml_is_annotation_only": true,
+  "expected_stack_engine_version": "2026042200",
+  "expert_reference_questions": 200,
+  "generation_contract": {
+    "endpoint": {
+      "max_tokens": 1000,
+      "model": "claude-sonnet-4-6",
+      "provider": "anthropic",
+      "sample": false,
+      "temperature": 0.0
+    },
+    "evaluate_maxima_variables": true,
+    "maxima_backend": "service",
+    "maxima_expected_version": "2026042200",
+    "maxima_fail_on_error": true,
+    "maxima_max_workers": 16,
+    "maxima_random_seed": 42,
+    "maxima_service_url": "http://127.0.0.1:18080/maxima",
+    "preflight_expected_rows": 2403,
+    "prompt_column": [
+      "questiontext_maxima_evaluated_no_html_syntax",
+      "answeroptions",
+      "generalfeedback_maxima_evaluated_no_html_syntax"
+    ],
+    "strict_json_parsing": true
+  },
+  "model_prompt_columns": [
+    "questiontext_maxima_evaluated_no_html_syntax",
+    "answeroptions",
+    "generalfeedback_maxima_evaluated_no_html_syntax"
+  ],
+  "model_prompt_excludes_xml_fields": [
+    "prt",
+    "questionnote",
+    "questionsamplesolutiontext",
+    "samplesolution",
+    "samplesolutionrender",
+    "tans"
+  ],
+  "non_stack_questions": 799,
+  "question_type_counts": {
+    "cloze": 9,
+    "ddimageortext": 2,
+    "ddwtos": 218,
+    "description": 61,
+    "essay": 94,
+    "gapselect": 3,
+    "matching": 3,
+    "mtf": 1,
+    "multichoice": 331,
+    "numerical": 34,
+    "shortanswer": 3,
+    "stack": 1604,
+    "truefalse": 40
+  },
+  "questions": 2403,
+  "rc_ids_unique": true,
+  "record_type": "full_v1_1_model_input",
+  "render_response_fields_not_copied": [
+    "prt",
+    "questionnote",
+    "questionsamplesolutiontext",
+    "samplesolution",
+    "samplesolutionrender",
+    "teacher_answer"
+  ],
+  "seed": 42,
+  "sha256": {
+    "annotation_policy_v1_1": "ea28b8cc3dcf2e7ec4ff1e70c72483ab0699357d77503f8648a26fe3762b0513",
+    "builder": "5d98d0738888ca717eeba053fca5aaaade26a86c0771e3091c5f1029f714a7f2",
+    "cloze_sanitization": "f6abfb913a3aab085040999b5110f23b3d639445d916c1d648572c1fe89d6087",
+    "derived_xml": "35c91026a6fd9de907e664eec41f730c24d16588c6ce57006e047cf8c88055a3",
+    "expected_id_frame": "d2a702e8fc82a72fdbd72ee1f9d600f4965237905503485903c1824ec61e4de5",
+    "expert_reference": "32f4ec5977c19e0f96a194d405e044fccaa87db1581e7ce5823ead181cbd5a55",
+    "model_vocabulary_flat_v1_1": "b67faa8cbb9e3f73da3583faeb87427c186116551f54d92bae2cc1ebf5ff095e",
+    "model_vocabulary_payload_v1_1": "215938e4de05c556fe7163747515ed30c8cda925f539b4dedefe2d9e8395b2b5",
+    "stack_controls": "374f52b015d937de4ab23f62c76cdee7b4c94429e9c29421f494972a595cfbd1",
+    "system_prompt_v1_1": "6cfde62b93c73bb7e1119da72fd6407a71201f421b307426e41c7d9690d68f8e",
+    "vocabulary_v1_1": "c3ef7a9c306885eb83837d6bde2f7a11ad12f25c8ae61ef5486accee968ffa14"
+  },
+  "source_xml_retains_stack_grading_definition": true,
+  "sources": [
+    {
+      "path": "quiz-Math1-Math2.xml",
+      "questions": 2071,
+      "sha256": "af11776a07a180d496fcc1ac6abc8f907b3525aa3d2850bc0c13fd7104c72136"
+    },
+    {
+      "path": "quiz-Numeric.xml",
+      "questions": 332,
+      "sha256": "cc2c965cfc68b93416598982dc51c1248764cecfe86c4944e568b895f556ada5"
+    }
+  ],
+  "stack_api": "http://127.0.0.1:3080",
+  "stack_extraction_allowlist": [
+    "questioninputs[*].configuration.type",
+    "questioninputs[*].configuration.options"
+  ],
+  "stack_questions": 1604,
+  "stack_selection_control_counts": {
+    "boolean": 19,
+    "dropdown": 93,
+    "radio": 25
+  },
+  "stack_selection_questions": 78,
+  "status": "frozen_pre_request_input",
+  "text_only_media": {
+    "image_option_questions": 5,
+    "image_options": 16,
+    "pixels_supplied_to_model": false,
+    "preprocessing_contract": "retain image alt text when present; otherwise emit an explicit image/image-option marker",
+    "questiontext_image_questions": 80,
+    "questiontext_images": 101,
+    "questiontext_images_with_alt": 51
+  }
+}

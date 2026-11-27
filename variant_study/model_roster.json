@@ -1,0 +1,72 @@
+{
+  "profiles_sha256": "8081a4c504451f21c48957b980c5bba75f4f871ed08df330bd0a616910caf7a6",
+  "gate_templates": [
+    "rc-440bef36-d0bd-480b-a778-9a3f6e429416",
+    "rc-20aa76b5-c5e5-4903-85f0-540804215e26",
+    "rc-0df2ac6d-ecdb-42e0-815e-b83bb5587eee",
+    "rc-9302aa49-9cbb-4901-ac2d-23417e328c7e",
+    "rc-fa242fa6-a2d4-4433-a1d3-d88ec49555ee",
+    "rc-2935c966-c927-4ce8-9d7a-8066ec846e10",
+    "rc-ba7151aa-9677-46cb-8e58-d44422722d8c",
+    "rc-25f7726b-95bd-48f1-ae6e-006f8824ff11",
+    "rc-b85345e8-dfe9-42a0-9fba-102ecdbc6847",
+    "rc-89a3979f-6fa3-4049-a0de-4705d3eb54d1",
+    "rc-f151550d-c191-40cd-b323-0e05a7bc108c",
+    "rc-c2f73561-5d83-4ef8-acfa-f58706170d0a",
+    "rc-86139d5c-f419-4f2a-bd8d-294c10019cbc",
+    "rc-c4a00e59-1207-426c-a81a-a66825f1d584",
+    "rc-0ef292d3-3513-46df-9295-178113c9c979"
+  ],
+  "gate_rows_per_model": 72,
+  "retained_models": [
+    "gemma4:31b",
+    "qwen3:32b",
+    "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M",
+    "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M",
+    "gpt-5-2025-08-07"
+  ],
+  "dropped_models": [],
+  "outcomes": {
+    "gemma4:31b": {
+      "complete": true,
+      "have": 72,
+      "expected": 72,
+      "extraction_rate": 1.0,
+      "median_latency_s": 47.25,
+      "continue": true
+    },
+    "qwen3:32b": {
+      "complete": true,
+      "have": 72,
+      "expected": 72,
+      "extraction_rate": 1.0,
+      "median_latency_s": 24.2,
+      "continue": true
+    },
+    "hf.co/unsloth/GLM-4-32B-0414-GGUF:Q4_K_M": {
+      "complete": true,
+      "have": 72,
+      "expected": 72,
+      "extraction_rate": 1.0,
+      "median_latency_s": 8.4,
+      "continue": true
+    },
+    "hf.co/unsloth/GLM-Z1-32B-0414-GGUF:Q4_K_M": {
+      "complete": true,
+      "have": 72,
+      "expected": 72,
+      "extraction_rate": 0.9027777777777778,
+      "median_latency_s": 17.25,
+      "continue": true
+    },
+    "gpt-5-2025-08-07": {
+      "complete": true,
+      "have": 72,
+      "expected": 72,
+      "extraction_rate": 1.0,
+      "median_latency_s": 5.5,
+      "continue": true
+    }
+  },
+  "generated_at": "2026-07-17T06:10:37+00:00"
+}

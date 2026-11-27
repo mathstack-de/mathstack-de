@@ -1,0 +1,1203 @@
+# MathStack-DE concept vocabulary.
+# version: v1.1_2026-07
+# Release fields: stable ids, German labels, English reference translations, concept types, approved definitions, and cross-references.
+LOG:
+- id: LOG.01
+  de: Aussagenlogik
+  en: Propositional logic
+  type: object
+- id: LOG.02
+  de: Prädikatenlogik
+  en: Predicate logic
+  type: object
+- id: LOG.03
+  de: Kombinatorische Logik
+  en: Combinatorial logic
+  type: object
+  definition: Nur taggen, wenn kombinatorische Logik ausdrücklich Gegenstand der Aufgabe ist.
+    Nicht für allgemeine Aussagenlogik oder Wahrheitstafeln — dafür LOG.01. Nicht für kombinatorisches
+    Zählen — dafür PROB.13.
+  see_also:
+  - PROB.13
+- id: LOG.04
+  de: Quantoren
+  en: Quantifiers
+  type: object
+- id: LOG.05
+  de: Beweismethode
+  en: Proof method
+  type: method
+  definition: Nur taggen, wenn die Aufgabe eine mathematische Wahrheit ÜBER die bloße Definition
+    hinaus etabliert (Äquivalenz zeigen, Induktion, Widerspruch, Kontraposition, Gegenbeispiel).
+    NICHT für den Nachweis einer Eigenschaft durch Einsetzen in die Definition — dafür LOG.08.
+  see_also:
+  - LOG.08
+- id: LOG.06
+  de: Logische Schlüsse
+  en: Logical inference
+  type: method
+  definition: Taggen, wenn aus mehreren Voraussetzungen, Bedingungen oder Zwischenergebnissen
+    eine neue mathematische Aussage abzuleiten oder die Gültigkeit einer Folgerung zu beurteilen
+    ist. Nicht taggen für einen einzelnen routinemäßigen Rechenschritt, bloßes Einsetzen,
+    algebraisches Umformen oder die direkte Anwendung einer Formel.
+- id: LOG.07
+  de: De-Morgan-Regeln
+  en: De Morgan's laws
+  type: property
+- id: LOG.08
+  de: Nachweis über Definition
+  en: Verification via definition
+  type: method
+  definition: Taggen, wenn eine Eigenschaft durch direktes Prüfen/Einsetzen der Definition
+    nachzuweisen ist (z.B. lokales Maximum über die Umgebungsdefinition) — kein Beweis im
+    Sinne von LOG.05.
+  see_also:
+  - LOG.05
+SET:
+- id: SET.01
+  de: Mengenoperationen
+  en: Set operations
+  type: method
+- id: SET.02
+  de: Teilmengen
+  en: Subsets
+  type: object
+- id: SET.03
+  de: Kardinalität
+  en: Cardinality
+  type: property
+- id: SET.04
+  de: Zahlenmengen
+  en: Number sets
+  type: object
+- id: SET.05
+  de: Intervall
+  en: Interval
+  type: object
+GRDL:
+- id: GRDL.01
+  de: Arithmetische Grundoperationen
+  en: Basic arithmetic operations
+  type: method
+- id: GRDL.02
+  de: Bruchrechnung
+  en: Fraction arithmetic
+  type: method
+- id: GRDL.03
+  de: Potenzgesetze
+  en: Laws of exponents
+  type: property
+- id: GRDL.04
+  de: Logarithmengesetze
+  en: Laws of logarithms
+  type: property
+- id: GRDL.05
+  de: Dreisatz
+  en: Rule of three
+  type: method
+- id: GRDL.06
+  de: Prozentrechnung
+  en: Percentage calculation
+  type: method
+- id: GRDL.07
+  de: Algebraische Gleichung
+  en: Algebraic equation
+  type: object
+- id: GRDL.08
+  de: Algebraische Ungleichung
+  en: Algebraic inequality
+  type: object
+- id: GRDL.09
+  de: Fallunterscheidung Betrag
+  en: Case distinction (absolute value)
+  type: method
+- id: GRDL.10
+  de: Koeffizientenvergleich
+  en: Comparison of coefficients
+  type: method
+- id: GRDL.11
+  de: Ausdruck substituieren
+  en: Substituting an expression
+  type: method
+- id: GRDL.12
+  de: Binomische Formel
+  en: Binomial formula
+  type: property
+- id: GRDL.13
+  de: Lösungsformel quadratische Gleichung
+  en: Quadratic formula
+  type: method
+- id: GRDL.14
+  de: Bogenmaß und Gradmaß
+  en: Radian and degree measure
+  type: object
+- id: GRDL.15
+  de: Algebraische Terme vereinfachen
+  en: Simplifying algebraic terms
+  type: method
+- id: GRDL.16
+  de: Fakultät
+  en: Factorial
+  type: object
+- id: GRDL.17
+  de: Absolutbetrag
+  en: Absolute value
+  type: object
+- id: GRDL.18
+  de: Summenzeichen
+  en: Summation notation
+  type: object
+- id: GRDL.19
+  de: Produktzeichen
+  en: Product notation
+  type: object
+- id: GRDL.20
+  de: Binomialkoeffizient
+  en: Binomial coefficient
+  type: object
+- id: GRDL.21
+  de: Runden von Dezimalzahlen
+  en: Rounding decimal numbers
+  type: method
+  definition: Taggen, wenn das Runden einer Dezimalzahl auf eine vorgegebene Stellenzahl selbst
+    die geforderte Fertigkeit ist. Nicht taggen für bloße Anzeigeformatierung oder eine beiläufig
+    gerundete Zwischenrechnung.
+FKN:
+- id: FKN.01
+  de: Definitionsbereich
+  en: Domain
+  type: property
+- id: FKN.02
+  de: Bildbereich
+  en: Range (image)
+  type: property
+- id: FKN.03
+  de: Berechnung eines Funktionswerts
+  en: Evaluating a function value
+  type: method
+  definition: Nur taggen, wenn das Auswerten einer Funktion an einer Stelle die eigentliche
+    geforderte Fertigkeit ist. Nicht taggen für bloßes Einsetzen als Nebenrechnung innerhalb
+    einer anderen Methode.
+- id: FKN.04
+  de: Graph
+  en: Graph
+  type: object
+  definition: Nur taggen, wenn der Graph selbst gelesen, interpretiert, gezeichnet, ausgewählt
+    oder zur Lösung benutzt werden muss. Nicht taggen, nur weil eine Funktion graphisch darstellbar
+    ist oder in der Musterlösung erwähnt wird.
+- id: FKN.05
+  de: Monotonie
+  en: Monotonicity
+  type: property
+- id: FKN.06
+  de: Symmetrie
+  en: Symmetry
+  type: property
+- id: FKN.07
+  de: Periodizität
+  en: Periodicity
+  type: property
+- id: FKN.08
+  de: Asymptotisches Verhalten
+  en: Asymptotic behavior
+  type: property
+- id: FKN.09
+  de: Umkehrfunktion
+  en: Inverse function
+  type: object
+- id: FKN.10
+  de: Nullstelle
+  en: Root (zero)
+  type: object
+- id: FKN.11
+  de: Polstelle
+  en: Pole
+  type: object
+- id: FKN.12
+  de: Potenzfunktion
+  en: Power function
+  type: function_class
+- id: FKN.13
+  de: Wurzelfunktion
+  en: Root function
+  type: function_class
+- id: FKN.14
+  de: Lineare Funktion
+  en: Linear function
+  type: function_class
+- id: FKN.15
+  de: Betragsfunktion
+  en: Absolute-value function
+  type: function_class
+- id: FKN.16
+  de: Parabel
+  en: Parabola
+  type: function_class
+- id: FKN.17
+  de: Polynom
+  en: Polynomial
+  type: object
+- id: FKN.18
+  de: Rationale Funktion
+  en: Rational function
+  type: function_class
+- id: FKN.19
+  de: Logarithmusfunktion
+  en: Logarithmic function
+  type: function_class
+- id: FKN.20
+  de: Exponentialfunktion
+  en: Exponential function
+  type: function_class
+- id: FKN.21
+  de: Trigonometrische Funktion
+  en: Trigonometric function
+  type: function_class
+- id: FKN.22
+  de: Harmonische Schwingung
+  en: Harmonic oscillation
+  type: object
+- id: FKN.23
+  de: Stückweise definierte Funktion
+  en: Piecewise-defined function
+  type: function_class
+- id: FKN.24
+  de: Arkusfunktionen
+  en: Inverse trigonometric functions
+  type: function_class
+- id: FKN.25
+  de: Verkettung von Funktionen
+  en: Composition of functions
+  type: method
+- id: FKN.26
+  de: Ausgleichsgerade
+  en: Regression line
+  type: object
+  definition: Nur taggen, wenn die Ausgleichsgerade selbst verlangt, interpretiert oder verwendet
+    wird. Für das Durchführen der linearen Ausgleichsrechnung (kleinste Quadrate) stattdessen
+    "Lineare Ausgleichsrechnung"; für nichtlineare Anpassung "Nichtlineare Ausgleichsrechnung".
+    Nicht taggen für beliebige Geraden, Tangenten oder lineare Funktionen.
+  see_also:
+  - LA.12
+  - NUM.18
+- id: FKN.27
+  de: Interpolation
+  en: Interpolation
+  type: method
+- id: FKN.28
+  de: Faktorisierung von Polynomen
+  en: Polynomial factorization
+  type: method
+- id: FKN.29
+  de: Polynomdivision
+  en: Polynomial division
+  type: method
+- id: FKN.30
+  de: Injektivität, Surjektivität, Bijektivität einer Funktion
+  en: Injectivity, surjectivity, bijectivity of a function
+  type: property
+  see_also:
+  - FKN.09
+- id: FKN.31
+  de: Additionstheoreme
+  en: Trigonometric addition theorems
+  type: property
+  see_also:
+  - FKN.21
+  - C.07
+- id: FKN.32
+  de: Abbildungsvorschrift
+  en: Constructing a mapping
+  type: object
+  definition: Taggen, wenn die Abbildungsvorschrift einer Funktion aus gegebenen Eigenschaften
+    zu konstruieren ist.
+- id: FKN.33
+  de: Nichtlineare transzendente Gleichung
+  en: Nonlinear transcendental equation
+  type: object
+  definition: Taggen, wenn eine nichtlineare Gleichung zu lösen ist, in der transzendente
+    Funktionen auftreten.
+- id: FKN.34
+  de: Hyperbolische Funktionen und Areafunktionen
+  en: Hyperbolic and inverse hyperbolic functions
+  type: function_class
+C:
+- id: C.01
+  de: Komplexe Zahlen
+  en: Complex numbers
+  type: object
+- id: C.02
+  de: Arganddiagramm (Gaußsche Zahlenebene)
+  en: Argand diagram (complex plane)
+  type: object
+- id: C.03
+  de: Polarform
+  en: Polar form
+  type: object
+- id: C.04
+  de: Wurzelziehen im Komplexen
+  en: Roots of complex numbers
+  type: method
+- id: C.05
+  de: Komplexe Nullstelle
+  en: Complex root
+  type: object
+- id: C.06
+  de: Eulersche Identität
+  en: Euler's identity
+  type: theorem
+- id: C.07
+  de: Komplexe Exponentialfunktion
+  en: Complex exponential function
+  type: function_class
+- id: C.08
+  de: Fundamentalsatz der Algebra
+  en: Fundamental theorem of algebra
+  type: theorem
+VEC:
+- id: VEC.01
+  de: Spatprodukt
+  en: Scalar triple product
+  type: method
+- id: VEC.02
+  de: Kreuzprodukt
+  en: Cross product
+  type: method
+- id: VEC.03
+  de: Skalarprodukt
+  en: Dot product
+  type: method
+- id: VEC.04
+  de: Vektor
+  en: Vector
+  type: object
+- id: VEC.05
+  de: Einheitsvektor
+  en: Unit vector
+  type: object
+- id: VEC.06
+  de: Länge und Richtung eines Vektors
+  en: Magnitude and direction of a vector
+  type: property
+- id: VEC.07
+  de: Linearkombination
+  en: Linear combination
+  type: object
+- id: VEC.08
+  de: Lineare Unabhängigkeit
+  en: Linear independence
+  type: property
+- id: VEC.09
+  de: Orthonormalbasis
+  en: Orthonormal basis
+  type: object
+- id: VEC.10
+  de: Orthogonalität
+  en: Orthogonality
+  type: property
+- id: VEC.11
+  de: Dimension eines Vektorraums
+  en: Dimension of a vector space
+  type: property
+- id: VEC.12
+  de: Basis eines Vektorraums
+  en: Basis of a vector space
+  type: object
+- id: VEC.13
+  de: Basiswechsel
+  en: Change of basis
+  type: method
+GEO:
+- id: GEO.01
+  de: Flächennormale
+  en: Surface normal
+  type: object
+- id: GEO.03
+  de: Rechtwinkliges Dreieck
+  en: Right triangle
+  type: object
+- id: GEO.04
+  de: Kreisgleichung
+  en: Equation of a circle
+  type: object
+- id: GEO.05
+  de: Parallelität
+  en: Parallelism
+  type: property
+- id: GEO.07
+  de: Schnitt und Lagebeziehungen von Geraden und Ebenen
+  en: Intersections and relative positions of lines and planes
+  type: method
+  see_also:
+  - GEO.05
+- id: GEO.08
+  de: Kugelgleichung
+  en: Equation of a sphere
+  type: object
+LA:
+- id: LA.01
+  de: Matrix-Matrix Multiplikation
+  en: Matrix-matrix multiplication
+  type: method
+- id: LA.02
+  de: Matrix-Vektor Multiplikation
+  en: Matrix-vector multiplication
+  type: method
+- id: LA.03
+  de: Abbildungsmatrix (lineare Algebra)
+  en: Transformation matrix (matrix representation of a linear map)
+  type: object
+  see_also:
+  - LA.02
+  - VEC.13
+- id: LA.04
+  de: Determinante
+  en: Determinant
+  type: property
+- id: LA.05
+  de: Inverse Matrix
+  en: Inverse matrix
+  type: object
+- id: LA.06
+  de: Transponierte Matrix
+  en: Transpose matrix
+  type: object
+- id: LA.07
+  de: Rang einer Matrix
+  en: Rank of a matrix
+  type: property
+- id: LA.08
+  de: Kern einer Matrix
+  en: Kernel (null space) of a matrix
+  type: object
+- id: LA.09
+  de: Bild einer Matrix
+  en: Image (column space) of a matrix
+  type: object
+- id: LA.10
+  de: Lineares Gleichungssystem
+  en: System of linear equations
+  type: object
+- id: LA.11
+  de: Gaußsches Eliminationsverfahren
+  en: Gaussian elimination
+  type: method
+  definition: Taggen, wenn die Aufgabe darin besteht ein lineares Gleichungssystem systematisch
+    zu lösen oder eine Lösbarkeitsanalyse für ein lineares Gleichungssystem durchzuführen.
+    Nicht taggen, wenn der Rang oder der Defekt einer Matrix zu bestimmen ist.
+- id: LA.12
+  de: Lineare Ausgleichsrechnung
+  en: Linear least squares
+  type: method
+  see_also:
+  - FKN.26
+  - NUM.18
+- id: LA.13
+  de: Eigenwerte und Eigenvektoren
+  en: Eigenvalues and eigenvectors
+  type: object
+- id: LA.14
+  de: Charakteristisches Polynom (lineare Algebra / Eigenwerte)
+  en: Characteristic polynomial (linear algebra)
+  type: object
+  see_also:
+  - ODE.04
+- id: LA.15
+  de: Cramersche Regel
+  en: Cramer's rule
+  type: theorem
+- id: LA.16
+  de: Linearität einer Abbildung
+  en: Linearity of a map/operator
+  type: property
+  definition: Nachweisen oder Anwenden der Linearität einer Abbildung/eines Operators (inkl.
+    Integraltransformationen); nicht für bloßes Rechnen mit Matrizen.
+  see_also:
+  - LT.01
+  - FT.01
+- id: LA.17
+  de: Adjungierte Matrix
+  en: Adjoint matrix
+  type: object
+- id: LA.18
+  de: Spektralzerlegung einer Matrix
+  en: Spectral decomposition of a matrix
+  type: method
+- id: LA.19
+  de: Erweiterte Koeffizientenmatrix
+  en: Augmented coefficient matrix
+  type: object
+  definition: Taggen, wenn ein lineares Gleichungssystem als erweiterte Koeffizientenmatrix
+    dargestellt, gelesen oder verwendet werden muss.
+- id: LA.20
+  de: Elementare Zeilenumformung
+  en: Elementary row operation
+  type: method
+  definition: Taggen, wenn nach einer Matrix gefragt ist, die eine elementare Zeilenumformung
+    realisiert, oder, wenn in der Aufgabe ausschließlich nach dem Rang oder dem Defekt einer
+    Matrix gefragt ist. Nicht taggen, wenn ein inhomogenes, lineares Gleichungssystem zu lösen
+    ist.
+SEQ-LIM:
+- id: SEQ-LIM.01
+  de: Häufungspunkt
+  en: Accumulation point
+  type: object
+- id: SEQ-LIM.02
+  de: Konvergenz
+  en: Convergence
+  type: property
+  definition: Taggen, wenn das Konvergenzverhalten einer Folge zu analysieren ist und die
+    Folge konvergent ist.
+- id: SEQ-LIM.03
+  de: Folge
+  en: Sequence
+  type: object
+- id: SEQ-LIM.04
+  de: Grenzwert
+  en: Limit
+  type: object
+- id: SEQ-LIM.05
+  de: Stetigkeit
+  en: Continuity
+  type: property
+- id: SEQ-LIM.06
+  de: Divergenz
+  en: Divergence
+  type: property
+  definition: Taggen, wenn das Konvergenzverhalten einer Folge zu analysieren ist und die
+    Folge divergent ist.
+DR:
+- id: DR.01
+  de: Differenzierbarkeit
+  en: Differentiability
+  type: property
+- id: DR.02
+  de: Gemischte Ableitungsregeln
+  en: Mixed differentiation rules
+  type: method
+  definition: Taggen, wenn mehr als eine einzige Ableitungsregel angewendet werden muss. Nicht
+    taggen, wenn nur eine spezifische Ableitungsregel nötig ist, um die Ableitung zu berechnen.
+- id: DR.03
+  de: Produktregel
+  en: Product rule
+  type: method
+- id: DR.04
+  de: Quotientenregel
+  en: Quotient rule
+  type: method
+- id: DR.05
+  de: Kettenregel
+  en: Chain rule
+  type: method
+- id: DR.06
+  de: Regel von L'Hospital
+  en: L'Hôpital's rule
+  type: theorem
+- id: DR.07
+  de: Stationäre Stelle
+  en: Stationary point
+  type: object
+- id: DR.09
+  de: Tangente
+  en: Tangent
+  type: object
+- id: DR.10
+  de: Schmiegeparabel
+  en: Osculating parabola
+  type: object
+- id: DR.11
+  de: Höhere Ableitung
+  en: Higher-order derivative
+  type: object
+- id: DR.12
+  de: Extremstellen (lokal und global)
+  en: Extrema (local and global)
+  type: object
+  see_also:
+  - DR.07
+- id: DR.13
+  de: Extrema mit Nebenbedingungen
+  en: Constrained extrema
+  type: method
+  see_also:
+  - DR.12
+  - MULTI.03
+- id: DR.14
+  de: Wendepunkt und Krümmungsverhalten
+  en: Inflection point and curvature behavior
+  type: property
+  definition: Taggen, wenn Wendepunkte oder Konvexitäts-/Konkavitäts-/Krümmungsverhalten einer
+    Funktion zu bestimmen oder zu begründen sind, typischerweise über zweite/höhere Ableitungen.
+    Nicht für allgemeine Kurvendiskussion ohne explizite Krümmung oder Wendepunkt.
+  see_also:
+  - DR.11
+  - DR.12
+SER:
+- id: SER.01
+  de: Geometrische Reihe
+  en: Geometric series
+  type: object
+- id: SER.02
+  de: Harmonische Reihe
+  en: Harmonic series
+  type: object
+- id: SER.03
+  de: Quotientenkriterium
+  en: Ratio test
+  type: method
+INT:
+- id: INT.01
+  de: Flächenberechnung
+  en: Area calculation
+  type: method
+- id: INT.02
+  de: Partielle Integration
+  en: Integration by parts
+  type: method
+- id: INT.03
+  de: Integration durch Substitution
+  en: Integration by substitution
+  type: method
+- id: INT.04
+  de: Stückweise Integration
+  en: Piecewise integration
+  type: method
+- id: INT.05
+  de: Partialbruchzerlegung
+  en: Partial fraction decomposition
+  type: method
+- id: INT.08
+  de: Rotationsvolumen
+  en: Volume of revolution
+  type: object
+- id: INT.09
+  de: Uneigentliches Integral
+  en: Improper integral
+  type: object
+- id: INT.10
+  de: Kurvenintegral
+  en: Line integral
+  type: object
+- id: INT.11
+  de: Bogenlänge
+  en: Arc length
+  type: object
+- id: INT.12
+  de: Stammfunktion
+  en: Antiderivative
+  type: object
+- id: INT.13
+  de: Bestimmtes Integral
+  en: Definite integral
+  type: object
+- id: INT.14
+  de: Integrationskonstante
+  en: Constant of integration
+  type: object
+ODE:
+- id: ODE.01
+  de: Nichtlineare Differentialgleichung
+  en: Nonlinear differential equation
+  type: object
+- id: ODE.03
+  de: Anfangsbedingung
+  en: Initial condition
+  type: object
+- id: ODE.04
+  de: Charakteristisches Polynom (lineare Differentialgleichungen)
+  en: Characteristic polynomial (ODE)
+  type: object
+  see_also:
+  - LA.14
+- id: ODE.05
+  de: Fundamentalsystem
+  en: Fundamental system
+  type: object
+- id: ODE.06
+  de: Wronski-Determinante
+  en: Wronskian
+  type: object
+- id: ODE.07
+  de: Trennung der Variablen
+  en: Separation of variables
+  type: method
+- id: ODE.08
+  de: Ansatz vom Typ der rechten Seite
+  en: Method of undetermined coefficients
+  type: method
+- id: ODE.09
+  de: Variation der Konstanten
+  en: Variation of parameters
+  type: method
+- id: ODE.10
+  de: Lineare Differentialgleichung ohne Inhomogenität
+  en: Homogeneous linear differential equation
+  type: object
+- id: ODE.11
+  de: Lineare Differentialgleichung mit Inhomogenität
+  en: Inhomogeneous linear differential equation
+  type: object
+- id: ODE.13
+  de: Mathematische Resonanz
+  en: Resonance
+  type: object
+- id: ODE.16
+  de: System von Differentialgleichungen erster Ordnung
+  en: System of first-order differential equations
+  type: object
+PR:
+- id: PR.01
+  de: Potenzreihe
+  en: Power series
+  type: object
+- id: PR.02
+  de: Taylorpolynom
+  en: Taylor polynomial
+  type: object
+- id: PR.03
+  de: Restgliedabschätzung
+  en: Remainder estimation
+  type: method
+- id: PR.04
+  de: Konvergenzradius
+  en: Radius of convergence
+  type: property
+- id: PR.05
+  de: Randanalyse Potenzreihe
+  en: Boundary analysis of a power series
+  type: method
+- id: PR.06
+  de: Koeffizienten der Taylorreihe
+  en: Taylor series coefficients
+  type: object
+- id: PR.07
+  de: Taylorreihe
+  en: Taylor series
+  type: object
+FR:
+- id: FR.01
+  de: Fourierreihe
+  en: Fourier series
+  type: object
+- id: FR.02
+  de: Grundfrequenz
+  en: Fundamental frequency
+  type: object
+- id: FR.03
+  de: Fourierpolynom
+  en: Fourier polynomial
+  type: object
+- id: FR.04
+  de: Fourierkoeffizient
+  en: Fourier coefficient
+  type: object
+FT:
+- id: FT.01
+  de: Fouriertransformation
+  en: Fourier transform
+  type: method
+- id: FT.02
+  de: Frequenzraum
+  en: Frequency domain
+  type: object
+- id: FT.03
+  de: Tabellarisierte Fouriertransformation
+  en: Fourier transform via tables
+  type: method
+- id: FT.04
+  de: Fouriertransformation für symmetrische Signale
+  en: Fourier transform for symmetric signals
+  type: method
+- id: FT.05
+  de: Eigenschaften der Fouriertransformation
+  en: Properties of the Fourier transform
+  type: property
+  definition: Taggen, wenn Standardeigenschaften der Fouriertransformation, beispielsweise
+    Linearität oder Verschiebung, ohne Beweis benutzt werden.
+LT:
+- id: LT.01
+  de: Laplacetransformation
+  en: Laplace transform
+  type: method
+- id: LT.02
+  de: Inverse Laplacetransformation
+  en: Inverse Laplace transform
+  type: method
+- id: LT.03
+  de: Tabellarisierte Laplacetransformation
+  en: Laplace transform via tables
+  type: method
+- id: LT.04
+  de: Laplacetransformation für periodische Signale
+  en: Laplace transform for periodic signals
+  type: method
+- id: LT.05
+  de: Eigenschaften der Laplacetransformation
+  en: Properties of the Laplace transform
+  type: property
+  definition: Taggen, wenn Standardeigenschaften der Laplacetransformation, beispielsweise
+    Linearität oder Verschiebung, ohne Beweis benutzt werden.
+PROB:
+- id: PROB.01
+  de: Zufallsvariable
+  en: Random variable
+  type: object
+- id: PROB.02
+  de: Bedingte Wahrscheinlichkeiten
+  en: Conditional probability
+  type: object
+- id: PROB.03
+  de: Gleichverteilung
+  en: Uniform distribution
+  type: function_class
+- id: PROB.04
+  de: Poissonverteilung
+  en: Poisson distribution
+  type: function_class
+- id: PROB.05
+  de: Binomialverteilung
+  en: Binomial distribution
+  type: function_class
+- id: PROB.06
+  de: Exponentialverteilung
+  en: Exponential distribution
+  type: function_class
+- id: PROB.07
+  de: Normalverteilung
+  en: Normal distribution
+  type: function_class
+- id: PROB.08
+  de: Diskrete Wahrscheinlichkeitsverteilung
+  en: Discrete probability distribution
+  type: object
+- id: PROB.09
+  de: Stetige Wahrscheinlichkeitsverteilung
+  en: Continuous probability distribution
+  type: object
+- id: PROB.10
+  de: Erwartungswert
+  en: Expected value
+  type: property
+- id: PROB.11
+  de: Varianz und Standardabweichung
+  en: Variance and standard deviation
+  type: property
+- id: PROB.12
+  de: Verteilungsfunktion
+  en: Cumulative distribution function
+  type: object
+- id: PROB.13
+  de: Kombinatorik
+  en: Combinatorics
+  type: object
+- id: PROB.14
+  de: Kovarianz
+  en: Covariance
+  type: property
+- id: PROB.15
+  de: Wahrscheinlichkeitsbaum
+  en: Probability tree
+  type: method
+- id: PROB.16
+  de: Unabhängiges Ereignis
+  en: Independent event
+  type: property
+- id: PROB.17
+  de: Gesetz der großen Zahlen
+  en: Law of large numbers
+  type: theorem
+- id: PROB.18
+  de: Zentraler Grenzwertsatz
+  en: Central limit theorem
+  type: theorem
+- id: PROB.19
+  de: Bernoulli-Verteilung
+  en: Bernoulli distribution
+  type: function_class
+- id: PROB.20
+  de: Laplace-Wahrscheinlichkeit
+  en: Classical probability
+  type: property
+STAT:
+- id: STAT.01
+  de: Deskriptive Statistik
+  en: Descriptive statistics
+  type: object
+- id: STAT.02
+  de: Mittelwert
+  en: Mean
+  type: property
+- id: STAT.03
+  de: Zeitreihen
+  en: Time series
+  type: object
+- id: STAT.04
+  de: Häufigkeiten
+  en: Frequency distribution
+  type: object
+- id: STAT.05
+  de: Konzentrationsmaß
+  en: Concentration measure
+  type: object
+- id: STAT.06
+  de: Korrelation
+  en: Correlation
+  type: property
+- id: STAT.07
+  de: Median und Quantile
+  en: Median and quantiles
+  type: property
+- id: STAT.08
+  de: Lorenzkurve
+  en: Lorenz curve
+  type: object
+- id: STAT.09
+  de: Gini-Koeffizient
+  en: Gini coefficient
+  type: property
+- id: STAT.10
+  de: Bestimmtheitsmaß
+  en: Coefficient of determination
+  type: property
+- id: STAT.11
+  de: Konfidenzintervall
+  en: Confidence interval
+  type: object
+- id: STAT.12
+  de: Hypothesentest
+  en: Hypothesis test
+  type: method
+- id: STAT.13
+  de: Indexzahlen
+  en: Index numbers
+  type: object
+FINA:
+- id: FINA.01
+  de: Annuität
+  en: Annuity
+  type: object
+- id: FINA.02
+  de: Kapitalwert
+  en: Net present value
+  type: object
+- id: FINA.03
+  de: Zinsrechnung
+  en: Interest calculation
+  type: method
+- id: FINA.04
+  de: Barwert
+  en: Present value
+  type: object
+- id: FINA.05
+  de: Endwert
+  en: Future value
+  type: object
+- id: FINA.06
+  de: Festverzinsliches Wertpapier
+  en: Fixed-income security
+  type: object
+- id: FINA.07
+  de: Zeitrenten
+  en: Time-based annuities
+  type: object
+- id: FINA.08
+  de: Effektivzins
+  en: Effective interest rate
+  type: object
+- id: FINA.09
+  de: Tilgungsrechnung
+  en: Amortization calculation
+  type: method
+MULTI:
+- id: MULTI.01
+  de: Fehlerrechnung
+  en: Error propagation
+  type: method
+- id: MULTI.02
+  de: Multivariate Funktion
+  en: Multivariable function
+  type: function_class
+- id: MULTI.03
+  de: Gradient
+  en: Gradient
+  type: object
+- id: MULTI.04
+  de: Tangentialebene
+  en: Tangent plane
+  type: object
+- id: MULTI.05
+  de: Divergenz (Ableitungsoperator)
+  en: Divergence
+  type: method
+- id: MULTI.06
+  de: Rotation (Ableitungsoperator)
+  en: Curl
+  type: method
+- id: MULTI.07
+  de: Jacobi-Matrix
+  en: Jacobian matrix
+  type: object
+- id: MULTI.08
+  de: Hesse-Matrix
+  en: Hessian matrix
+  type: object
+- id: MULTI.09
+  de: Partielle Ableitung
+  en: Partial derivative
+  type: method
+- id: MULTI.10
+  de: Laplace-Gleichung
+  en: Laplace equation
+  type: object
+- id: MULTI.11
+  de: Helmholtz-Gleichung
+  en: Helmholtz equation
+  type: object
+- id: MULTI.12
+  de: Maxwell-Gleichungen
+  en: Maxwell's equations
+  type: object
+- id: MULTI.13
+  de: Mehrdimensionale Integralrechnung
+  en: Multidimensional integration
+  type: method
+- id: MULTI.14
+  de: Satz von Fubini
+  en: Fubini's theorem
+  type: theorem
+- id: MULTI.15
+  de: Kugelkoordinaten
+  en: Spherical coordinates
+  type: object
+- id: MULTI.16
+  de: Zylinderkoordinaten
+  en: Cylindrical coordinates
+  type: object
+- id: MULTI.17
+  de: Höhenlinien
+  en: Contour lines (level curves)
+  type: object
+NUM:
+- id: NUM.01
+  de: Rechnerarithmetik
+  en: Computer arithmetic
+  type: object
+- id: NUM.02
+  de: Zahlensysteme
+  en: Number systems
+  type: object
+- id: NUM.03
+  de: Bisektionsverfahren
+  en: Bisection method
+  type: method
+- id: NUM.04
+  de: Gleitpunktzahlen
+  en: Floating-point numbers
+  type: object
+- id: NUM.05
+  de: Newtonverfahren
+  en: Newton's method
+  type: method
+- id: NUM.06
+  de: Eulersches Polygonzugverfahren
+  en: Euler's method (polygonal)
+  type: method
+- id: NUM.07
+  de: Gradientenabstiegsverfahren
+  en: Gradient descent
+  type: method
+- id: NUM.08
+  de: Gauß-Newton-Verfahren
+  en: Gauss-Newton method
+  type: method
+- id: NUM.09
+  de: LR-Zerlegung
+  en: LU decomposition
+  type: method
+- id: NUM.10
+  de: QR-Zerlegung
+  en: QR decomposition
+  type: method
+- id: NUM.11
+  de: Konditionszahl
+  en: Condition number
+  type: property
+- id: NUM.12
+  de: Finite Differenz
+  en: Finite difference
+  type: method
+- id: NUM.13
+  de: Finite Elemente
+  en: Finite elements
+  type: method
+- id: NUM.14
+  de: Approximationsordnung
+  en: Order of approximation
+  type: property
+- id: NUM.15
+  de: Konvergenzordnung
+  en: Order of convergence
+  type: property
+- id: NUM.16
+  de: Quadratische Optimierung
+  en: Quadratic programming
+  type: method
+- id: NUM.17
+  de: Optimierung
+  en: Optimization
+  type: method
+- id: NUM.18
+  de: Nichtlineare Ausgleichsrechnung
+  en: Nonlinear least squares
+  type: method
+  see_also:
+  - FKN.26
+  - LA.12
+- id: NUM.19
+  de: Stabilität
+  en: Stability
+  type: property
+- id: NUM.20
+  de: Runge-Kutta-Verfahren
+  en: Runge-Kutta method
+  type: method
+- id: NUM.21
+  de: Newton-Cotes-Formeln
+  en: Newton-Cotes formulas
+  type: method
+- id: NUM.22
+  de: Implizites Trapez-Verfahren
+  en: Implicit trapezoidal method
+  type: method
+- id: NUM.23
+  de: Diskrete Fouriertransformation
+  en: Discrete Fourier transform
+  type: method
+- id: NUM.24
+  de: Residuum
+  en: Residual
+  type: object
+- id: NUM.25
+  de: Trapezregel
+  en: Trapezoidal rule
+  type: method
+- id: NUM.26
+  de: Simpson-Regel
+  en: Simpson's rule
+  type: method
+- id: NUM.27
+  de: Lineare Optimierung
+  en: Linear programming
+  type: method
+- id: NUM.28
+  de: Pivotisierung
+  en: Pivoting
+  type: method
+- id: NUM.29
+  de: Spline-Interpolation
+  en: Spline interpolation
+  type: method
+- id: NUM.30
+  de: Polynomiale Newton-Interpolation
+  en: Newton polynomial interpolation
+  type: method

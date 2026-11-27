@@ -1,0 +1,21 @@
+{
+ "draw_seed": 20260916,
+ "quota": {
+  "subst": 3,
+  "numerical": 4,
+  "int": 5,
+  "form": 8
+ },
+ "topic_cap": 6,
+ "pool_pass": 94,
+ "picked": 20,
+ "skipped": [],
+ "input_sha256": {
+  "inputs/gated_pool.jsonl": "045128468f6a164f00a7a9d9944161771147e658b065de28d9c52ba82b7b9cfe",
+  "inputs/gated_pool_coverage.jsonl": "d56d8467848bfd9956476d438f15e0de983f3d7cb77958355d18a557967025a7",
+  "inputs/candidates.csv": "ff438d8a0c6148e82abcfab2a035b6d373a24db7af93bc5e729c7ec77349671e",
+  "inputs/gate_pool.py": "fb3b1f0fc40138bf509c220520a440550f5947c1f0277f33b5b9ec9518ff23c9"
+ },
+ "protocol_sha256": "5d2c8ff3210da42d7eca12a6e25789c0fe092af9660fc302e8589c899c991d89",
+ "drawn": "2026-09-16T00:00:34+00:00"
+}

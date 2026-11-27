@@ -1,0 +1,22 @@
+{
+  "timestamp": "20260728T111049Z",
+  "api_base": "http://127.0.0.1:3080",
+  "corpus_files": 2,
+  "stack_questions": 1604,
+  "seeds": [
+    1,
+    2,
+    3,
+    42,
+    1000
+  ],
+  "render_calls": 8020,
+  "calls_ok": 8020,
+  "calls_fail": 0,
+  "questions_pass_all_seeds": 1604,
+  "questions_fail_any_seed": 0,
+  "test_run": false,
+  "test_ok": 0,
+  "test_fail": 0,
+  "detail_csv": "render_results_20260728T111049Z.csv"
+}

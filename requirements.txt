@@ -1,0 +1,8 @@
+# Python packages for the commands under "What you can run" in README.md
+# (Python 3.12).
+numpy==2.5.1
+pandas==3.0.3
+pytest==9.1.1
+# Only baselines/evaluate.py needs scikit-learn: it records the installed
+# version. It was run with scikit-learn 1.7.2.
+scikit-learn==1.7.2

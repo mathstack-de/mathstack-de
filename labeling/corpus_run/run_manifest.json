@@ -1,0 +1,166 @@
+{
+  "model": "claude-sonnet-4-6",
+  "statuses": {
+    "valid_empty": 15,
+    "tagged": 2388
+  },
+  "recovered_rows": 0,
+  "unmapped_model_suggestions": {},
+  "rows_out": 2403,
+  "annotation_statistics": {
+    "active_concepts": 271,
+    "used_concepts": 254,
+    "zero_assigned_concepts": [
+      {
+        "concept_id": "FINA.01",
+        "label": "Annuität"
+      },
+      {
+        "concept_id": "FINA.02",
+        "label": "Kapitalwert"
+      },
+      {
+        "concept_id": "FINA.05",
+        "label": "Endwert"
+      },
+      {
+        "concept_id": "FINA.06",
+        "label": "Festverzinsliches Wertpapier"
+      },
+      {
+        "concept_id": "FINA.07",
+        "label": "Zeitrenten"
+      },
+      {
+        "concept_id": "FINA.08",
+        "label": "Effektivzins"
+      },
+      {
+        "concept_id": "FINA.09",
+        "label": "Tilgungsrechnung"
+      },
+      {
+        "concept_id": "GEO.08",
+        "label": "Kugelgleichung"
+      },
+      {
+        "concept_id": "INT.11",
+        "label": "Bogenlänge"
+      },
+      {
+        "concept_id": "LOG.03",
+        "label": "Kombinatorische Logik"
+      },
+      {
+        "concept_id": "MULTI.10",
+        "label": "Laplace-Gleichung"
+      },
+      {
+        "concept_id": "MULTI.11",
+        "label": "Helmholtz-Gleichung"
+      },
+      {
+        "concept_id": "MULTI.12",
+        "label": "Maxwell-Gleichungen"
+      },
+      {
+        "concept_id": "NUM.01",
+        "label": "Rechnerarithmetik"
+      },
+      {
+        "concept_id": "NUM.13",
+        "label": "Finite Elemente"
+      },
+      {
+        "concept_id": "PROB.17",
+        "label": "Gesetz der großen Zahlen"
+      },
+      {
+        "concept_id": "PROB.19",
+        "label": "Bernoulli-Verteilung"
+      }
+    ],
+    "tag_assignments": 9148,
+    "tag_count_min": 0,
+    "tag_count_median": 4,
+    "tag_count_max": 13,
+    "tag_count_mean": 3.806908031627133
+  },
+  "producer": {
+    "model": "claude-sonnet-4-6",
+    "provider": "anthropic",
+    "temperature": 0.0,
+    "max_tokens": 1000,
+    "structured_output": "closed_label_tool",
+    "structured_output_repair_attempts": 1,
+    "allowed_labels_sha256": "1d455352f5415ec8d0d05b0a931e43780f3892b042528ce5c31b8abc11804d03",
+    "system_prompt_sha256": "7f018d8f44ba57828b35ed4df5721182abde6bc3dcbbafaa3d8b8203c43328da",
+    "predefined_classes_sha256": "215938e4de05c556fe7163747515ed30c8cda925f539b4dedefe2d9e8395b2b5",
+    "resumed_from": {
+      "meta": {
+        "model": "claude-sonnet-4-6",
+        "provider": "anthropic",
+        "temperature": 0.0,
+        "max_tokens": 1000,
+        "structured_output": "closed_label_tool",
+        "allowed_labels_sha256": "1d455352f5415ec8d0d05b0a931e43780f3892b042528ce5c31b8abc11804d03",
+        "system_prompt_sha256": "7f018d8f44ba57828b35ed4df5721182abde6bc3dcbbafaa3d8b8203c43328da",
+        "predefined_classes_sha256": "215938e4de05c556fe7163747515ed30c8cda925f539b4dedefe2d9e8395b2b5",
+        "resumed_from": {
+          "meta": {
+            "model": "claude-sonnet-4-6",
+            "provider": "anthropic",
+            "temperature": 0.0,
+            "max_tokens": 1000,
+            "structured_output": "closed_label_tool",
+            "allowed_labels_sha256": "1d455352f5415ec8d0d05b0a931e43780f3892b042528ce5c31b8abc11804d03",
+            "system_prompt_sha256": "7f018d8f44ba57828b35ed4df5721182abde6bc3dcbbafaa3d8b8203c43328da",
+            "predefined_classes_sha256": "215938e4de05c556fe7163747515ed30c8cda925f539b4dedefe2d9e8395b2b5"
+          }
+        }
+      }
+    }
+  },
+  "generation_contract": {
+    "prompt_column": [
+      "questiontext_maxima_evaluated_no_html_syntax",
+      "answeroptions",
+      "generalfeedback_maxima_evaluated_no_html_syntax"
+    ],
+    "evaluate_maxima_variables": true,
+    "maxima_random_seed": 42,
+    "maxima_backend": "service",
+    "maxima_service_url": "http://127.0.0.1:18080/maxima",
+    "maxima_max_workers": 16,
+    "maxima_expected_version": "2026042200",
+    "maxima_fail_on_error": true,
+    "endpoint": {
+      "provider": "anthropic",
+      "model": "claude-sonnet-4-6",
+      "temperature": 0.0,
+      "max_tokens": 1000,
+      "sample": false,
+      "structured_output": "closed_label_tool",
+      "structured_output_repair_attempts": 1
+    },
+    "strict_json_parsing": true,
+    "preflight_expected_rows": 2403
+  },
+  "sha256": {
+    "flat_vocab_shown_to_model": "b67faa8cbb9e3f73da3583faeb87427c186116551f54d92bae2cc1ebf5ff095e",
+    "normalizer_code": "86fd7cbf8276294f1d19b584226c8d02b94341fc45f822499a4205f6fbae8d7a",
+    "annotation_policy": "ea28b8cc3dcf2e7ec4ff1e70c72483ab0699357d77503f8648a26fe3762b0513",
+    "expected_id_frame": "d2a702e8fc82a72fdbd72ee1f9d600f4965237905503485903c1824ec61e4de5",
+    "input_manifest": "d295676927561b8604f44c48eb561ba2f00f1118db2b6a2e51b6605a61d60f7e",
+    "model_input_xml": "6862f93165741a09f2f18b68e85dc0721865e98a29784eea85b20f7bec832e21",
+    "results": "4ad0858d72f33e7e93936cfc93e995262893c1894ee627782e5e1eff14774284",
+    "responses": "919ed06abddccc7b6e818c6418494fca6f82267b90e28a9b00cfa59794d438b7",
+    "run_config": "d1532859818bdbd8f3ed0cd026b8e4607eeabc8ecd352fa384bf98325e62aa02",
+    "vocab": "c3ef7a9c306885eb83837d6bde2f7a11ad12f25c8ae61ef5486accee968ffa14",
+    "twins": "876fb6fd9744e94e0c5ee4c67aa5a195bff96c99bea532fd75d6966297615b03",
+    "output": "1f43e2d32f5b14c6c90252b049bba13698ff9f5c1bb6adb12818960d3837607e",
+    "corpus_quiz-Math1-Math2.xml": "af11776a07a180d496fcc1ac6abc8f907b3525aa3d2850bc0c13fd7104c72136",
+    "corpus_quiz-Numeric.xml": "cc2c965cfc68b93416598982dc51c1248764cecfe86c4944e568b895f556ada5",
+    "responses_gzip": "0a1054b345a01303acdda307943a5148f9790a3bddcbeffe9b73cee545abd276"
+  }
+}

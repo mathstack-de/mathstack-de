@@ -1,0 +1,295 @@
+{
+  "corpus": {
+    "answer_inputs_by_type": {
+      "algebraic": 2190,
+      "boolean": 19,
+      "checkbox": 10,
+      "dropdown": 93,
+      "matrix": 262,
+      "numerical": 165,
+      "radio": 25,
+      "singlechar": 2,
+      "string": 60,
+      "varmatrix": 86
+    },
+    "answer_test_nodes": 3469,
+    "answer_test_nodes_by_type": {
+      "AlgEquiv": 2875,
+      "CasEqual": 9,
+      "CompSquare": 1,
+      "Diff": 31,
+      "EqualComAss": 189,
+      "Expanded": 1,
+      "FacForm": 9,
+      "GT": 2,
+      "Int": 29,
+      "NumAbsolute": 240,
+      "NumDecPlaces": 1,
+      "NumRelative": 51,
+      "PartFrac": 3,
+      "Sets": 1,
+      "SingleFrac": 11,
+      "String": 3,
+      "SubstEquiv": 13
+    },
+    "distinct_answer_test_types": 17,
+    "features_question_level": {
+      "direct_equivalence_only": {
+        "n": 867,
+        "percent": 54.1
+      },
+      "forbids_decimal_float": {
+        "n": 1468,
+        "percent": 91.6
+      },
+      "has_authored_feedback": {
+        "n": 336,
+        "percent": 21.0
+      },
+      "has_branching": {
+        "n": 408,
+        "percent": 25.5
+      },
+      "has_derived_student_expression": {
+        "n": 278,
+        "percent": 17.3
+      },
+      "has_explicit_format_restriction": {
+        "n": 373,
+        "percent": 23.3
+      },
+      "has_feedback_variables": {
+        "n": 235,
+        "percent": 14.7
+      },
+      "has_multi_node_prt": {
+        "n": 408,
+        "percent": 25.5
+      },
+      "has_multiple_full_credit_targets": {
+        "n": 37,
+        "percent": 2.3
+      },
+      "has_non_alg_equiv_test": {
+        "n": 367,
+        "percent": 22.9
+      },
+      "has_non_algebraic_input": {
+        "n": 403,
+        "percent": 25.1
+      },
+      "has_nonbinary_score_logic": {
+        "n": 414,
+        "percent": 25.8
+      },
+      "has_nondefault_autosimplify": {
+        "n": 44,
+        "percent": 2.7
+      },
+      "has_partial_credit_score": {
+        "n": 152,
+        "percent": 9.5
+      },
+      "has_test_options": {
+        "n": 223,
+        "percent": 13.9
+      },
+      "prt_logic_beyond_direct_equivalence": {
+        "n": 736,
+        "percent": 45.9
+      }
+    },
+    "prts": 2690,
+    "questions_with_prt": 1603,
+    "questions_without_prt": 1,
+    "stack_questions": 1604
+  },
+  "randomized_evaluation_sample": {
+    "answer_test_nodes_by_type": {
+      "AlgEquiv": 104
+    },
+    "checker_diagnostics": {
+      "decisive_stack_outcomes": 1366,
+      "methods": {
+        "math_verify_eq": {
+          "agreement_n": 821,
+          "by_contract": {
+            "direct_equivalence_only": {
+              "agreement_n": 442,
+              "conditional_agreement_percent": 100.0,
+              "coverage_n": 442,
+              "coverage_percent": 60.1,
+              "decisive_n": 735,
+              "disagreement_n": 0,
+              "disagreement_question_n": 0
+            },
+            "richer_prt_logic": {
+              "agreement_n": 379,
+              "conditional_agreement_percent": 94.0,
+              "coverage_n": 403,
+              "coverage_percent": 63.9,
+              "decisive_n": 631,
+              "disagreement_n": 24,
+              "disagreement_question_n": 3
+            }
+          },
+          "conditional_agreement_percent": 97.2,
+          "coverage_n": 845,
+          "coverage_percent": 61.9,
+          "disagreement_question_n": 3,
+          "false_accept_n": 0,
+          "false_reject_n": 24,
+          "no_verdict_n": 521
+        },
+        "string_eq": {
+          "agreement_n": 786,
+          "by_contract": {
+            "direct_equivalence_only": {
+              "agreement_n": 473,
+              "conditional_agreement_percent": 64.4,
+              "coverage_n": 735,
+              "coverage_percent": 100.0,
+              "decisive_n": 735,
+              "disagreement_n": 262,
+              "disagreement_question_n": 22
+            },
+            "richer_prt_logic": {
+              "agreement_n": 313,
+              "conditional_agreement_percent": 49.6,
+              "coverage_n": 631,
+              "coverage_percent": 100.0,
+              "decisive_n": 631,
+              "disagreement_n": 318,
+              "disagreement_question_n": 20
+            }
+          },
+          "conditional_agreement_percent": 57.5,
+          "coverage_n": 1366,
+          "coverage_percent": 100.0,
+          "disagreement_question_n": 42,
+          "false_accept_n": 0,
+          "false_reject_n": 580,
+          "no_verdict_n": 0
+        },
+        "sympy_eq": {
+          "agreement_n": 820,
+          "by_contract": {
+            "direct_equivalence_only": {
+              "agreement_n": 441,
+              "conditional_agreement_percent": 99.8,
+              "coverage_n": 442,
+              "coverage_percent": 60.1,
+              "decisive_n": 735,
+              "disagreement_n": 1,
+              "disagreement_question_n": 1
+            },
+            "richer_prt_logic": {
+              "agreement_n": 379,
+              "conditional_agreement_percent": 94.0,
+              "coverage_n": 403,
+              "coverage_percent": 63.9,
+              "decisive_n": 631,
+              "disagreement_n": 24,
+              "disagreement_question_n": 3
+            }
+          },
+          "conditional_agreement_percent": 97.0,
+          "coverage_n": 845,
+          "coverage_percent": 61.9,
+          "disagreement_question_n": 4,
+          "false_accept_n": 0,
+          "false_reject_n": 25,
+          "no_verdict_n": 521
+        }
+      }
+    },
+    "checker_response_scope": {
+      "archived_roles_excluded": [
+        "anchor"
+      ],
+      "response_roles": [
+        "fresh",
+        "replicate"
+      ],
+      "responses": 1440
+    },
+    "contract_snapshot": {
+      "contracts_unchanged": true,
+      "current_contract_sha256": "e0a8dc13d20087356465865b019a24f87b21c8cd5cf4e21371eaba916822b1bf",
+      "generation_contract_sha256": "e0a8dc13d20087356465865b019a24f87b21c8cd5cf4e21371eaba916822b1bf"
+    },
+    "features_question_level": {
+      "direct_equivalence_only": {
+        "n": 34,
+        "percent": 56.7
+      },
+      "forbids_decimal_float": {
+        "n": 56,
+        "percent": 93.3
+      },
+      "has_authored_feedback": {
+        "n": 18,
+        "percent": 30.0
+      },
+      "has_branching": {
+        "n": 20,
+        "percent": 33.3
+      },
+      "has_derived_student_expression": {
+        "n": 13,
+        "percent": 21.7
+      },
+      "has_explicit_format_restriction": {
+        "n": 30,
+        "percent": 50.0
+      },
+      "has_feedback_variables": {
+        "n": 11,
+        "percent": 18.3
+      },
+      "has_multi_node_prt": {
+        "n": 20,
+        "percent": 33.3
+      },
+      "has_multiple_full_credit_targets": {
+        "n": 1,
+        "percent": 1.7
+      },
+      "has_non_alg_equiv_test": {
+        "n": 0,
+        "percent": 0.0
+      },
+      "has_non_algebraic_input": {
+        "n": 0,
+        "percent": 0.0
+      },
+      "has_nonbinary_score_logic": {
+        "n": 20,
+        "percent": 33.3
+      },
+      "has_nondefault_autosimplify": {
+        "n": 0,
+        "percent": 0.0
+      },
+      "has_partial_credit_score": {
+        "n": 8,
+        "percent": 13.3
+      },
+      "has_test_options": {
+        "n": 1,
+        "percent": 1.7
+      },
+      "prt_logic_beyond_direct_equivalence": {
+        "n": 26,
+        "percent": 43.3
+      }
+    },
+    "questions": 60
+  },
+  "operational_definition": {
+    "direct_equivalence_only": "Every non-notes input maps one-to-one to one PRT containing one terminal AlgEquiv node; autosimplify is enabled, testoptions are empty, and true/false branches produce scores 1/0. Equivalent terminal score encodings (=1 versus +1, and =0 versus +/-0) are treated alike.",
+    "primary_denominator": "The 1,603 canonical STACK questions that contain at least one PRT.",
+    "scope_note": "This is a static structural audit. It does not prove that no other checker could reproduce a contract, and overlapping feature counts must not be summed. Input restrictions and feedback are excluded from the primary PRT-logic count and reported separately."
+  },
+  "schema": "grading_contract_audit_v1"
+}

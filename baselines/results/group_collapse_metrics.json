@@ -1,0 +1,22 @@
+{
+  "n_groups": 22,
+  "weights": "design_weight (design)",
+  "note": "thresholds reused from fine-grained dev selection, not re-tuned at group level",
+  "sonnet": {
+    "precision": 0.8232,
+    "recall": 0.8826,
+    "micro_f1": 0.8519
+  },
+  "gbert": {
+    "threshold": 0.67,
+    "precision": 0.7763,
+    "recall": 0.7323,
+    "micro_f1": 0.7536
+  },
+  "tfidf": {
+    "threshold": 0.54,
+    "precision": 0.7477,
+    "recall": 0.732,
+    "micro_f1": 0.7398
+  }
+}

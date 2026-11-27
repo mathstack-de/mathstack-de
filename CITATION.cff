@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this software or these records, please cite the paper below."
+title: "MathStack-DE: code and experiment records"
+version: "1.0.0"
+type: software
+license:
+  - MIT
+  - CC-BY-SA-4.0
+authors:
+  - family-names: Deshmukh
+    given-names: Fahad
+    affiliation: "HTW Berlin - University of Applied Sciences"
+  - family-names: Weggler
+    given-names: Lucy
+    affiliation: "HTW Berlin - University of Applied Sciences"
+preferred-citation:
+  type: conference-paper
+  title: "MathStack-DE: A Natural-Language and Symbolic Mathematics Corpus with Executable Grading"
+  authors:
+    - family-names: Deshmukh
+      given-names: Fahad
+    - family-names: Weggler
+      given-names: Lucy
+  collection-title: "Findings of the Association for Computational Linguistics: EACL 2027"
+  year: 2027
+  publisher:
+    name: "Association for Computational Linguistics"
+repository-code: "https://github.com/mathstack-de/mathstack-de"
+references:
+  - type: data
+    title: "MathStack-DE"
+    version: "1.0.0"
+    authors:
+      - family-names: Weggler
+        given-names: Lucy
+      - family-names: Deshmukh
+        given-names: Fahad
+    doi: "10.57967/hf/11896"
+    url: "https://huggingface.co/datasets/mathstack-de/MathStack-DE"
+date-released: "2026-11-27"

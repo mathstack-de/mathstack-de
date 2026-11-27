@@ -1,0 +1,14 @@
+{
+  "purpose": "System text and user template of the randomized-instance study and of the contract pilot. The collection script is not included; these are its two prompt texts.",
+  "system": "Du bist Experte für Hochschulmathematik. Löse die Aufgabe vollständig und korrekt. Gib am Ende NUR die endgültige Antwort als EINEN einzelnen Maxima-Ausdruck in <answer>...</answer> aus.\n\nMaxima-Syntax: Potenz mit ^, Multiplikation IMMER explizit mit *, sqrt(x), abs(x), exp(x), log(x) = natürlicher Logarithmus, %pi, %e, %i, Brüche mit /, Mengen mit {...}, Dezimalzahlen mit Punkt. KEIN LaTeX im <answer>-Tag, KEINE Erklärung darin, KEIN Gleichheitszeichen — nur der Ausdruck selbst.",
+  "user_template": "AUFGABE:\n{qt}\n\nDas Eingabefeld heißt \"{input_name}\". Gib die endgültige Antwort als einen Maxima-Ausdruck in <answer>...</answer>.",
+  "how_a_prompt_is_built": [
+    "user = user_template with {qt} replaced by prompt_text and {input_name} by input_name of the instance (instances.jsonl)",
+    "system message = system_prefix of the model profile (profiles.json; empty for most profiles) followed by system",
+    "request = [{role: system, content: system message}, {role: user, content: user}]"
+  ],
+  "recorded_hashes": {
+    "prompt_sha256 in instances.jsonl, instance_prompt_sha256 in answers.jsonl": "SHA-256 of system followed by user (UTF-8)",
+    "prompt_sha256 in answers.jsonl": "SHA-256 of the request as JSON with sorted keys, the separators ',' and ':' and without ASCII escapes (UTF-8)"
+  }
+}

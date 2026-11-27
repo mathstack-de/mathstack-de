@@ -1,0 +1,22 @@
+{
+ "commit": "c103c5ec8a520114a9395d36a447993038a00517",
+ "frozen_at": "2026-09-16T00:00:34+00:00",
+ "sha256": {
+  "PROTOCOL.md": "5d2c8ff3210da42d7eca12a6e25789c0fe092af9660fc302e8589c899c991d89",
+  "pilot_run.py": "a3e96a6a934e0529b3bd8571003e32f65ba1abeb05e71399d2c0cf1c83283988",
+  "select_pilot.py": "6ce6d8b78af89468821d7ba7c6a458c9cfa1cced7382fb3c3ddb97c7be476f30",
+  "pilot_grade.py": "84748fe123a304a4779a657d5ed81510c31bbb2246ed1bb36d4810b0cacd58b0",
+  "analyze_pilot.py": "a63f220d9ea8a1a0f178fde309d3af65f4e2451f865940d8faa10949cb430a99",
+  "selection.csv": "bf6e175f6a08129ee83f4d61dd39d60dca0cfe59147894b48c12ec153e545938",
+  "instances.jsonl": "4a0f6ce5c2d9707fefc3fc585f8d3c9ff9933a5e4e71bdb0c4558231bbdaec3f",
+  "draw_log.json": "a0dc387b1f0f373fa35f310af1074f420797d237d95b1bbfd4b1dc3ef55f1a25",
+  "inputs/gated_pool.jsonl": "045128468f6a164f00a7a9d9944161771147e658b065de28d9c52ba82b7b9cfe",
+  "inputs/gated_pool_coverage.jsonl": "d56d8467848bfd9956476d438f15e0de983f3d7cb77958355d18a557967025a7",
+  "inputs/candidates.csv": "ff438d8a0c6148e82abcfab2a035b6d373a24db7af93bc5e729c7ec77349671e",
+  "inputs/gate_pool.py": "fb3b1f0fc40138bf509c220520a440550f5947c1f0277f33b5b9ec9518ff23c9"
+ },
+ "harness_sha256": {
+  "run.py": "bc275f0ae0666bb862db9d442dc322fb440de03ed69b662fba582424e9643d0f",
+  "profiles.json": "8081a4c504451f21c48957b980c5bba75f4f871ed08df330bd0a616910caf7a6"
+ }
+}

@@ -1,0 +1,46 @@
+{
+ "created_by": "baselines/evaluate.py",
+ "systems": [
+  "frequency",
+  "gbert",
+  "tfidf"
+ ],
+ "bootstrap": {
+  "replicates": 10000,
+  "seed": 20260717,
+  "scheme": "source_bank_category-stratified near-duplicate-group percentile bootstrap; singleton source_bank_category strata fixed"
+ },
+ "packages": {
+  "numpy": "2.3.5",
+  "pandas": "2.3.3",
+  "scikit-learn": "1.7.2"
+ },
+ "sha256": {
+  "modeling_table": "bbb471a257e0cf72b7628826bb5a5d1edd77b1a9c7d8a472b3c27a711ba057f3",
+  "label_space": "499339cdd867acc976e8e1422a9019163e5201fa97cb7f38ad7f5f5a9a8b736e",
+  "split_manifest": "b3f86481ed1839b2e97229ea15e632cb54a1049dc88939ec0acd651584e01c12",
+  "evaluation_script": "dfc597b6d44fe7d59d91085851547b06c67c341ecaaa23e3a27231bf2f598d69",
+  "gbert_run_manifest": "491c60905678f77e9e5d2d171e20056369801a985ad022adf15a77f50f91ca10",
+  "paired_comparisons": "460bd49982a0301494be01a82a0a1b5a1932b88d7e168a26c23017a77652120c",
+  "predictions": {
+   "frequency_dev.npy": "9112495e9b0e0f27fe49a6f8aec60f597ab77275642cc49f8a66966fd95e92f3",
+   "gbert_dev.npy": "5cb444f69a5ad92e62c2f2190421fdfa56fa749384899463a4a5cc2b6468208d",
+   "tfidf_dev.npy": "931f1f3751cfbfc16342e35a057caa05e64be3a39cc7dbaed80132cde75ebf8a",
+   "frequency_test_probability.npy": "6d43557bf0edd3e76c289985b750125227fc937959ee59c18884a1a7f7225efe",
+   "gbert_test_probability.npy": "d7630b03c5c0e7cc5e4f1a4b96129c9f70b8a804705bcf1895e292f2dc311c96",
+   "tfidf_test_probability.npy": "d6e24144d06f5d4af80d87286fb4ac670adcf3e055385f414a68ed319c05e4a8",
+   "frequency_test_diagnostic.npy": "ad095a58bf0e07ce20ec2722701f484f68baf43544576d6da914d4b64266f304",
+   "gbert_test_diagnostic.npy": "6a4b29cddfc97efaa315198034d4d0751e354c22a0b4318314cad513b29833a4",
+   "tfidf_test_diagnostic.npy": "b6049479a2ffe4c2505301b22d7509e77d4a35366bbcb41bf83c39f0a2c910d3"
+  },
+  "checkpoint": {
+   "config.json": "6ca9460a8f1eb9bc0bbc609fba9bef0aeb36f983ef35fcb7cc79f18f006eb7ea",
+   "model.safetensors": "48e5fb293bd1cd162a51db705b9bd0baa0dbd7561e541ee49ae1a7e86d27fc62",
+   "special_tokens_map.json": "b6d346be366a7d1d48332dbc9fdf3bf8960b5d879522b7799ddba59e76237ee3",
+   "tokenizer.json": "3781e0402dd8bb9d7e33f4d6d45e32df3cc4d0b457eda546556177bff9e938b5",
+   "tokenizer_config.json": "7352410e9ac8e1769909fde537e7ef11db7609c80d972c5e85ef49474627f26b",
+   "vocab.txt": "bf186f7fb9cb667d811c08b45ce64d1e8e262277bb053f05d1aef3e9f13039a3"
+  }
+ },
+ "checkpoint_note": "The base model was fetched at a pinned Hub revision (recorded in gbert_run_manifest.json). The fine-tuned checkpoint is not included; its file hashes are listed here."
+}

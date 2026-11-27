@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "interpretation": "Agreement with the blind expert reference under the documented labeling policy; not an estimate of inter-expert reliability.",
+  "reference": {
+    "annotator": "Lucy Weggler",
+    "reference_type": "single_expert_vocabulary_author",
+    "rows": 200,
+    "policy": "ANNOTATION_POLICY_v1.1",
+    "vocabulary": "v1.1_2026-07",
+    "assignments": 673
+  },
+  "model_generated_labels": {
+    "model": "claude-sonnet-4-6",
+    "source_rows": 2403,
+    "evaluated_expert_subset_rows": 200,
+    "policy": "ANNOTATION_POLICY_v1.1",
+    "vocabulary": "v1.1_2026-07",
+    "render_seed": 42,
+    "generated_worked_solution_context_rows": 255,
+    "expert_reference_context_overlap": 36
+  },
+  "primary_probability_sample_design_weighted": {
+    "n_questions": 140,
+    "weight_sum": 1574.0,
+    "tp": 3663.7139194139186,
+    "fp": 2325.9287240537237,
+    "fn": 1486.2022283272279,
+    "precision": 0.6116748756972334,
+    "recall": 0.7114123442613517,
+    "micro_f1": 0.6577843859139698,
+    "mean_example_jaccard": 0.5534607032462056,
+    "mean_example_f1": 0.6772911912079637,
+    "exact_set_rate": 0.1609228217074469,
+    "exact_set_count": 23,
+    "mean_reference_cardinality": 3.271865405172265,
+    "mean_model_generated_cardinality": 3.8053638141471677
+  },
+  "primary_bootstrap_95": {
+    "precision": {
+      "low": 0.576889214012996,
+      "high": 0.6480998599687553
+    },
+    "recall": {
+      "low": 0.6772795796624193,
+      "high": 0.747237982826146
+    },
+    "micro_f1": {
+      "low": 0.6277947043157133,
+      "high": 0.6887138245565121
+    }
+  },
+  "secondary": {
+    "diagnostic_sample_unweighted": {
+      "n_questions": 60,
+      "weight_sum": 60.0,
+      "tp": 156.0,
+      "fp": 122.0,
+      "fn": 65.0,
+      "precision": 0.5611510791366906,
+      "recall": 0.7058823529411765,
+      "micro_f1": 0.625250501002004,
+      "mean_example_jaccard": 0.519021904021904,
+      "mean_example_f1": 0.6500568957186602,
+      "exact_set_rate": 0.15,
+      "exact_set_count": 9,
+      "mean_reference_cardinality": 3.683333333333333,
+      "mean_model_generated_cardinality": 4.633333333333334
+    },
+    "thematic_group_presence_design_weighted": {
+      "n_questions": 140,
+      "weight_sum": 1574.0,
+      "tp": 2616.648595848597,
+      "fp": 562.015873015873,
+      "fn": 347.995634920635,
+      "precision": 0.8231911928670329,
+      "recall": 0.8826180789894169,
+      "micro_f1": 0.8518694806935605,
+      "mean_example_jaccard": 0.7915675023362441,
+      "mean_example_f1": 0.8612914305211001,
+      "exact_set_rate": 0.527606341138742,
+      "exact_set_count": 74,
+      "mean_reference_cardinality": 1.883509676473463,
+      "mean_model_generated_cardinality": 2.019481873484415
+    },
+    "thematic_group_presence_bootstrap_95": {
+      "precision": {
+        "low": 0.7903050636751646,
+        "high": 0.8564024135539122
+      },
+      "recall": {
+        "low": 0.8490208947633083,
+        "high": 0.9173325439074123
+      },
+      "micro_f1": {
+        "low": 0.8277953375743112,
+        "high": 0.8752113964317695
+      }
+    }
+  },
+  "bootstrap": {
+    "replicates": 10000,
+    "seed": 20260717,
+    "unit": "question, resampled within source-bank category; singleton categories fixed"
+  },
+  "producer": {
+    "model": "claude-sonnet-4-6",
+    "provider": "anthropic",
+    "temperature": 0.0,
+    "max_tokens": 1000,
+    "structured_output": "closed_label_tool",
+    "allowed_labels_sha256": "1d455352f5415ec8d0d05b0a931e43780f3892b042528ce5c31b8abc11804d03",
+    "system_prompt_sha256": "7f018d8f44ba57828b35ed4df5721182abde6bc3dcbbafaa3d8b8203c43328da"
+  },
+  "source_artifact_sha256": {
+    "expert_reference": "34e89c775ef807299d405396ebb25a9032580a0202ed03a9be1bf8c7daca3370",
+    "model_generated_labels": "1f43e2d32f5b14c6c90252b049bba13698ff9f5c1bb6adb12818960d3837607e",
+    "model_generated_labels_manifest": "3fd44eee50e7fec64599eee7340f80d795105637fadedd0c8b7fd159a33d917b",
+    "vocabulary": "c0eb398647799b730d635a4b71affe55e91a98e1c2a5c1d22e6ecc60b40c61d7",
+    "annotation_policy": "9eb1bf2e8e1ef58905b91e5a6411aeae6c9d4f0878ddacb8352c247445a54033",
+    "model_input_manifest": "d295676927561b8604f44c48eb561ba2f00f1118db2b6a2e51b6605a61d60f7e",
+    "eligible_question_set": "d2a702e8fc82a72fdbd72ee1f9d600f4965237905503485903c1824ec61e4de5",
+    "analysis_implementation": "31de707e65edf82e76e2fc82047a2460994b642179771066f21565bb9efd9289"
+  }
+}

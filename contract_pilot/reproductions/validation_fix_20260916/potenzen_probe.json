@@ -1,0 +1,25 @@
+{
+ "question": "Zahlen: Potenzen (4)",
+ "rc_id": "rc-43cb9d42-00d9-4c16-acb2-21baabfe2da9",
+ "seed": 9202,
+ "required": "8",
+ "engine": "pinned local STACK 2026042200",
+ "probes": {
+  "8": {
+   "isgradable": true,
+   "score": 1
+  },
+  "4*2": {
+   "isgradable": true,
+   "score": 0
+  },
+  "6561": {
+   "isgradable": true,
+   "score": 0
+  },
+  "2^13": {
+   "isgradable": true,
+   "score": 0
+  }
+ }
+}

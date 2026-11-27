@@ -1,0 +1,2561 @@
+{
+  "schema_version": 1,
+  "purpose": "Questions of this release that descend from a collection of 166 STACK questions for the courses Höhere Mathematik 1 and 2 of the project SKATING at Hochschule Karlsruhe - Technik und Wirtschaft (Karlsruhe University of Applied Sciences), cited here as \"STACK questions for Höhere Mathematik 1 and 2\" (below: the Karlsruhe collection). The credit of each question of a contributed bank (question_author_credit in the source table) names its collection question, the Karlsruhe collection, the licence with its address and whether and how the question was changed; the credit of each descendant in the TH Köln pool names the pool's authors and then its collection question.",
+  "source": {
+    "name": "STACK questions for Höhere Mathematik 1 and 2",
+    "creator": "project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft",
+    "availability": "not published online",
+    "license": "CC-BY-SA-3.0-DE",
+    "license_name": "CC BY-SA 3.0 DE",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/"
+  },
+  "licence": "The Karlsruhe collection is licensed under CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/). We treat a question as an adaptation of its collection question when it differs from it in wording, question variables, inputs or the logic of a response tree (169 questions). An adaptation is released under CC BY-SA 4.0, which section 4b of CC BY-SA 3.0 DE allows; the material taken from the Karlsruhe collection remains under CC BY-SA 3.0 DE. A question that equals its collection question in every field (11), or differs from it only in the typesetting of formulas or in penalty settings (10), is not treated as an adaptation and keeps CC BY-SA 3.0 DE. content_license is CC-BY-SA-3.0-DE for a question that keeps CC BY-SA 3.0 DE and CC-BY-SA-4.0 for an adaptation, which is released as part of this dataset. Worked solutions are under CC BY-SA 4.0 and carry their own credit (gf_attribution_text), also where the question itself keeps CC BY-SA 3.0 DE; a worked solution that was added to a question later (worked_solution_added) is not part of the collection question. For 9 descendants the collection question has a worked solution of its own (8 in English, 1 in German), marked by collection_question_has_worked_solution; the released worked solutions of these questions are German texts written by their credited author.",
+  "not_an_endorsement": "Naming the source does not imply that Hochschule Karlsruhe - Technik und Wirtschaft or the project SKATING endorse, sponsor or are otherwise connected with this dataset.",
+  "stack_library": {
+    "name": "STACK question library",
+    "url": "https://github.com/maths/moodle-qtype_stack/tree/master/samplequestions/stacklibrary",
+    "license_name": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "license_statement_url": "https://docs.stack-assessment.org/en/About/License/",
+    "note": "Questions of the Karlsruhe collection that are German versions of questions of the STACK library, which the STACK project publishes under CC BY-SA 4.0. The credit of a question that descends from one of them names the question of the library as well; the material taken from the library remains under CC BY-SA 4.0. One of the 7 questions of the contributed banks that descend from them was changed in typesetting or penalty settings only and keeps CC BY-SA 3.0 DE; its credit names both licences.",
+    "questions": [
+      {
+        "collection_question": "Ableitungen: CR-Diff-09-misc-2.c de",
+        "title": "CR-Diff-09-misc-2.c",
+        "part_of": "STACK Library - Calculus Refresher",
+        "authors": "Tony Croft and Anthony Kay",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Diff_09/CR-Diff-09-misc-2-c.xml"
+      },
+      {
+        "collection_question": "AlgMap-13.16-de: x^2*y^2-2*x*y+1",
+        "title": "AlgMap-13.16",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/13-Factorising-algebraic-expressions/AlgMap-13-16.xml"
+      },
+      {
+        "collection_question": "AlgMap-13.19-de: (x-y/2)*(x+y/2)",
+        "title": "AlgMap-13.19",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/13-Factorising-algebraic-expressions/AlgMap-13-19.xml"
+      },
+      {
+        "collection_question": "AlgMap-5.1 de: Addition und Division von Brüchen",
+        "title": "AlgMap-5.1",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-1.xml"
+      },
+      {
+        "collection_question": "AlgMap-5.2 de: Potenz und Division von Brüchen.",
+        "title": "AlgMap-5.2",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-2.xml"
+      },
+      {
+        "collection_question": "AlgMap-8.16 de: addition dreier Brüche",
+        "title": "AlgMap-8.16",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/08-Algebraic-fractions/AlgMap-8-16.xml"
+      },
+      {
+        "collection_question": "Integralrechnung: CR-Int-11-linearity-3.e de",
+        "title": "CR-Int-11-linearity-3.e",
+        "part_of": "STACK Library - Calculus Refresher",
+        "authors": "Tony Croft and Anthony Kay",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_11/CR-Int-11-linearity-3-e.xml"
+      },
+      {
+        "collection_question": "Integralrechnung: CR-Int-13-parts-1.d de (Part)",
+        "title": "CR-Int-13-parts-1.d",
+        "part_of": "STACK Library - Calculus Refresher",
+        "authors": "Tony Croft and Anthony Kay",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_13/CR-Int-13-parts-1-d.xml"
+      }
+    ]
+  },
+  "note": "bank is the code of the source bank as released. relation is changed (an adaptation: changed in wording, question variables, inputs or the logic of a response tree), changed_in_typesetting_or_penalties_only or unchanged (taken over unchanged). A question counts as taken over unchanged when every field of it equals that of its collection question (question text, question variables, inputs, response trees with their scores, penalties and feedback texts, question note, specific feedback, default grade, deployed seeds and question tests), apart from the name of the question, white space and HTML markup, the notation of variables in text that later versions of STACK write with braces, and fields that later versions of STACK add when a question is imported, with their default values; a worked solution added later does not count as a change. A question counts as changed in typesetting or penalty settings only when a comparison of every field (the same fields) shows differences in nothing but the typesetting of formulas (white space, spacing commands, displayed instead of inline formulas or the reverse, the limits and display-style commands, an upright d, the place of a punctuation mark) and penalty settings (the penalty of the question and the penalties of the nodes of its response trees). worked_solution_added is true where the question has a worked solution that the collection question does not have; collection_question_has_worked_solution is true where the question has a worked solution and the collection question has one of its own. The Karlsruhe collection itself is not part of this release.",
+  "counts": {
+    "questions_of_the_collection": 166,
+    "descendants_in_the_contributed_banks": 190,
+    "changed": 169,
+    "changed_in_typesetting_or_penalties_only": 10,
+    "unchanged": 11,
+    "keep_the_licence_of_the_collection": 21,
+    "by_bank": {
+      "A1": 5,
+      "A2": 40,
+      "A3": 145
+    },
+    "by_relation_and_bank": {
+      "changed": {
+        "A1": 5,
+        "A2": 29,
+        "A3": 135
+      },
+      "changed_in_typesetting_or_penalties_only": {
+        "A2": 1,
+        "A3": 9
+      },
+      "unchanged": {
+        "A2": 10,
+        "A3": 1
+      }
+    },
+    "collection_question_has_worked_solution": 9,
+    "descendants_in_the_pool": 36,
+    "unsure": 4,
+    "stack_library_questions": 8,
+    "descendants_of_stack_library_questions": {
+      "contributed_banks": 7,
+      "pool": 4
+    }
+  },
+  "questions": [
+    {
+      "rc_id": "rc-001c10f6-6e75-41b3-8b6e-b8c44788edfa",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Geben Sie eine komplexe Zahl mit Betrag=a.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Geben Sie eine komplexe Zahl mit Betrag=a.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-00ea3ba9-aa93-4938-ada5-ede05a6cc59e",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Vektorräume: Lineare Unabhängigkeit und Abhängigkeit (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektorräume: Lineare Unabhängigkeit und Abhängigkeit (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-00f94437-c093-48df-9822-33d4b205705a",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Betragsgleichung: |ax+b|=|cx+d|",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Betragsgleichung: |ax+b|=|cx+d|\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-01963e1d-49eb-4c24-a42f-679b65ec7514",
+      "bank": "A1",
+      "relation": "changed",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Matrizen: Für welche p besitzt A keine Inverse (3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: Für welche p besitzt A keine Inverse (3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-03ec3c8b-859b-493c-aa8f-d49bd5f57439",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorreihe: Koeffizient a_n von f(x)=1/x",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorreihe: Koeffizient a_n von f(x)=1/x\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-051a839b-15f3-46a1-8e80-8e2df9ee172f",
+      "bank": "A2",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "AlgMap-5.1 de: Addition und Division von Brüchen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"AlgMap-5.1 de: Addition und Division von Brüchen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin; the collection question is a German version of \"AlgMap-5.1\", STACK Library - Algebra Refresher (Tony Barnard), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-1.xml",
+      "content_license": "CC-BY-SA-3.0-DE",
+      "stack_library": {
+        "title": "AlgMap-5.1",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-1.xml"
+      }
+    },
+    {
+      "rc_id": "rc-05bb0715-bf64-4ef6-bffb-57de5cc93116",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Potenzreihen: Für welche x konvergiert die Reihe (a^k-1)/(k^2*x^(2k))",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Potenzreihen: Für welche x konvergiert die Reihe (a^k-1)/(k^2*x^(2k))\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-07f6b455-f128-4a5a-8220-8d9f8e40cdf3",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Abbildungsmatrix R3 to P1 Standardbasis",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Lineare Abbildungen: Abbildungsmatrix R3 to P1 Standardbasis\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-093de605-975a-47e2-af18-17495804c63e",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Punkt auf Geraden bestimmen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Punkt auf Geraden bestimmen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-0b3280c5-d8bb-4be0-83f2-ff66b6635634",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Projektion und Lot von a auf b (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Projektion und Lot von a auf b (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-0c09cbee-1c5a-4dde-baac-294941c14fce",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizen: Gleichungen X.A=B+C und B.Y=k*X-C.A, solve X, Y (2x2)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: Gleichungen X.A=B+C und B.Y=k*X-C.A, solve X, Y (2x2)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-0c779d9c-d409-4b7f-8873-1d53bf520fb9",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "2.15 Nennerpolynom wenn Pol und Asymptote gegeben",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"2.15 Nennerpolynom wenn Pol und Asymptote gegeben\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-0d13c003-089b-44bc-b8b8-4dbbfb666779",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Exponentialgleichung a*e^(x+b)=c",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Exponentialgleichung a*e^(x+b)=c\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-0d75df37-effc-419b-bf84-79dea3e71dae",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: Bestimmtes Integral x^2*cos(x) (Part)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: Bestimmtes Integral x^2*cos(x) (Part)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-0dfb04ec-14bd-4cd3-b7a7-731afaa3527e",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "Fourierreihen: f(t)=(pi)^a-t^b, T=c*pi",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Fourierreihen: f(t)=(pi)^a-t^b, T=c*pi\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-0ef292d3-3513-46df-9295-178113c9c979",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: 3x3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: 3x3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-10382a87-4616-47aa-a083-9b0ed90be867",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: 3x3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: 3x3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-10ae4a18-bba9-4c62-8c89-839373bfb5d7",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Vektor-, Kreutz- und Spatprodukt (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Vektor-, Kreutz- und Spatprodukt (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-114bacd5-da01-472d-a354-d46e3d4a35ba",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "2.03 Funktion beschreiben - quadratisch",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"2.03 Funktion beschreiben - quadratisch\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-15a2b09d-07cf-42ea-a227-6810f86afbb4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Bruchrechnen/quadratische Gleichung: Resistance of a circuit 1",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "Adapted from \"Bruchrechnen/quadratische Gleichung: Resistance of a circuit 1\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-173c0126-0a4d-4830-af42-1f4d31320b1b",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Grenzwerte: lim n*(sqrt(a^2+1/n)-a)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Grenzwerte: lim n*(sqrt(a^2+1/n)-a)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-181cb62b-bd32-4991-b63b-37d134a623a1",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: cos(x)y'+sin(x)y=1",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: cos(x)y'+sin(x)y=1\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-19f9f074-2821-4cd7-9fb4-65c5edfdceec",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Differenzialgleichungen: a*y'+b*y=x+exp(c*x)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Differenzialgleichungen: a*y'+b*y=x+exp(c*x)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-1ab1f744-9d92-4976-b7ac-42610e147c59",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "Funktionen: Umkehrfunktionen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Funktionen: Umkehrfunktionen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-1fea07bd-2e8d-4a2b-911c-f2fc3e3703de",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Dimension von Bild(T) Pn to Pm",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Lineare Abbildungen: Dimension von Bild(T) Pn to Pm\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-2005098d-58a6-4800-ba83-68fdc7b8a090",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: 4x4, 2 Nullzeilen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: 4x4, 2 Nullzeilen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-213e5990-cabb-45fe-9f71-0d09c578af1b",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "Fourierreihen: komplexe Fourierreihe einer Funktion",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Fourierreihen: komplexe Fourierreihe einer Funktion\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-21a0ef45-df22-44ba-b2bc-a4a837710eee",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: y' = polynom(x)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: y' = polynom(x)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-2408ebe0-247d-44fc-b418-4222f7dd1d27",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: y'+y/(x*ln(x))=kb/x",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: y'+y/(x*ln(x))=kb/x\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-25f7726b-95bd-48f1-ae6e-006f8824ff11",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Gleichung",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Gleichung\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-291cdd7c-d841-49b2-991d-4bb39b636e7a",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorreihen: Koeffizient a_n für f(x)=xe^(-2x)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorreihen: Koeffizient a_n für f(x)=xe^(-2x)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-2972cfe3-22f2-468f-a189-3f68aa501d2f",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenwerte: Eigenwerte einer Inverse (3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigenwerte: Eigenwerte einer Inverse (3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-2998e5db-dc64-4dd0-b3b0-ba56b62d4cc2",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: y'=a*x^c*y^b, y(1)=1",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: y'=a*x^c*y^b, y(1)=1\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-2e327ff4-d052-453f-b0a8-83e17cd712e7",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: orthogonal zu a und b (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: orthogonal zu a und b (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-2f34d44b-e1b5-475f-9b64-23fc672903db",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: y'+at/y=0",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: y'+at/y=0\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-2fa6c45a-ed3a-45be-af7e-c842aa410153",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Ebene in der Form x+by+cz=d",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Analytische Geometrie: Ebene in der Form x+by+cz=d\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-30926669-a5ae-407b-a9fd-384e907e70d4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: CR-Int-11-linearity-3.e de",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: CR-Int-11-linearity-3.e de\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin; the collection question is a German version of \"CR-Int-11-linearity-3.e\", STACK Library - Calculus Refresher (Tony Croft and Anthony Kay), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_11/CR-Int-11-linearity-3-e.xml",
+      "content_license": "CC-BY-SA-4.0",
+      "stack_library": {
+        "title": "CR-Int-11-linearity-3.e",
+        "part_of": "STACK Library - Calculus Refresher",
+        "authors": "Tony Croft and Anthony Kay",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_11/CR-Int-11-linearity-3-e.xml"
+      }
+    },
+    {
+      "rc_id": "rc-326579e9-805a-4331-bb4b-60db16822119",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Abstand des Punktes von Geraden, Flaeche des Dreiecks (R3)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Abstand des Punktes von Geraden, Flaeche des Dreiecks (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-32b8dfdb-d258-480f-a58d-45bd4d192eae",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: ( P(x) / Q(x) ) ^k",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "Adapted from \"Ableitungen: ( P(x) / Q(x) ) ^k\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-32c59153-724c-4c96-9e18-a2168418f345",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorreihe: Koeffizient a_n von f(x)=1/x",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorreihe: Koeffizient a_n von f(x)=1/x\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-34d206e6-a88a-4841-8e8b-9a6b31147d1b",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: e^(P(x)) (Kettenregel)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "Adapted from \"Ableitungen: e^(P(x)) (Kettenregel)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-35ca2205-34ec-4c19-adfa-7fd32db0082e",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: Zeilenstufenform 4x4",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: Zeilenstufenform 4x4\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-38a9355e-83dd-48fb-9855-1d14a0c8f85c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: CR-Int-13-parts-1.d de (Part)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: CR-Int-13-parts-1.d de (Part)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin; the collection question is a German version of \"CR-Int-13-parts-1.d\", STACK Library - Calculus Refresher (Tony Croft and Anthony Kay), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_13/CR-Int-13-parts-1-d.xml",
+      "content_license": "CC-BY-SA-4.0",
+      "stack_library": {
+        "title": "CR-Int-13-parts-1.d",
+        "part_of": "STACK Library - Calculus Refresher",
+        "authors": "Tony Croft and Anthony Kay",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_13/CR-Int-13-parts-1-d.xml"
+      }
+    },
+    {
+      "rc_id": "rc-3a465890-fb98-4cc4-93f4-b6d8665a8636",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizen: Inverse Matrix (Parameter)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: Inverse Matrix (Parameter)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-3a4785fb-e9bd-4c04-91b9-617fcb319e78",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "Logarithmus: Vereinfachen 2",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Logarithmus: Vereinfachen 2\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-40e084f3-b644-4699-87d7-537f32cbd34e",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Klausuraufgabe",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Klausuraufgabe\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-41007a87-c125-415a-a8a8-004c859fc310",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigentwerte: 3x3-Matrix",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigentwerte: 3x3-Matrix\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-46625fe9-583c-4ded-82f8-8e3c0e850bf5",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Differenzialgleichungen: y'+y=asin(e^x)+bcos(e^x)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Differenzialgleichungen: y'+y=asin(e^x)+bcos(e^x)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-472bd8a0-6833-4726-912f-44b09305bc8c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "Exponentialfunktion a*e^(-bx)+c bestimmen, f(0) und f(k) bekannt",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Exponentialfunktion a*e^(-bx)+c bestimmen, f(0) und f(k) bekannt\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-48b3838e-7177-470c-bfc6-cae3c17e94d1",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "Fourierreihen: Verschieben f(x)=b*sin(a*x)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Fourierreihen: Verschieben f(x)=b*sin(a*x)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4ab47525-9e87-4496-b5f8-b5f398392fa9",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: y'=a*sin(bx)*cos(bx)/y^c, y(0)=d",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: y'=a*sin(bx)*cos(bx)/y^c, y(0)=d\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4b339f8a-e7dc-4a0f-886b-ffe30940dd4f",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Spiegelung einer Geraden an einer Ebene (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Spiegelung einer Geraden an einer Ebene (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4c2c133e-fb82-403e-be6d-af706bf6c04d",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Polardarstellung von 1/a+i*1/a",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Polardarstellung von 1/a+i*1/a\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4c82315f-9a6d-44f8-b454-7e804e316ef3",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Differenzialgleichungen: Mit welchen a ist y=ax^2+b die Lösung von xy'-y+c(x-d)^2=m-n*x",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Differenzialgleichungen: Mit welchen a ist y=ax^2+b die Lösung von xy'-y+c(x-d)^2=m-n*x\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4cdf7259-ccf0-4d02-ae09-48133a49ff1c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Vektorräume: Projektion auf Lin(v) (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektorräume: Projektion auf Lin(v) (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4d4b5a33-5489-4a74-bcae-2e63c4c12199",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: Komplexe Gleichungssystem 3x3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: Komplexe Gleichungssystem 3x3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4e49225d-5db8-45aa-be5b-5d896793291d",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: 4x4, keine Lösung",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: 4x4, keine Lösung\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-4ebc63df-ffdd-4db0-a5e6-bca347a96016",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "Funktionen: Verkettung von y=x^a und y=cx+d",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Funktionen: Verkettung von y=x^a und y=cx+d\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-4ec8a81e-3f58-4d59-b20f-19d7407e14ea",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Spiegelung von P an der Ebene E (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Spiegelung von P an der Ebene E (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-503bdf18-608f-4fb6-b31a-e332147551d1",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Vektor a=P1P2, |a|, Einheitsvektor (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Vektor a=P1P2, |a|, Einheitsvektor (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-5485f22a-98ef-4e22-ad91-99bf56fe3fc4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: Bestimmtes Integral (PBZ)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: Bestimmtes Integral (PBZ)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-562942e6-0fb7-40f7-ab64-1fcd27fcadce",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: Partialbruchzerlegung",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: Partialbruchzerlegung\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-5727fe90-0a29-442f-998e-2ae414acf98b",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: Näherungsparabel für f(x)=sin(ax+pi/b)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: Näherungsparabel für f(x)=sin(ax+pi/b)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-581fcd60-5fa4-4125-bdd4-97d1eae3d760",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenvektoren: 3x3-Matrix - v2",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigenvektoren: 3x3-Matrix - v2\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-5ab0bfaa-87d5-4be7-ab75-e2bb455a02bf",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Punkt auf Geraden bestimmen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Punkt auf Geraden bestimmen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-5be868c9-c2e8-447e-a365-f261f2372054",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Wurzel",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Wurzel\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-5c80c968-c466-4ca4-aa42-a9a854bbd033",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Vektorräume: Koordinaten eines Vektors in einer Basis (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Vektorräume: Koordinaten eines Vektors in einer Basis (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-5c9817d6-75d4-4668-a95d-c96bda2e0c51",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Vektorräume: Für welche p sind die 3 Vektoren linear abhängig (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektorräume: Für welche p sind die 3 Vektoren linear abhängig (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-5d12ca4d-86e8-4c3e-b1b7-a3a7379b8d71",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Ungleichungen: |kx-a|+m>0, mit welcher a ist L die Lösung.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Ungleichungen: |kx-a|+m>0, mit welcher a ist L die Lösung.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-5d297f41-1dee-4aaa-82db-47be992e73ec",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Vektorräume: Linearkombination (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektorräume: Linearkombination (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-5f329cb9-ef5f-49fa-bc5c-46b982520502",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Punkt-Richtungsform einer Ebene (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Punkt-Richtungsform einer Ebene (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-61176272-9097-428e-81c4-fe5a479733cf",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: 3x3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: 3x3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-61434ebe-5906-4450-90f8-0f3eab5479f4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Determinante von A (3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Determinante von A (3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-61793fbb-e9c1-41f4-9ec8-62c879ddbe80",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Abbildungsmatrix R3 to R3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Lineare Abbildungen: Abbildungsmatrix R3 to R3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-65121be6-fc27-422d-86fd-c27463a9a0fb",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizen: Produkt, Dimensionen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: Produkt, Dimensionen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-66fe3870-31c0-413f-b34c-ca4041dbba1c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: CR-Diff-09-misc-2.c de",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "Adapted from \"Ableitungen: CR-Diff-09-misc-2.c de\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin; the collection question is a German version of \"CR-Diff-09-misc-2.c\", STACK Library - Calculus Refresher (Tony Croft and Anthony Kay), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Diff_09/CR-Diff-09-misc-2-c.xml",
+      "content_license": "CC-BY-SA-4.0",
+      "stack_library": {
+        "title": "CR-Diff-09-misc-2.c",
+        "part_of": "STACK Library - Calculus Refresher",
+        "authors": "Tony Croft and Anthony Kay",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Diff_09/CR-Diff-09-misc-2-c.xml"
+      }
+    },
+    {
+      "rc_id": "rc-68a7ed3e-5e6a-4c2b-aa84-fa0f4088b18a",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Vektorräume: Vektor normieren (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektorräume: Vektor normieren (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-6e4c432c-cfd4-4f1c-963c-e4c6f93f4d9f",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: Näherungsparabel für f(x)=sin(ax+pi/b)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: Näherungsparabel für f(x)=sin(ax+pi/b)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-6f461230-dd0f-4111-ae4f-aef942c5b989",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: e^(-kx)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: e^(-kx)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-6fea9e9c-49a5-4456-a0dc-10019711dc80",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: (P(x))^k (Kettenregel)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "Adapted from \"Ableitungen: (P(x))^k (Kettenregel)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-72d1b5d8-90c5-4be8-8a4a-a8752e9d0ecc",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizen: Gleichung X.A.B-B.A=C (3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: Gleichung X.A.B-B.A=C (3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-733d1e57-bbda-4e19-a9f8-79d903e574b5",
+      "bank": "A1",
+      "relation": "changed",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenvektoren: 3x3-Matrix - v2",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Eigenvektoren: 3x3-Matrix - v2\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-74458226-0dd7-4b4a-9470-04e62eb0830a",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Potenzreihen: Konvergenzradius von (2^(k+1)-1)/sqrt(a^k+b) * (x-3)^k",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Potenzreihen: Konvergenzradius von (2^(k+1)-1)/sqrt(a^k+b) * (x-3)^k\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-7699090e-9030-48fb-9f21-3808bb45abcc",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "Fourierreihen: Fourierkoeffizienten einer Funktion",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Fourierreihen: Fourierkoeffizienten einer Funktion\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-76fa80ed-d9f5-4de6-9bee-d23eeb115c87",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "Bruchrechnen: Resistance of a circuit 2",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Bruchrechnen: Resistance of a circuit 2\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-77037800-4a84-4e08-8d64-8d258a2d1dac",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "Funktionen: Nullstellen und Polstellen von sqrt(P/Q-1)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Funktionen: Nullstellen und Polstellen von sqrt(P/Q-1)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-78ea1360-384b-4018-9d8e-d19aa43c1b43",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "Funktionen: Umkehrfunktionen von y=x^d+a und y=bx+c",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Funktionen: Umkehrfunktionen von y=x^d+a und y=bx+c\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-7919a23f-2539-42fb-8212-4aa7feabf78f",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: z^2+(a+bi)z+(c+di)=0",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: z^2+(a+bi)z+(c+di)=0\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-7a8982c8-7729-4f11-8aec-d9fab99d76e2",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Potenzreihen: Für welche x korvergiert (x-a)^k/(2^k+2k)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Potenzreihen: Für welche x korvergiert (x-a)^k/(2^k+2k)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-8113756d-598a-4451-b08a-acbc47bf92ca",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizenprodukt (3x3)x(3x3)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizenprodukt (3x3)x(3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-82d46c39-ec72-4ed6-8e0a-30c41ae7923a",
+      "bank": "A1",
+      "relation": "changed",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenvektoren: 3x3-Matrix - v2",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Eigenvektoren: 3x3-Matrix - v2\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-830414a2-fb44-4ceb-9285-660235f7af8c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Martizen: Geben Sie eine Matrix A mit det(A) = a.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Martizen: Geben Sie eine Matrix A mit det(A) = a.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-8383a045-ad25-490f-ba9c-983340389848",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: Anzahl der Lösungen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: Anzahl der Lösungen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-84cf84c8-1bf6-478f-a7f3-ae446be703f5",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: Gauss-Algorithmus (4x4)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: Gauss-Algorithmus (4x4)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-85480c0f-cc1a-4a72-a559-c0e9c47326bc",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "AlgMap-5.2 de: Potenz und Division von Brüchen.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"AlgMap-5.2 de: Potenz und Division von Brüchen.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin; the collection question is a German version of \"AlgMap-5.2\", STACK Library - Algebra Refresher (Tony Barnard), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-2.xml",
+      "content_license": "CC-BY-SA-4.0",
+      "stack_library": {
+        "title": "AlgMap-5.2",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-2.xml"
+      }
+    },
+    {
+      "rc_id": "rc-85a1e07c-efc5-48d3-893e-c072e674e24e",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenvektoren: Transformationsmatrix (2x2)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigenvektoren: Transformationsmatrix (2x2)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-85e4f358-61e1-45b6-ad36-a39238931f75",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "2.07 Umkehrfunktion einer gebrochenrationalen Funktion",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"2.07 Umkehrfunktion einer gebrochenrationalen Funktion\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-881e6b2b-2ac4-4049-b019-a10e1ad460a7",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Ungleichung: |x-a|-|x+b| größer cx",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Ungleichung: |x-a|-|x+b| größer cx\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-88b8db4a-9c51-4fd4-8442-88d1b13f13cb",
+      "bank": "A3",
+      "relation": "unchanged",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "A2T2: Fourierreihe von f(x)=|sin(x)|",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"A2T2: Fourierreihe von f(x)=|sin(x)|\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-89a3979f-6fa3-4049-a0de-4705d3eb54d1",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Exponentialgleichung a*exp(x)+b*exp(-x)+c=0",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Exponentialgleichung a*exp(x)+b*exp(-x)+c=0\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-8c45abf0-00f1-4b99-af09-7999b692ad69",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "Bruchrechnen: Resistance of a circuit.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Bruchrechnen: Resistance of a circuit.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-8c493a30-35a7-49b9-82f2-eca9a130bbd9",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechunung: Extremale Flächeninhalt (2 Varianten)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechunung: Extremale Flächeninhalt (2 Varianten)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-8fb4acbf-342c-4a31-8c53-76ed2c9774ed",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: f(x)=ln(x), Wie groß ist der Fehler im Intervall.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: f(x)=ln(x), Wie groß ist der Fehler im Intervall.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-8fea0af7-beb2-4df9-aaca-a337e807c782",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Ungleichung: mit Brüchen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Ungleichung: mit Brüchen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-90d05fa7-7fdc-4773-bc5d-25c8b7d3e577",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Ausdruecke mit 3 komplexe Zahlen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Ausdruecke mit 3 komplexe Zahlen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-9128f834-2bc0-48cf-9171-a73b590c0320",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Einheitsvektor (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Einheitsvektor (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-91643436-bb8f-4c56-b8b0-6cd02332225e",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: int f'(x)/f(x) dx (Sub)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: int f'(x)/f(x) dx (Sub)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-96457056-beb0-4277-9716-9adab00c9004",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Abbildungsmatrix R3 to R3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Lineare Abbildungen: Abbildungsmatrix R3 to R3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-9827eb5d-7f26-4b30-a52c-da9abd081e49",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "A1T1: Potenzen und Wurzeln zusammenfassen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"A1T1: Potenzen und Wurzeln zusammenfassen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-98c73c6d-5074-4711-bef9-1dbb0ca9c229",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "Fourierreihen: f(t)=a*pi-abs(t), plot",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Fourierreihen: f(t)=a*pi-abs(t), plot\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-99a3510c-af19-4d11-8a00-47d0637d927e",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: Bestimmtes Integral sin(x)^3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: Bestimmtes Integral sin(x)^3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-9cc27875-8378-4957-8caf-df76c82efc3c",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Abbildungsmatrix bezüglich Basen BU und BV",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Lineare Abbildungen: Abbildungsmatrix bezüglich Basen BU und BV\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-9f05c43e-1e46-49ba-bccf-2b659dd0e875",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Anwendunden der Integralrechnung: Fläche zwischen zwei Kurven",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anwendunden der Integralrechnung: Fläche zwischen zwei Kurven\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a0684b2a-3c6c-4bbc-987b-d964116a40a3",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Abbildungsmatrix (R2) Standardbasis",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Lineare Abbildungen: Abbildungsmatrix (R2) Standardbasis\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a0fca07e-ee40-48ca-b2ef-b13f3cd0b6de",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: Anzahl der Lösungen - einfach",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: Anzahl der Lösungen - einfach\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a2270f98-ddd8-4a8f-8085-0fb265d7862c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: y'+y/(x*ln(x))=kb/x",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: y'+y/(x*ln(x))=kb/x\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a2c50ab1-b6d2-4064-99e0-e4478b7ad778",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Normaleneinheitsvektor einer Ebene (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Normaleneinheitsvektor einer Ebene (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a35dbd1d-fe42-4af1-aa47-91c44b2adf6f",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Grenzwerte: poly/poly existiert v1",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Grenzwerte: poly/poly existiert v1\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-a5e55ed6-cbe4-4a8b-a471-0464ed9cfcb0",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Determinante von A (4x4)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Determinante von A (4x4)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a608bfbc-9cc1-4286-a251-9118598d25c7",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: Rechteck mit maximalen Flächeninhalt",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Ableitungen: Rechteck mit maximalen Flächeninhalt\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a61c1123-57a4-4a1b-adde-9141f979a9c4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "Fourierreihen: f(t)=A*t",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Fourierreihen: f(t)=A*t\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a639df78-fc33-4115-be82-450197fc943f",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "1.04 Potenz- und Bruchrechung",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"1.04 Potenz- und Bruchrechung\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a7af6a77-b18f-47c6-8355-234bd6bc5de6",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Ungleichung: ln(ax)+ln(x^b) größer gleich c",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Ungleichung: ln(ax)+ln(x^b) größer gleich c\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a7fedf67-4edb-48d7-acc4-f63ecdb8d386",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenwerte: 3x3-Matrix v2",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigenwerte: 3x3-Matrix v2\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-a804a38c-1200-4fe9-bc20-2970f4c0f381",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: Gauss-Algorithmus (4x4)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: Gauss-Algorithmus (4x4)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a823c27c-4d12-4759-b1d6-75b88e08443c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Anwendung der Integralrechnung: Volumen eines Rotationkörpers",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anwendung der Integralrechnung: Volumen eines Rotationkörpers\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-a82dc6d0-7cf2-4e18-897f-6a0d8420438f",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: int a*exp(b*x)*sin(c*x) dx (Part)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: int a*exp(b*x)*sin(c*x) dx (Part)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ab4fd9e6-61fa-4d8f-9f03-0f3889603a88",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Differenzialgleichungen: a*y'+b*y=t+c+d*sin(k*x)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Differenzialgleichungen: a*y'+b*y=t+c+d*sin(k*x)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ac0b99bb-b03c-4b15-b014-ac8bc51b4abb",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Wurzelgleichung: sqrt(x^2+a)=x+b",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Wurzelgleichung: sqrt(x^2+a)=x+b\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ad56200b-a1b9-4dbc-9c16-1ddd3488b9f4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Gegeben sind Skalarprodukte, rechnen Sie orthogonale Vektor (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Gegeben sind Skalarprodukte, rechnen Sie orthogonale Vektor (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-afc0e921-94f7-49b2-9aea-23863edfc7f1",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizen: 2x2 Determinante und Matrizenprodukt",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: 2x2 Determinante und Matrizenprodukt\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-b1b200a2-095a-4632-9149-7f0f34579be1",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Gegeben sind a und b. Bestimmen Sie x und y mit den Kriterien.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Gegeben sind a und b. Bestimmen Sie x und y mit den Kriterien.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-b4743f96-f506-44b8-a393-509ff0252fab",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: e^(-kx)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: e^(-kx)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-b931ff9c-998a-47fb-a1ea-d9bb0630fd63",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "Grundlagen: Binomische Formeln",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Grundlagen: Binomische Formeln\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-bccdead3-8149-42c3-8351-352b9727b802",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: e^(-kx)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: e^(-kx)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-bd12ba9c-97f6-4e26-86c3-342eaac40752",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: Partialbruchzerlegung",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Integralrechnung: Partialbruchzerlegung\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-bd4ae50a-b104-4a28-9d63-78a54b86ddd5",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Ungleichung: |x-b|>|x-a|",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Ungleichung: |x-b|>|x-a|\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-bfa10401-fe84-466f-aac5-8ec6a4bc6781",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "A2T2: Taylorpolynom zu f(x)=sin(x^2)*cos(x)*e^x",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"A2T2: Taylorpolynom zu f(x)=sin(x^2)*cos(x)*e^x\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-c1c22e99-b316-40fc-9a18-2ad4a74e5082",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "AlgMap-8.16 de: addition dreier Brüche",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"AlgMap-8.16 de: addition dreier Brüche\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin; the collection question is a German version of \"AlgMap-8.16\", STACK Library - Algebra Refresher (Tony Barnard), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/08-Algebraic-fractions/AlgMap-8-16.xml",
+      "content_license": "CC-BY-SA-4.0",
+      "stack_library": {
+        "title": "AlgMap-8.16",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/08-Algebraic-fractions/AlgMap-8-16.xml"
+      }
+    },
+    {
+      "rc_id": "rc-c31b1cfc-fd90-4188-875b-0a2dfa283c27",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: int sqrt(ax+b) dx (Sub)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: int sqrt(ax+b) dx (Sub)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-c349ae00-ecbc-4be3-8c0f-7ea839175712",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Vektorräume: 4 Linear abhängige Vektoren (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektorräume: 4 Linear abhängige Vektoren (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-c6bdc537-55c5-4e9e-9e06-8ca9f7de08df",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_11_DGL_1_Ordnung.xml",
+      "collection_question": "Anfangswertproblem: xy'-y=x^n*cos(x)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Anfangswertproblem: xy'-y=x^n*cos(x)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-c78f3883-3dae-4ce8-8c8e-a66afbafbaf8",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "Funktionen: Verkettung von y=x^a-4, y=1/x, y=(x-b)^b",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Funktionen: Verkettung von y=x^a-4, y=1/x, y=(x-b)^b\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-c82190d9-a48d-40b5-87db-83355230eab4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "2.06 Pole und Nullstellen einer gebrochenrationale Funktion",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"2.06 Pole und Nullstellen einer gebrochenrationale Funktion\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-c86d5f4d-21f3-4a9a-bef7-54a3f13ae253",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Parameterform einer Geraden (R2)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Parameterform einer Geraden (R2)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ca53a3ff-80f7-4100-b759-6535b5bc5857",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenvektoren: 3x3-Matrix",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigenvektoren: 3x3-Matrix\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-cbe80b43-fd50-4d1b-bd17-ea2729a67dc2",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Wurzelgleichung: sqrt(x+a)+sqrt(x+b)-c=0",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Wurzelgleichung: sqrt(x+a)+sqrt(x+b)-c=0\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ce06eb94-40b1-4fca-ad5e-4cc7d7505f03",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: (z1^a*z2^b)/z3^c",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: (z1^a*z2^b)/z3^c\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ce3db883-6e2a-46a0-9800-6b7c2c3edcd2",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "Grundlagen: Potenzregeln - Basics",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Grundlagen: Potenzregeln - Basics\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-d0702bd5-28fd-4272-bfa0-22206b205061",
+      "bank": "A1",
+      "relation": "changed",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Matrizen: Für welche p besitzt A keine Inverse (3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: Für welche p besitzt A keine Inverse (3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-d0a84cd9-e60e-4427-9da5-286e10d6607a",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "AlgMap-13.16-de: x^2*y^2-2*x*y+1",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"AlgMap-13.16-de: x^2*y^2-2*x*y+1\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin; the collection question is a German version of \"AlgMap-13.16\", STACK Library - Algebra Refresher (Tony Barnard), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/13-Factorising-algebraic-expressions/AlgMap-13-16.xml",
+      "content_license": "CC-BY-SA-4.0",
+      "stack_library": {
+        "title": "AlgMap-13.16",
+        "part_of": "STACK Library - Algebra Refresher",
+        "authors": "Tony Barnard",
+        "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/13-Factorising-algebraic-expressions/AlgMap-13-16.xml"
+      }
+    },
+    {
+      "rc_id": "rc-d1df77a4-2c4f-4a05-8fd4-45d989c0da96",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Grenzwerte: lim (ax-1)/|ax3-x2|",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Grenzwerte: lim (ax-1)/|ax3-x2|\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-d4a5aae8-fe54-431d-bdd0-2cb5748f8b9b",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "2.03 Funktion beschreiben - quadratisch",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"2.03 Funktion beschreiben - quadratisch\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-d7dcc0e6-4f40-450a-84af-ded3eb83e50c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizenprodukt (3x3)x(3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizenprodukt (3x3)x(3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-db7d28d4-967a-4c23-b468-f508a9594783",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Abbildungsmatrix R3 to R3 Standardbasis",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Lineare Abbildungen: Abbildungsmatrix R3 to R3 Standardbasis\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-dc5f28ae-5a05-4e85-adb2-5486b82bfe68",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Matrizen: Für welche p besitzt A keine Inverse (3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizen: Für welche p besitzt A keine Inverse (3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ddeb2542-a280-4532-9c74-ba5a82728bc7",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: e^(-kx)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: e^(-kx)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-de510d3e-e570-4a3e-b183-523719e41c6a",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Determinante von A*B (3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Determinante von A*B (3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-debb22f6-a7f3-47ab-8b3e-240d43f56a2f",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+      "collection_question": "Lineare Abbildungen: Abbildungsmatrix R3 to R3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Lineare Abbildungen: Abbildungsmatrix R3 to R3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-decc918a-ed75-4500-add4-0657b6589ffc",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: sin(ax)/sin(bx) (Quotientenregel)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "\"Ableitungen: sin(ax)/sin(bx) (Quotientenregel)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-e0ccc107-28a8-4328-ada9-edd310f1e28e",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+      "collection_question": "Taylorformel: Näherungsparabel für f(x)=sin(ax)/x",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Taylorformel: Näherungsparabel für f(x)=sin(ax)/x\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-e1e68dcd-9937-4051-a309-de4e5639fb21",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_7_Funktionen.xml",
+      "collection_question": "Funktionen: Nullstellen, Polstellen und Asymptoten einer gebrochenrationalen Funktion",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Funktionen: Nullstellen, Polstellen und Asymptoten einer gebrochenrationalen Funktion\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-e2615458-134a-48fc-9b4d-bfcdeb6b63af",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenwerte: 2x2-Matrix",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigenwerte: 2x2-Matrix\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-e28fa142-dcc8-4bdd-9dbc-4aab666a50e7",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Quadratische Gleichung: Mit welcher a genau eine Lösung",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Quadratische Gleichung: Mit welcher a genau eine Lösung\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-e38533c5-f5a5-4e0c-83c2-f4cef37feed0",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Abstand eines Punkts von einer Ebene (R3)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Abstand eines Punkts von einer Ebene (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-e91f993e-d33e-4b56-913f-9330f321e9e2",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: z^2+(a+bi)z+(c+di)=0",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: z^2+(a+bi)z+(c+di)=0\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ec091b93-7a37-4fa5-9a0f-f6bc45a2fde4",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Wurzelgleichung: sqrt(a)*x+b-sqrt(ax^2+c)=0",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Wurzelgleichung: sqrt(a)*x+b-sqrt(ax^2+c)=0\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ed14646e-cb9a-4aec-aa92-ad405de86a23",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Nullstellen von f (Grad 3).",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Nullstellen von f (Grad 3).\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-edd6d3f9-9cc3-4ce6-97ea-a5a16d690c5d",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "Logarithmus: Vereinfachen",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Logarithmus: Vereinfachen\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ee8be901-01c0-4dad-9c89-e8883e01bcd7",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: Bestimmtes Integral sin(sqrt(t))/sqrt(t) (Sub)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: Bestimmtes Integral sin(sqrt(t))/sqrt(t) (Sub)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-ef756861-99fc-48f5-9ad9-6b3241c254b7",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Summe, Produkt, konjugiert",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Summe, Produkt, konjugiert\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-effde891-ddda-4e15-b087-097808f3a4cd",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_1_Grundlagen.xml",
+      "collection_question": "Logarithmus: Vereinfachen 3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Logarithmus: Vereinfachen 3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f0bf7b23-5558-405b-bb66-662f0a0dab42",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Gegeben sind Skalarprodukte, rechnen Sie orthogonale Vektor (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Gegeben sind Skalarprodukte, rechnen Sie orthogonale Vektor (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f151550d-c191-40cd-b323-0e05a7bc108c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: int P(x)/Q(X) dx (PBZ)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: int P(x)/Q(X) dx (PBZ)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f2c1f2a7-02d5-4dde-aae2-0e31015ab467",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Abstand des Punktes P von Geraden (R2)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Abstand des Punktes P von Geraden (R2)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f310f87c-1d78-46b2-907f-5545188cdc65",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Ungleichungen: |kx-a|+m>0, mit welcher a ist L die Lösung.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Ungleichungen: |kx-a|+m>0, mit welcher a ist L die Lösung.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f3eec168-a916-4489-b4e6-ddcf0d063f3c",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: 3x3, eine Nullzeile",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: 3x3, eine Nullzeile\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f459be9e-c7c9-42bc-90c9-a120216e8b69",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+      "collection_question": "Quadratische Gleichung: ax^2+bx+c=0",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Quadratische Gleichung: ax^2+bx+c=0\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f586906d-1d87-443b-b7bf-f86a367b0a3b",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+      "collection_question": "Komplexe Zahlen: Polardarstellung von a+bi",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Komplexe Zahlen: Polardarstellung von a+bi\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f5f83e29-f552-4222-81de-ed1bd2959e44",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_12_Fourierreihen.xml",
+      "collection_question": "A2T2: Fourierreihe von f(x)=|sin(x)|",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"A2T2: Fourierreihe von f(x)=|sin(x)|\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f702bbfe-b511-4e35-9362-4ab9394c246b",
+      "bank": "A2",
+      "relation": "unchanged",
+      "collection_file": "HsKA_14_Eigenwerte_und_Eigenvektoren.xml",
+      "collection_question": "Eigenvektoren: 2x2-Matrix",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "\"Eigenvektoren: 2x2-Matrix\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over unchanged; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-f78af8c5-40e9-47f2-ab37-adbc5f907d85",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: e^(P(x)) (Kettenregel)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "Adapted from \"Ableitungen: e^(P(x)) (Kettenregel)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f845259b-ae1d-40f7-af6f-336828089221",
+      "bank": "A3",
+      "relation": "changed_in_typesetting_or_penalties_only",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: e^(ax)*ln(bx) (Produktregel)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "\"Ableitungen: e^(ax)*ln(bx) (Produktregel)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), taken over with changes of typesetting or penalty settings only; filed in a course bank of CIH HTW Berlin",
+      "content_license": "CC-BY-SA-3.0-DE"
+    },
+    {
+      "rc_id": "rc-f9915d42-8788-4537-92b2-dd47546b48f8",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechung: uneigentliches Integral k/(x+n)(x+m)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechung: uneigentliches Integral k/(x+n)(x+m)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-f9e6d809-b658-40ee-88ba-6402298c1ece",
+      "bank": "A1",
+      "relation": "changed",
+      "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+      "collection_question": "LGS: 3x3",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"LGS: 3x3\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-fa424c02-fb90-4b31-8252-0ff8fbd4a24f",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_8_Grenzwerte_Potenzreihen_Ableitungen.xml",
+      "collection_question": "Ableitungen: sin(a*ln(b*x))) (Kettenregel)",
+      "worked_solution_added": false,
+      "collection_question_has_worked_solution": true,
+      "credit": "Adapted from \"Ableitungen: sin(a*ln(b*x))) (Kettenregel)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-fc5a4a18-86db-4c45-810c-3d3c86902a27",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Vektoren: Gegeben sind a und b. Bestimmen Sie x und y mit den Kriterien.",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Vektoren: Gegeben sind a und b. Bestimmen Sie x und y mit den Kriterien.\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-fca6c6ce-cb20-4d31-9957-75fa3a446341",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+      "collection_question": "Matrizenprodukt (3x3)x(3x3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Matrizenprodukt (3x3)x(3x3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-fe12d06c-408b-4985-b677-41cf33c57a1d",
+      "bank": "A3",
+      "relation": "changed",
+      "collection_file": "HsKA_9_Integralrechnung.xml",
+      "collection_question": "Integralrechnung: int P(x)/Q(X) dx (PBZ)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Integralrechnung: int P(x)/Q(X) dx (PBZ)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    },
+    {
+      "rc_id": "rc-fe609b46-89bb-4946-812e-a4b0bb59d5a1",
+      "bank": "A2",
+      "relation": "changed",
+      "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+      "collection_question": "Analytische Geometrie: Schar der Geraden - senkrecht zu Ebene (R3)",
+      "worked_solution_added": true,
+      "collection_question_has_worked_solution": false,
+      "credit": "Adapted from \"Analytische Geometrie: Schar der Geraden - senkrecht zu Ebene (R3)\", STACK questions for Höhere Mathematik 1 and 2, project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/), changed; adaptation: CIH HTW Berlin",
+      "content_license": "CC-BY-SA-4.0"
+    }
+  ],
+  "pool_questions": {
+    "note": "Questions of the TH Köln pool that descend from the Karlsruhe collection. They keep the credit of the pool's authors and the pool's licence, because the pool publishes them under its own licence and names no source. Their credit also names their collection question, because they descend from it; credit is the credit as released.",
+    "questions": [
+      {
+        "rc_id": "rc-00fd3be2-4c27-469e-9fdc-ac5c875acc87",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "Exponentialfunktion a*e^(-bx)+c bestimmen, f(0) und f(k) bekannt",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Exponentialfunktion a*e^(-bx)+c bestimmen, f(0) und f(k) bekannt\""
+      },
+      {
+        "rc_id": "rc-07ec2275-ea1e-485e-987b-db494f73ee15",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Vektoren: Vektor-, Kreutz- und Spatprodukt (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektoren: Vektor-, Kreutz- und Spatprodukt (R3)\""
+      },
+      {
+        "rc_id": "rc-0aa624fa-4986-4444-a714-e95fc5993297",
+        "relation": "changed",
+        "collection_file": "HsKA_1_Grundlagen.xml",
+        "collection_question": "AlgMap-5.2 de: Potenz und Division von Brüchen.",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"AlgMap-5.2 de: Potenz und Division von Brüchen.\"; the collection question is a German version of \"AlgMap-5.2\", STACK Library - Algebra Refresher (Tony Barnard), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-2.xml",
+        "stack_library": {
+          "title": "AlgMap-5.2",
+          "part_of": "STACK Library - Algebra Refresher",
+          "authors": "Tony Barnard",
+          "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-2.xml"
+        }
+      },
+      {
+        "rc_id": "rc-0d12d74a-53de-4bd2-a423-a3068440c2f5",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "Funktionen: Nullstellen und Polstellen von sqrt(P/Q-1)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Funktionen: Nullstellen und Polstellen von sqrt(P/Q-1)\""
+      },
+      {
+        "rc_id": "rc-1247a2ce-1ee5-4df0-8eff-0564dfcc93d5",
+        "relation": "changed",
+        "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+        "collection_question": "Martizen: Geben Sie eine Matrix A mit det(A) = a.",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Martizen: Geben Sie eine Matrix A mit det(A) = a.\""
+      },
+      {
+        "rc_id": "rc-1b25d20a-cffa-44b9-b9b2-64f8c63049d3",
+        "relation": "changed",
+        "collection_file": "HsKA_9_Integralrechnung.xml",
+        "collection_question": "Integralrechnung: Bestimmtes Integral sin(sqrt(t))/sqrt(t) (Sub)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Integralrechnung: Bestimmtes Integral sin(sqrt(t))/sqrt(t) (Sub)\""
+      },
+      {
+        "rc_id": "rc-1ecc551e-537c-4db4-bbf0-ffb1cfd798e5",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Vektoren: Orthogonale Vektor (R2)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektoren: Orthogonale Vektor (R2)\""
+      },
+      {
+        "rc_id": "rc-291f63ad-3488-4f7e-89bb-e71976c98b67",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Vektoren: Projektion und Lot von a auf b (R2)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektoren: Projektion und Lot von a auf b (R2)\""
+      },
+      {
+        "rc_id": "rc-3d82f266-59e6-4a24-b1d9-1ca00637fb67",
+        "relation": "changed",
+        "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+        "collection_question": "Vektorräume: Koordinaten eines Vektors in einer Basis (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektorräume: Koordinaten eines Vektors in einer Basis (R3)\""
+      },
+      {
+        "rc_id": "rc-4705e63e-df6d-44c9-9197-cb6782b04a64",
+        "relation": "changed",
+        "collection_file": "HsKA_9_Integralrechnung.xml",
+        "collection_question": "Integralrechnung: int sqrt(ax+b) dx (Sub)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Integralrechnung: int sqrt(ax+b) dx (Sub)\""
+      },
+      {
+        "rc_id": "rc-4fba2683-1c4f-434d-9df1-41c697b5aae3",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "Funktionen: Verkettung von y=x^a-4, y=1/x, y=(x-b)^b",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Funktionen: Verkettung von y=x^a-4, y=1/x, y=(x-b)^b\""
+      },
+      {
+        "rc_id": "rc-500a4646-48ba-41e8-a522-c3ba8d1ddffc",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "2.07 Umkehrfunktion einer gebrochenrationalen Funktion",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"2.07 Umkehrfunktion einer gebrochenrationalen Funktion\""
+      },
+      {
+        "rc_id": "rc-62226bb6-6ff0-4ac1-a83d-92232e0615c0",
+        "relation": "changed",
+        "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+        "collection_question": "Matrizen: Produkt, Dimensionen",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Matrizen: Produkt, Dimensionen\""
+      },
+      {
+        "rc_id": "rc-625ac01d-6b3f-40a5-9c17-141cf2aef5bf",
+        "relation": "changed",
+        "collection_file": "HsKA_1_Grundlagen.xml",
+        "collection_question": "AlgMap-5.1 de: Addition und Division von Brüchen",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"AlgMap-5.1 de: Addition und Division von Brüchen\"; the collection question is a German version of \"AlgMap-5.1\", STACK Library - Algebra Refresher (Tony Barnard), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-1.xml",
+        "stack_library": {
+          "title": "AlgMap-5.1",
+          "part_of": "STACK Library - Algebra Refresher",
+          "authors": "Tony Barnard",
+          "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Algebra-Refresher/05-Combinations-of-arithmetic-operations-on-fractions/AlgMap-5-1.xml"
+        }
+      },
+      {
+        "rc_id": "rc-6dbe7ead-a342-4cf2-a7bd-22d3f002f957",
+        "relation": "changed",
+        "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+        "collection_question": "Ungleichung: |x-a|-|x+b| größer cx",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Ungleichung: |x-a|-|x+b| größer cx\""
+      },
+      {
+        "rc_id": "rc-7035baba-11a7-44ce-ae84-81142b8c6cd2",
+        "relation": "changed",
+        "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+        "collection_question": "Vektorräume: 4 Linear abhängige Vektoren (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektorräume: 4 Linear abhängige Vektoren (R3)\""
+      },
+      {
+        "rc_id": "rc-74457d13-cbea-46f1-9e6c-de6088136e3d",
+        "relation": "changed",
+        "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+        "collection_question": "Lineare Abbildungen: Abbildungsmatrix (R2) Standardbasis",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Lineare Abbildungen: Abbildungsmatrix (R2) Standardbasis\""
+      },
+      {
+        "rc_id": "rc-7647e663-0e32-4706-ad50-660bf49a20cf",
+        "relation": "changed",
+        "collection_file": "HsKA_9_Integralrechnung.xml",
+        "collection_question": "Integralrechung: uneigentliches Integral k/(x+n)(x+m)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Integralrechung: uneigentliches Integral k/(x+n)(x+m)\""
+      },
+      {
+        "rc_id": "rc-86199f29-03c0-4200-9bdf-3bc5e25b916d",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "Funktionen: Verkettung von y=x^a und y=cx+d",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Funktionen: Verkettung von y=x^a und y=cx+d\""
+      },
+      {
+        "rc_id": "rc-8b1de8c1-44bb-4444-9435-4e7b34fb4616",
+        "relation": "changed",
+        "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+        "collection_question": "Lineare Abbildungen: Abbildungsmatrix R3 to R3 Standardbasis",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Lineare Abbildungen: Abbildungsmatrix R3 to R3 Standardbasis\""
+      },
+      {
+        "rc_id": "rc-8c1704ff-2937-435d-bd8e-6a22c1989677",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Vektoren: orthogonal zu a und b (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektoren: orthogonal zu a und b (R3)\""
+      },
+      {
+        "rc_id": "rc-9d5d2882-8927-40b4-88ef-8b626fc975ee",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "2.03 Funktion beschreiben - quadratisch",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"2.03 Funktion beschreiben - quadratisch\""
+      },
+      {
+        "rc_id": "rc-a564d093-5c56-46fe-b52c-ddbfeefda331",
+        "relation": "changed",
+        "collection_file": "HsKA_3_Komplexe_Zahlen.xml",
+        "collection_question": "Komplexe Zahlen: Polardarstellung von 1/a+i*1/a",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Komplexe Zahlen: Polardarstellung von 1/a+i*1/a\""
+      },
+      {
+        "rc_id": "rc-a6e66331-8e3f-46fe-9d28-88ce2f9e631f",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Analytische Geometrie: Ebene in der Form x+by+cz=d",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Analytische Geometrie: Ebene in der Form x+by+cz=d\""
+      },
+      {
+        "rc_id": "rc-a7318659-d8c0-45e7-b79b-d5d646c9d7b4",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Vektoren: Projektion und Lot von a auf b (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektoren: Projektion und Lot von a auf b (R3)\""
+      },
+      {
+        "rc_id": "rc-a83f48dc-e828-4600-97f1-b7a44292cc04",
+        "relation": "changed",
+        "collection_file": "HsKA_5_Matrizen_und_Determinanten.xml",
+        "collection_question": "Matrizen: Inverse Matrix (Parameter)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Matrizen: Inverse Matrix (Parameter)\""
+      },
+      {
+        "rc_id": "rc-abe604e2-1a20-4675-92fa-a4e774676298",
+        "relation": "changed",
+        "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+        "collection_question": "Vektorräume: Vektor normieren (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektorräume: Vektor normieren (R3)\""
+      },
+      {
+        "rc_id": "rc-ac019aca-4305-46c2-8f3a-688f29af1afe",
+        "relation": "changed",
+        "collection_file": "HsKA_9_Integralrechnung.xml",
+        "collection_question": "Integralrechnung: CR-Int-11-linearity-3.e de",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Integralrechnung: CR-Int-11-linearity-3.e de\"; the collection question is a German version of \"CR-Int-11-linearity-3.e\", STACK Library - Calculus Refresher (Tony Croft and Anthony Kay), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_11/CR-Int-11-linearity-3-e.xml",
+        "stack_library": {
+          "title": "CR-Int-11-linearity-3.e",
+          "part_of": "STACK Library - Calculus Refresher",
+          "authors": "Tony Croft and Anthony Kay",
+          "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_11/CR-Int-11-linearity-3-e.xml"
+        }
+      },
+      {
+        "rc_id": "rc-b11dd44a-9311-4636-a675-b16f925c5431",
+        "relation": "changed",
+        "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+        "collection_question": "Taylorformel: e^(-kx)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Taylorformel: e^(-kx)\""
+      },
+      {
+        "rc_id": "rc-b7a51d1d-e7e6-4bdd-9306-2b1a12dd935e",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Vektoren: Vektor a=P1P2, |a|, Einheitsvektor (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektoren: Vektor a=P1P2, |a|, Einheitsvektor (R3)\""
+      },
+      {
+        "rc_id": "rc-b7c1e979-ef24-4855-8a5e-dce630395a0a",
+        "relation": "changed",
+        "collection_file": "HsKA_6_Vektorrechnung_und_Analytische_Geometrie.xml",
+        "collection_question": "Vektoren: Gegeben sind Skalarprodukte, rechnen Sie orthogonale Vektor (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektoren: Gegeben sind Skalarprodukte, rechnen Sie orthogonale Vektor (R3)\""
+      },
+      {
+        "rc_id": "rc-be4ef0fd-f375-4ef9-bacf-37c2bccbc3ed",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "Funktionen: Umkehrfunktionen von y=x^d+a und y=bx+c",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Funktionen: Umkehrfunktionen von y=x^d+a und y=bx+c\""
+      },
+      {
+        "rc_id": "rc-c65cd137-b958-4657-ba60-353b7ca39ea0",
+        "relation": "changed",
+        "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+        "collection_question": "Vektorräume: Projektion auf Lin(v) (R3)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Vektorräume: Projektion auf Lin(v) (R3)\""
+      },
+      {
+        "rc_id": "rc-c729f67e-f7f4-41e4-954a-931d6cf43e51",
+        "relation": "changed",
+        "collection_file": "HsKA_7_Funktionen.xml",
+        "collection_question": "Funktionen: Umkehrfunktionen von y=x^d+a und y=bx+c",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Funktionen: Umkehrfunktionen von y=x^d+a und y=bx+c\""
+      },
+      {
+        "rc_id": "rc-d81944ab-782f-40fd-8e7e-6bbb1f08cd90",
+        "relation": "changed",
+        "collection_file": "HsKA_2_Gleichungen_und_Ungleichungen.xml",
+        "collection_question": "Ungleichung: |x-b|>|x-a|",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Ungleichung: |x-b|>|x-a|\""
+      },
+      {
+        "rc_id": "rc-f23dd6aa-5fbe-4032-b359-3e94d7b0657f",
+        "relation": "changed",
+        "collection_file": "HsKA_9_Integralrechnung.xml",
+        "collection_question": "Integralrechnung: CR-Int-13-parts-1.d de (Part)",
+        "credit": "Heiko Knospe, Jan-Philipp Schmidt, Angela Schmitz, Patricia Maria Graf, Jan Siegfried Reißner and Andreas Schwenk (Technische Hochschule Köln); a version of this question is part of \"STACK questions for Höhere Mathematik 1 and 2\", project SKATING, Hochschule Karlsruhe - Technik und Wirtschaft (not published online), CC BY-SA 3.0 DE (https://creativecommons.org/licenses/by-sa/3.0/de/): \"Integralrechnung: CR-Int-13-parts-1.d de (Part)\"; the collection question is a German version of \"CR-Int-13-parts-1.d\", STACK Library - Calculus Refresher (Tony Croft and Anthony Kay), CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/), https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_13/CR-Int-13-parts-1-d.xml",
+        "stack_library": {
+          "title": "CR-Int-13-parts-1.d",
+          "part_of": "STACK Library - Calculus Refresher",
+          "authors": "Tony Croft and Anthony Kay",
+          "file": "https://github.com/maths/moodle-qtype_stack/blob/master/samplequestions/stacklibrary/Calculus-Refresher/CR_Int_13/CR-Int-13-parts-1-d.xml"
+        }
+      }
+    ]
+  },
+  "unsure": {
+    "note": "Questions for which it is not known whether they descend from the question of the Karlsruhe collection named here. They keep the credit and the licence of their bank.",
+    "questions": [
+      {
+        "rc_id": "rc-1f8b0cc4-c2e1-4d07-9d7c-85634a6cba11",
+        "bank": "THK",
+        "collection_file": "HsKA_9_Integralrechnung.xml",
+        "collection_question": "Integralrechung: uneigentliches Integral k/(x+n)(x+m)"
+      },
+      {
+        "rc_id": "rc-bdd270e7-e80d-4b4c-9bf0-f57e00c62d70",
+        "bank": "A3",
+        "collection_file": "HsKA_10_Taylorformel_Taylorreihen_Anwendung_der_Integralrechnung.xml",
+        "collection_question": "Taylorreihe: Koeffizient a_n von f(x)=1/x"
+      },
+      {
+        "rc_id": "rc-e2d39d1c-4e6e-4332-90d9-3d6117fd8eff",
+        "bank": "A1",
+        "collection_file": "HsKA_4_Lineare_Gleichungssysteme.xml",
+        "collection_question": "LGS: 3x3"
+      },
+      {
+        "rc_id": "rc-f4532089-a277-48b2-8eda-75fbebce15ae",
+        "bank": "THK",
+        "collection_file": "HsKA_13_Lineare_Abbildungen.xml",
+        "collection_question": "Vektorräume: 4 Linear abhängige Vektoren (R3)"
+      }
+    ]
+  }
+}
